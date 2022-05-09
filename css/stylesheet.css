@@ -487,32 +487,32 @@
 
 
 /* Small */
-
 @media (min-width: 768px) {
     .FAcont {
         width: 925px;
     }
+
     .FAbox1 {
         height: 349px;
     }
 }
 
-
 /* Medium */
-
 @media (min-width: 992px) {
     .FAcont {
         width: 970px;
     }
 }
 
-
 /* Large */
-
 @media (min-width: 1200px) {
     .FAcont {
         width: 1448px;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .fatmabody {
@@ -521,9 +521,6 @@
     margin: 0%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 .FAhead {
     width: 3000px;
@@ -546,7 +543,7 @@ html {
     margin-top: 40px;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: url("../media/Back1.jpg");
+    background-image: url("../media/FA_Back1.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -567,20 +564,29 @@ html {
     color: white;
     font-weight: bolder;
 }
-
 .FAwatch_trailer {
     background: none;
     border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .FAwatch_trailer:hover {
     cursor: pointer;
 }
 
-.play-trailer {
+.FAplay_trailer {
     color: red;
-    font-size: 60px;
+    font-size: 30px;
     margin-top: 20px;
+
+}
+
+.FA_watch_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: red; padding: 10px;
 }
 
 .FAbox1 .FAvideo-container {
@@ -610,7 +616,7 @@ html {
     border: none;
 }
 
-.close-video {
+.FAclose_video {
     position: absolute;
     top: -3rem;
     right: 0;
@@ -621,13 +627,12 @@ html {
     padding: 7px 10px;
 }
 
-.close-video:hover {
+.FAclose_video:hover {
     cursor: pointer;
 }
 
 
 /* End of Start box */
-
 .FAseries {
     height: 465px;
     background: linear-gradient(to bottom, rgba(3, 1, 61, 0.925), rgba(80, 0, 0, 0.903));
@@ -644,7 +649,7 @@ html {
 
 #FAtittlebox {
     padding: 20px;
-    background-color: rgb(0 0 0 / 72%);
+    background-color: var(--feprimary-color);
 }
 
 .FAtitle {
@@ -659,8 +664,8 @@ html {
 }
 
 .FAtitle:hover {
-    border-left: 100px solid rgb(255, 255, 255);
-    color: white;
+    border-left: 100px solid var(--fesecondary-color);
+    color: var(--fesecondary-color);
     cursor: pointer;
     transition: 1s;
 }
@@ -677,6 +682,7 @@ html {
     border-radius: 20px;
     overflow: hidden;
 }
+
 
 .FAseries .FAsr1film .FAimg-series {
     height: 100%;
@@ -722,6 +728,7 @@ html {
 
 .FAsr1film .FAcaption .FAcontent #smallicon {
     color: white;
+
 }
 
 .FAseries .FAsr1film .FAcaption .FAcontent button {
@@ -750,10 +757,11 @@ html {
     border: 5px solid red;
     height: inherit;
     width: inherit;
+
 }
 
-
-/* cast */
+/****************************************************************************/
+/* Cast */
 
 .FAcast {
     height: 465px;
@@ -762,7 +770,7 @@ html {
 
 .FAheading {
     padding: 20px;
-    background-color: rgb(0 0 0 / 72%);
+    background-color: var(--feprimary-color);
 }
 
 .FAheading-title {
@@ -777,16 +785,12 @@ html {
 }
 
 .FAheading-title:hover {
-    border-left: 100px solid rgb(255, 255, 255);
-    color: white;
+    border-left: 100px solid var(--fesecondary-color);
+    color: var(--fesecondary-color);
     cursor: pointer;
     transition: 1s;
 }
 
-.FAmySwiper {
-    margin: 60px;
-    overflow: visible;
-}
 
 .FAmySwiper .swiper-wrapper.swiper-slide {
     height: 300px;
@@ -800,30 +804,26 @@ html {
     height: 201px;
     width: 131px;
     border-radius: 100%;
+
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a img:hover {
     transform: scale(1.2);
-    transition: 1s;
+    transition: 0.6s;
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.FAmySwiper.swiper-wrapper .swiper-slide a {
     text-decoration: none;
     color: white;
-}
-
-.FAmySwiper.swiper-wrapper .swiper-slide a p {
     margin-top: 20px;
     padding: 10px;
+    text-decoration: none;
     font-weight: bold;
-    background: linear-gradient(to bottom, rgba(6, 0, 176, 0.925), rgba(194, 0, 0, 0.903));
 }
+
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -838,8 +838,8 @@ html {
 }
 
 
-/*Header*/
 
+/*Header*/
 .FAhead {
     height: 70px;
     background-color: #000;
@@ -849,6 +849,7 @@ html {
     width: 102%;
     margin-left: -2%;
     height: fit-content;
+
 }
 
 .navbar {
@@ -857,6 +858,7 @@ html {
     width: 100%;
     height: 70px;
     border-radius: 10px;
+
 }
 
 .navbar-container {
@@ -877,7 +879,6 @@ html {
     font-size: 2.3em;
     color: var(--fesecondary-color);
     animation: glow 1s ease-in-out infinite alternate;
-    top: -15px;
     display: inline;
 }
 
@@ -903,15 +904,17 @@ html {
     cursor: pointer;
     color: #8b7efe;
     border-bottom: solid rgb(255, 13, 146) 2px;
+
+
 }
 
 .menu-list-item.active {
     color: #7d70f8;
+
 }
 
 .signin-container {
     position: relative;
-    right: -20%;
     color: var(--fesecondary-color);
     border: 1px solid var(--fesecondary-color);
     text-decoration: none;
@@ -924,6 +927,7 @@ html {
     margin-right: 10px;
     margin-bottom: 4px;
     transition: 0.7s ease;
+
 }
 
 .signin-container:hover {
@@ -979,6 +983,7 @@ html {
 }
 
 .kaposs {
+
     bottom: 30px;
 }
 
@@ -987,7 +992,7 @@ html {
     display: inline-block;
     width: 90px;
     height: 34px;
-    margin-left: 60px;
+
 }
 
 .switch input {
@@ -1008,6 +1013,7 @@ html {
     padding-bottom: 9px;
     padding-left: 5px;
     margin-left: 20px;
+
 }
 
 .fa-solid {
@@ -1038,28 +1044,16 @@ input:checked+.slider:before {
 :root {
     --feprimary-color: #000000;
     --fesecondary-color: #e3e4e6;
-    --mlk-background-image: url("hmd.jpg");
+    --mlk-background-image: url("../media/FA_Darkbackground.jpg");
 }
 
 .light-mode {
     --feprimary-color: white;
     --fesecondary-color: #000;
-    --mlk-background-image: url("hmd2.jpg");
+    --mlk-background-image: url("../media/FABackground.jpg");
+
 }
 
-
-/* footer*/
-
-.fecontainer {
-    display: flex;
-    max-width: 1100px;
-    height: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 130px;
-    border-radius: 20px;
-}
 
 
 /*****************************************************************************************************
