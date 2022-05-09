@@ -855,6 +855,7 @@ html {
 
 
 
+
 /*****************************************************************************************************
 ********************************************************************************************************
 *********************************FATMA ABDO*******************************************************
@@ -5414,7 +5415,6 @@ html {
 
 .signin-container {
     position: relative;
-    right: -20%;
     color: var(--fesecondary-color);
     border: 1px solid var(--fesecondary-color);
     text-decoration: none;
@@ -5486,7 +5486,6 @@ html {
     display: inline-block;
     width: 90px;
     height: 34px;
-    margin-left: 60px;
 }
 
 .switch input {
