@@ -3459,7 +3459,7 @@ html {
     --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
 
-.light {
+/*.light {
     display: inline-block;
     position: relative;
     left: 100%;
@@ -3481,7 +3481,7 @@ html {
     color: rgb(255, 174, 0);
     transform: scale(1.1);
 }
-
+*/
 .fecontainer {
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
