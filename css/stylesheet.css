@@ -1557,6 +1557,8 @@ div.fz {
     color: #000;
 }
 
+
+/*
 td,
 th.fzt {
     border: 1px solid #dddddd;
@@ -1569,6 +1571,7 @@ th.fzt {
 tr.fzr:nth-child(even) {
     background-color: #B0CFDE;
 }
+*/
 
 .fzchar2 {
     text-decoration-line: underline;
@@ -1760,7 +1763,7 @@ body.fz2 {
     transform: translateY(4px);
 }
 
-* {
+.fatmaabdobody {
     box-sizing: border-box;
 }
 
@@ -1804,11 +1807,6 @@ body.fz2 {
     height: auto;
     border-radius: 5%;
 }
-
-
-/* * {
-    box-sizing: border-box;
-} */
 
 .fz2container {
     position: relative;
@@ -2223,7 +2221,7 @@ body.fz2 {
     --kgdarkmodebuttoncolor: grey;
 }
 
-* {
+.kerobodyfriends {
     margin: 0;
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
@@ -2291,15 +2289,18 @@ ul {
     color: red;
 }
 
-h2 {
+.keroh2 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     display: inline;
     color: rgb(255, 255, 255);
 }
 
-a {
+.keroa {
     text-decoration: none;
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: red;
 }
 
 .logo-raw {
@@ -2352,7 +2353,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+.kerobodystr {
     background-color: black;
     scroll-behavior: smooth;
 }
@@ -2391,15 +2392,8 @@ body {
     font-size: 18px;
 }
 
-p {
+.keropstr {
     margin: 15px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Prompt', sans-serif;
-    color: red;
 }
 
 .stp {
@@ -2744,159 +2738,14 @@ a {
 /************************************LIGHT AND DARK MORD****************************************
 /***********************************************************************************************/
 
-
-/*****************************astart hero samy************************************************************************/
-
-:root {
-    --kgdarkmodebuttoncolor: grey;
-    --kgbackgroundcolorunderslideshow: #22222A;
-    --kgmainpagebackgroundcolor: #252525;
-    --kgslideshowbackgroundcolor: #22222A;
-    --kgnavbarbackgroundcolor: black;
-    --kgbodytextcolor: white;
-    --kgcardcolor: #2c2c2c;
-    --kgrawscenecolor: white;
-}
-
-
-/***{
-    margin: 0;
-    color: var(--kgbodytextcolor);
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    box-sizing: border-box;
-}**/
-
-html {
-    scroll-behavior: smooth;
-}
-
-.kgbodycode {
-    background-color: var(--kgbackgroundcolorunderslideshow);
-}
-
-.nav-b {
-    position: relative;
-    display: block;
-    height: 65px;
-    width: 100%;
-    background-color: var(--kgnavbarbackgroundcolor);
-    backdrop-filter: blur(2000px);
-}
-
-.nav-logo {
-    position: relative;
-    display: inline-block;
-    top: 30%;
-    left: 5%;
-    height: 100%;
-}
-
-.logo {
-    margin: 8px;
-    width: 150px;
-}
-
-.nav-st {
-    position: absolute;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    left: 30%;
-}
-
-li {
-    position: relative;
-    display: inline-block;
-    width: 100px;
-    height: 90%;
-    border: solid transparent 2px;
-    margin: 0 40px 0 40px;
-}
-
-li:hover {
-    transition: ease-in-out;
-    transition-duration: .25s;
-    border-bottom: solid rgb(255, 17, 0) 2px;
-}
-
-li {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    color: aliceblue;
-    position: relative;
-    top: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 100px;
-    height: 40px;
-}
-
-ul {
-    height: 100%;
-    text-align: center;
-    width: 500px;
-}
-
-#kgibx {
-    font-size: 40px;
-    color: red;
-}
-
-h2 {
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    display: inline;
-    color: rgb(255, 255, 255);
-}
-
-a {
-    text-decoration: none;
-}
-
-.logo-raw {
-    color: var(--kgrawscenecolor);
-    top: -10px;
-    display: inline;
-    position: relative;
-}
-
-.login {
-    font-size: 20px;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    border: solid white 1px;
-    border-radius: 25px;
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    right: -25%;
-    top: 36%;
-    width: 100px;
-    height: 30px;
-    transition: ease-in-out;
-    transition-duration: .25s;
-}
-
-.login:hover {
-    border: solid red 1px;
-    background-color: black;
-    color: white;
-}
-
-.slideshow-top {
-    display: block;
-    position: static;
-}
-
-
+.
 /*slideshow*/
 
 .slideshow-top {
     background-color: var(--kgslideshowbackgroundcolor);
 }
 
-* {
+.faridakhaledbody {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -3440,7 +3289,7 @@ ul {
     color: red;
 }
 
-h2 {
+.feh2 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     display: inline;
@@ -3769,7 +3618,7 @@ footer {
     background-color: var(--fesecondary-color);
 }
 
-iframe {
+.faridaemadiframe {
     height: 100px;
     border: 0;
 }
@@ -5697,7 +5546,7 @@ td.colo:hover {
     background-repeat: no-repeat;
 }
 
-body {
+.karimbody {
     background-color: var(--feprimary-color);
 }
 
@@ -5777,10 +5626,6 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     text-shadow: 3px 3px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 0, 0);
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .kaposs {
@@ -6025,10 +5870,6 @@ html {
     margin-top: -20px;
     font-size: 18px;
     color: var(--fesecondary-color);
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .kaposs {
