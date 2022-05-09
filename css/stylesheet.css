@@ -2185,7 +2185,7 @@ body.fz2 {
     --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
 
-.light {
+/*.light {
     display: inline-block;
     position: relative;
     left: 100%;
@@ -2207,7 +2207,7 @@ body.fz2 {
     color: rgb(255, 174, 0);
     transform: scale(1.1);
 }
-
+*/
 .fecontainer button {
     background-color: #555555;
     border-radius: 10px;
