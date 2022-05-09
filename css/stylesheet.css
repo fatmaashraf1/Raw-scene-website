@@ -5740,18 +5740,8 @@ input:checked+.slider {
 input:checked+.slider:before {
     transform: translateX(40px);
 }
-
-:root {
-    <<<<<<< HEAD --feprimary-color: #000000;
-    --fesecondary-color: #e3e4e6;
-}
-
-.light-mode {
-    --feprimary-color: white;
-    --fesecondary-color: #000;
-}
-
-=======--feprimary-color:#000000;
+:root{
+--feprimary-color:#000000;
 --fesecondary-color: #e3e4e6;
 --karimhmd--wallpapaer:url("../media/hmd.jpg");
 --karsher:url("../media/shwp1.jpg");
@@ -5763,4 +5753,3 @@ input:checked+.slider:before {
     --karimhmd--wallpapaer: url("../media/hmd2.jpg");
     --karsher: url("../media/shwp2.jpg");
 }
->>>>>>>3e977324a9ec93dea1c4932e59c791dee571c7f7
