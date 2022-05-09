@@ -5485,8 +5485,8 @@ top:0;
     color: #ffffff;
     margin: 40px;
     position: relative;
-    top: -200px;
-    left: 140px;
+    top: -220px;
+    left: 80px;
     font-size: 14px;
 }
 
@@ -5519,6 +5519,8 @@ top:0;
 
 #kah42 {
     text-align: center;
+    font-size: 45px;
+    color: var(--fesecondary-color);
 }
 
 #kacast {
@@ -5527,9 +5529,21 @@ top:0;
     text-align: center;
 }
 
-img {
+.karimboarder{
     border-radius: 10px;
-}
+    
+                }
+            
+                .kaseasoncaption{
+                  
+                    position: relative;
+                    top: -200px;
+                    left: 250px;
+                   
+                    color: white;
+                    font-size: 20px;
+                    
+                  }
 
 .hanksha {
     background: linear-gradient(to bottom, rgb(11, 45, 72), rgb(26, 56, 100), rgb(60, 2, 20));
