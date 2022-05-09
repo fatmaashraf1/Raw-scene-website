@@ -2216,7 +2216,7 @@ body.fz2 {
 
 /*******************KEROV.2***************/
 
-:root {
+/*:root {
     --kgstpbackdrop: blur(0px);
     --kgdarkmodebuttoncolor: grey;
 }
@@ -2724,7 +2724,347 @@ html {
     background-color: #555555;
     border-radius: 10px;
     cursor: pointer;
+}*/
+:root{
+    --kgstpbackdrop:blur(0px);
+    --kgdarkmodebuttoncolor:grey;
 }
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.KGstrangerthingslogo-{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 40%;
+    animation: opac 4s infinite;
+}
+@keyframes opac {
+    0% {opacity: 100%;}
+    50% {opacity: 50%;}
+  }
+.KGmiddle-page{
+    margin-top: 100px;
+    display: block;
+    width: 100%;
+    order: solid green 1px;
+    height: fit-content;
+
+}
+.KGstrangerthingsab {
+    display: inline-block;
+    
+    padding: 5px;
+    font-family: 'Segoe UI' ;
+    font-size: 18px;
+}
+
+
+.KGstp{
+    border-radius: 20px;
+    margin-left: 1%;
+    color: white;
+    backdrop-filter: var(--kgstpbackdrop);
+    display: inline-block;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.KGst-title{
+    font-family: 'Prompt', sans-serif;
+    border-left: solid red 3px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.KGtrailer{
+    backdrop-filter: var(--kgstpbackdrop);
+    margin-left: 5%;
+    display: inline-block;
+    width: auto;
+    border: solid red 1px;
+    border-radius: 10px;
+}
+.KGvid-trailer{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.KGtitleandtrailercont{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.KGcast{
+    margin-top: 30px;
+    
+    position: relative;
+    display: block;
+    width: 100%;
+    border-top: solid rgba(255, 0, 0, 0.247) 1px;
+    height: fit-content;
+}
+.KGcharachterscont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    position: relative;
+    width: 95%;
+    
+    height: fit-content;
+    left: 2.5%;
+}
+
+.KGcast-title{
+    color: white;
+    border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
+    left: 20%;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+}
+.KGcharachter{
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    margin: 20px;
+    display: inline-block;
+    width: 16%;
+    height: 360px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.11), 0 6px 20px 5px rgba(163, 0, 0, 0.678);
+}
+.KGcharachter:hover {
+    transform: translateY(10px);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 10px rgb(89, 0, 255), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
+    
+}
+.KGcast-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.KGallatmall{
+    margin-top: 20px;
+    display: block;
+    margin-left: 10%;
+}
+.KGallatmall-img{
+    display: inline-block;
+    width: 40%;
+    margin:2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
+    animation: blink 3s infinite;
+}
+
+.KGseasons{
+    display: block;
+    height: auto;
+    border-top: solid rgba(255, 0, 0, 0.5) 1px;
+}
+.KGseasons-title{
+        color: white;
+        border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
+        left: 10%;
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+        font-family: 'Prompt', sans-serif;
+        font-size: 30px;
+}
+.KGseasonscont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    position: relative;
+    width: 95%;
+    height: fit-content;
+    left: 2.5%;
+    margin-bottom: 40px;
+}
+.KGseason{
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    margin: 20px;
+    display: inline-block;
+    width: 15%;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.11), 0 6px 20px 5px rgba(163, 0, 0, 0.678);
+}
+.KGseason:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 94, 0);
+}
+.KGseason-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.KGseasons-desc{
+    
+    color: white;
+    margin:20px ;
+    font-family: 'Prompt', sans-serif;
+    writing-mode:horizontal-tb;
+    font-size:32px;
+    position: relative;
+    animation: rotate 4s infinite;
+}
+@keyframes rotate {
+    0% {top: 0px;}
+    50% {top: 30px;}
+    100% {top: 0px;}
+  }
+
+
+
+
+
+  
+
+
+.KGallatmall-img1{
+    display: inline-block;
+    width: 40%;
+    margin:2%;
+    border-radius: 10px;
+    animation: blink 3s .3s infinite ;
+    box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
+}
+@keyframes blink{
+    0%{ 
+        box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
+    }
+    25% {
+        box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 94, 0);
+    }
+    50% {
+        box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 60, 0);
+    }
+    100%{
+        box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
+    }
+}
+
+
+.strangerthings-dark-mode{
+    background-image: url("../imgs/How\ To\ Throw\ A\ Stranger\ Things\ Viewing\ Party\ -\ Lay\ Baby\ Lay.jpg");
+    background-position: center;
+    background-size: ;
+    background-attachment: fixed;
+    --kgstpbackdrop:blur(20px);
+    --kgdarkmodebuttoncolor:rgb(255, 145, 0);
+}
+
+.KGfecontainer {
+    color: white;
+    padding:50px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: var(--kgstpbackdrop);
+    font-size: 8px;
+    display: flex;
+    max-width: 1420px;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 40px 130px;
+    border-radius: 20px;
+}
+
+.KGfecontainer p {
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.KGfecontainer h1 {
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.KGfecontainer h2 {
+    font-size: 16px;
+    
+}
+.KGfecontainer h3 {
+    font-size: 16px;
+    
+}
+.KGfecontainer h4 {
+    font-size: 16px;
+    
+}
+.KGfecontainer h5 {
+    font-size: 16px;
+    
+}
+
+.KGcharachter-info {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -106%;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    position: relative;
+    opacity: 0%;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+.KGcharachter-info p{
+    position: relative;
+    color: white;
+    top: 45%;
+    font-size: 28px;
+}
+.KGcharachter-info:hover {
+    opacity: 100%;
+}
+
+/*.light{
+    display: inline-block;
+    position: relative;
+    left: 100%;
+    top: -70%;
+}
+
+.fa-solid {
+    color: var(--kgdarkmodebuttoncolor);
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+.fa-solid:hover{
+    border: solid rgb(49, 49, 49) 1px;
+    box-shadow: 0 4px 8px 10px rgb(255, 255, 255), 0 6px 20px 5px rgb(151, 151, 151)247);
+    color: rgb(255, 174, 0);
+    transform: scale(1.KG1);
+    
+}*/
+
+.KGfecontainer button {
+    background-color: #555555;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  
+
 
 
 /**********************************************************************************************
