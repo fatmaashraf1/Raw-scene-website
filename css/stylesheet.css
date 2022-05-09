@@ -15,12 +15,6 @@
     --mlaki-background-image: url(../media/mlakibg.jpg);
 }
 
-
-/***********************************************************************************
-/************************************************************************************
-/************************************LIGHT AND DARK MORD*****************************
-/*************************************************************************************/
-
 .light-mode {
     --fH1primary-color: rgb(226 126 45);
     --fH1secondary-color: rgb(37, 51, 35);
@@ -30,6 +24,11 @@
     --fesecondary-color:#000;
     --mlaki-background-image: url(../media/mlakibg2.jpg);
 }
+/***********************************************************************************
+/************************************************************************************
+/************************************FARRAH THARWAT*****************************
+/*************************************************************************************/
+
 
 .switch {
     position: relative;
@@ -377,118 +376,6 @@ input:checked+.slider:before {
     cursor: pointer;
 }
 
-.navbarfh {
-    background-color: black;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    overflow: hidden;
-}
-
-.navbar-containerfh {
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-    height: 100%;
-    color: white;
-}
-
-.logo-containerfh {
-    padding-right: 7em;
-}
-
-#fklogofh {
-    font-family: 'Cinzel', serif;
-    font-style: oblique;
-    font-size: 2.3em;
-    color: rgb(255, 223, 134);
-    animation: glow 1s ease-in-out infinite alternate;
-    top: -15px;
-    display: inline;
-}
-
-.menu-containerfh {
-    padding-right: 10em;
-}
-
-.menu-listfh {
-    align-items: center;
-    margin-top: 15px;
-    display: flex;
-    list-style: none;
-}
-
-.menu-list-itemfh {
-    font-family: 'Cinzel', serif;
-    margin: 20px;
-}
-
-.menu-list-itemfh:hover {
-    cursor: pointer;
-    color: rgb(255, 223, 134);
-}
-
-.menu-list-itemfh.activefh {
-    color: rgb(255, 223, 134);
-    font-weight: bold;
-}
-
-.signin-containerfh {
-    color: #fff;
-    border: 1px solid rgb(255, 223, 134);
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-flex;
-    padding: 5px 10px;
-    border-radius: 15px;
-    margin-top: 4px;
-    margin-right: 10px;
-    margin-bottom: 4px;
-    transition: 0.7s ease;
-}
-
-.signin-containerfh:hover {
-    color: rgb(255, 223, 134);
-    background-color: rgb(37, 51, 35);
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.farrahbody {
-    margin: 6%;
-}
-
-.togglefh {
-    margin-left: 10px;
-    width: 40px;
-    height: 20px;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-}
-
-.toggle-ballfh {
-    width: 18px;
-    height: 18px;
-    background-color: black;
-    position: absolute;
-    right: 1px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.toggle-icon1fh {
-    color: black;
-}
-
-.toggle-icon2fh {
-    color: gold;
-}
-
 
 /*****************************************************************************************************
 ********************************************************************************************************
@@ -662,113 +549,6 @@ input:checked+.slider:before {
     font-size: 200%;
     font-family: 'Cinzel', serif;
     color: rgb(250, 241, 112);
-}
-
-.fhnavbar {
-    background-color: black;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    overflow: hidden;
-}
-
-.fhnavbar-container {
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-    height: 100%;
-    color: white;
-}
-
-.fhlogo-container {
-    padding-right: 7em;
-}
-
-#fhfklogo {
-    font-family: 'Cinzel', serif;
-    font-style: oblique;
-    font-size: 2.3em;
-    color: rgb(250, 241, 112);
-    animation: glow 1s ease-in-out infinite alternate;
-    top: -15px;
-    display: inline;
-}
-
-.fhmenu-container {
-    padding-right: 10em;
-}
-
-.fhmenu-list {
-    align-items: center;
-    margin-top: 15px;
-    display: flex;
-    list-style: none;
-}
-
-.fhmenu-list-item {
-    font-family: 'Cinzel', serif;
-    margin: 20px;
-}
-
-.fhmenu-list-item:hover {
-    cursor: pointer;
-    color: rgb(250, 241, 112);
-}
-
-.fhmenu-list-item.active {
-    color: rgb(250, 241, 112);    font-weight: bold;
-}
-
-.fhsignin-container {
-    color: #fff;
-    border: 1px solid rgb(250, 241, 112);
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-flex;
-    padding: 5px 10px;
-    border-radius: 15px;
-    margin-top: 4px;
-    margin-right: 10px;
-    margin-bottom: 4px;
-    transition: 0.7s ease;
-}
-
-.fhsignin-container:hover {
-    color: rgb(250, 241, 112);
-    background-color: rgb(26 19 10);
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.fhtoggle {
-    margin-left: 10px;
-    width: 40px;
-    height: 20px;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-}
-
-.fhtoggle-ball {
-    width: 18px;
-    height: 18px;
-    background-color: black;
-    position: absolute;
-    right: 1px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.fhtoggle-icon1 {
-    color: black;
-}
-
-.fhtoggle-icon2 {
-    color: gold;
 }
 
 
@@ -2189,7 +1969,8 @@ body.fz2 {
     --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
 
-.light {
+
+/*.light {
     display: inline-block;
     position: relative;
     left: 100%;
@@ -2211,6 +1992,7 @@ body.fz2 {
     color: rgb(255, 174, 0);
     transform: scale(1.1);
 }
+*/
 
 /**.fecontainer button {
     background-color: #555555;
@@ -2220,6 +2002,7 @@ body.fz2 {
 
 
 /*******************KEROV.2***************/
+
 
 /*:root {
     --kgstpbackdrop: blur(0px);
@@ -2730,19 +2513,17 @@ html {
     border-radius: 10px;
     cursor: pointer;
 }*/
-:root{
-    --kgstpbackdrop:blur(0px);
-    --kgdarkmodebuttoncolor:grey;
+
+:root {
+    --kgstpbackdrop: blur(0px);
+    --kgdarkmodebuttoncolor: grey;
 }
-
-
-
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-.KGstrangerthingslogo-{
+.KGstrangerthingslogo- {
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -2751,28 +2532,32 @@ html {
     width: 40%;
     animation: opac 4s infinite;
 }
+
 @keyframes opac {
-    0% {opacity: 100%;}
-    50% {opacity: 50%;}
-  }
-.KGmiddle-page{
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 50%;
+    }
+}
+
+.KGmiddle-page {
     margin-top: 100px;
     display: block;
     width: 100%;
     order: solid green 1px;
     height: fit-content;
-
 }
+
 .KGstrangerthingsab {
     display: inline-block;
-    
     padding: 5px;
-    font-family: 'Segoe UI' ;
+    font-family: 'Segoe UI';
     font-size: 18px;
 }
 
-
-.KGstp{
+.KGstp {
     border-radius: 20px;
     margin-left: 1%;
     color: white;
@@ -2781,13 +2566,15 @@ html {
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.KGst-title{
+
+.KGst-title {
     font-family: 'Prompt', sans-serif;
     border-left: solid red 3px;
     padding: 5px;
     padding-left: 10px;
 }
-.KGtrailer{
+
+.KGtrailer {
     backdrop-filter: var(--kgstpbackdrop);
     margin-left: 5%;
     display: inline-block;
@@ -2795,38 +2582,39 @@ html {
     border: solid red 1px;
     border-radius: 10px;
 }
-.KGvid-trailer{
+
+.KGvid-trailer {
     position: relative;
     width: 100px;
     height: 100px;
 }
-.KGtitleandtrailercont{
-    
+
+.KGtitleandtrailercont {
     display: flex;
     flex-wrap: wrap;
 }
-.KGcast{
+
+.KGcast {
     margin-top: 30px;
-    
     position: relative;
     display: block;
     width: 100%;
     border-top: solid rgba(255, 0, 0, 0.247) 1px;
     height: fit-content;
 }
-.KGcharachterscont{
+
+.KGcharachterscont {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 20px;
     position: relative;
     width: 95%;
-    
     height: fit-content;
     left: 2.5%;
 }
 
-.KGcast-title{
+.KGcast-title {
     color: white;
     border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
     left: 20%;
@@ -2837,7 +2625,8 @@ html {
     font-family: 'Prompt', sans-serif;
     font-size: 30px;
 }
-.KGcharachter{
+
+.KGcharachter {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     margin: 20px;
@@ -2847,48 +2636,53 @@ html {
     border-radius: 20px;
     box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.11), 0 6px 20px 5px rgba(163, 0, 0, 0.678);
 }
+
 .KGcharachter:hover {
     transform: translateY(10px);
     cursor: pointer;
     box-shadow: 0 4px 8px 10px rgb(89, 0, 255), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
-    
 }
-.KGcast-img{
+
+.KGcast-img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
-.KGallatmall{
+
+.KGallatmall {
     margin-top: 20px;
     display: block;
     margin-left: 10%;
 }
-.KGallatmall-img{
+
+.KGallatmall-img {
     display: inline-block;
     width: 40%;
-    margin:2%;
+    margin: 2%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     animation: blink 3s infinite;
 }
 
-.KGseasons{
+.KGseasons {
     display: block;
     height: auto;
     border-top: solid rgba(255, 0, 0, 0.5) 1px;
 }
-.KGseasons-title{
-        color: white;
-        border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
-        left: 10%;
-        position: relative;
-        display: inline-block;
-        padding: 5px;
-        margin: 10px;
-        font-family: 'Prompt', sans-serif;
-        font-size: 30px;
+
+.KGseasons-title {
+    color: white;
+    border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
+    left: 10%;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
 }
-.KGseasonscont{
+
+.KGseasonscont {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -2898,7 +2692,8 @@ html {
     left: 2.5%;
     margin-bottom: 40px;
 }
-.KGseason{
+
+.KGseason {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     margin: 20px;
@@ -2908,49 +2703,52 @@ html {
     border-radius: 20px;
     box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.11), 0 6px 20px 5px rgba(163, 0, 0, 0.678);
 }
-.KGseason:hover{
+
+.KGseason:hover {
     cursor: pointer;
     transform: scale(1.04);
     box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 94, 0);
 }
-.KGseason-img{
+
+.KGseason-img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
-.KGseasons-desc{
-    
+
+.KGseasons-desc {
     color: white;
-    margin:20px ;
+    margin: 20px;
     font-family: 'Prompt', sans-serif;
-    writing-mode:horizontal-tb;
-    font-size:32px;
+    writing-mode: horizontal-tb;
+    font-size: 32px;
     position: relative;
     animation: rotate 4s infinite;
 }
+
 @keyframes rotate {
-    0% {top: 0px;}
-    50% {top: 30px;}
-    100% {top: 0px;}
-  }
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 30px;
+    }
+    100% {
+        top: 0px;
+    }
+}
 
-
-
-
-
-  
-
-
-.KGallatmall-img1{
+.KGallatmall-img1 {
     display: inline-block;
     width: 40%;
-    margin:2%;
+    margin: 2%;
     border-radius: 10px;
-    animation: blink 3s .3s infinite ;
+    animation: blink 3s .3s infinite;
     box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
 }
-@keyframes blink{
-    0%{ 
+
+@keyframes blink {
+    0% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
     25% {
@@ -2959,24 +2757,22 @@ html {
     50% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 60, 0);
     }
-    100%{
+    100% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
 }
 
-
-.strangerthings-dark-mode{
-    background-image: url("../imgs/How\ To\ Throw\ A\ Stranger\ Things\ Viewing\ Party\ -\ Lay\ Baby\ Lay.jpg");
+.strangerthings-dark-mode {
+    background-image: url("../media/How\ To\ Throw\ A\ Stranger\ Things\ Viewing\ Party\ -\ Lay\ Baby\ Lay.jpg");
     background-position: center;
-    background-size: ;
     background-attachment: fixed;
-    --kgstpbackdrop:blur(20px);
-    --kgdarkmodebuttoncolor:rgb(255, 145, 0);
+    --kgstpbackdrop: blur(20px);
+    --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
 
 .KGfecontainer {
     color: white;
-    padding:50px ;
+    padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     backdrop-filter: var(--kgstpbackdrop);
     font-size: 8px;
@@ -2984,7 +2780,7 @@ html {
     max-width: 1420px;
     height: 100%;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
     margin: 40px 130px;
     border-radius: 20px;
@@ -2993,28 +2789,27 @@ html {
 .KGfecontainer p {
     font-size: 16px;
     cursor: pointer;
-    
 }
+
 .KGfecontainer h1 {
     cursor: pointer;
     font-size: 16px;
-    
 }
+
 .KGfecontainer h2 {
     font-size: 16px;
-    
 }
+
 .KGfecontainer h3 {
     font-size: 16px;
-    
 }
+
 .KGfecontainer h4 {
     font-size: 16px;
-    
 }
+
 .KGfecontainer h5 {
     font-size: 16px;
-    
 }
 
 .KGcharachter-info {
@@ -3029,15 +2824,18 @@ html {
     transition: ease-in-out;
     transition-duration: .3s;
 }
-.KGcharachter-info p{
+
+.KGcharachter-info p {
     position: relative;
     color: white;
     top: 45%;
     font-size: 28px;
 }
+
 .KGcharachter-info:hover {
     opacity: 100%;
 }
+
 
 /*.light{
     display: inline-block;
@@ -3066,10 +2864,7 @@ html {
     background-color: #555555;
     border-radius: 10px;
     cursor: pointer;
-    
-  }
-  
-
+}
 
 
 /**********************************************************************************************
@@ -3083,7 +2878,7 @@ html {
 /************************************LIGHT AND DARK MORD****************************************
 /***********************************************************************************************/
 
-.
+
 /*slideshow*/
 
 .slideshow-top {
@@ -3463,7 +3258,8 @@ html {
     --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
 
-.light {
+
+/*.light {
     display: inline-block;
     position: relative;
     left: 100%;
@@ -3485,6 +3281,7 @@ html {
     color: rgb(255, 174, 0);
     transform: scale(1.1);
 }
+*/
 
 /**.fecontainer {
     padding: 50px;
@@ -4509,94 +4306,140 @@ input:checked+.slider:before {
 
 
 /* ------------------------------------------------------------ */
+
+
 /* -----------------------you---------------------------------- */
+
+
 /* ------------------------------------------------------------ */
 
-
-#sambody1{
+#sambody1 {
     background: var(--feprimary-color);
     background-repeat: no-repeat;
     background-size: auto;
     color: var(--fesecondary-color);
     padding: 4%;
 }
-.ksimgs{
-  margin-top: 20px;
+
+.ksimgs {
+    margin-top: 20px;
 }
-#samgreybox { border: none; border-radius: 10px; background-color: darkgray; color: var(--feprimary-color); width: fit-content; padding: 0.5em; margin: 0.2em; float: left;} 
-#samyimg:hover{
+
+#samgreybox {
+    border: none;
+    border-radius: 10px;
+    background-color: darkgray;
+    color: var(--feprimary-color);
+    width: fit-content;
+    padding: 0.5em;
+    margin: 0.2em;
+    float: left;
+}
+
+#samyimg:hover {
     transform: scale(0.96);
     border-radius: 5%;
 }
-#samsimple{font-size: larger;}
-#samsimple2{font-size: larger; padding-left: 30px; text-align: center;}
-#samtitle{font-size: xx-large;font-weight: bold;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: var(--fesecondary-color);text-align: center;letter-spacing: 2px;}
-#samtitle11{font-size: xx-large;font-weight: bold;font-family: 'Koulen', 'cursive' Times serif; color: var(--fesecondary-color);text-align: center;
-            letter-spacing: 2px; margin-top: 50px; margin-left: 55px;}
-#samtable1{
+
+#samsimple {
+    font-size: larger;
+}
+
+#samsimple2 {
+    font-size: larger;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#samtitle {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--fesecondary-color);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#samtitle11 {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Koulen', 'cursive' Times serif;
+    color: var(--fesecondary-color);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+#samtable1 {
     color: var(--feprimary-color);
     background-color: darkgray;
     background-clip: border-box;
     text-align: center;
     margin-top: 25px;
-    margin-right: auto; margin-left: auto;
-    padding:20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
     border-radius: 7%;
     font-size: larger;
 }
-#samtable2{
+
+#samtable2 {
     margin-top: 50px;
 }
-#sammyvid{ 
+
+#sammyvid {
     top: 100px;
     border-radius: 20px;
 }
-.samytae{
-display:flex;
-width: 100%;
-margin-top: -180px;
-}
-.samyo{
-flex-direction: 1 1 1;
-margin: 50px;
-padding: 50px;
-width: fit-content;
-justify-content: space-evenly;
-}
-.samyhaz{
-border-radius: 7%;
-margin: 8px;
-}
-.samyhaz:hover{
-border-radius: 15%;
-transform: scale(1.07);
+
+.samytae {
+    display: flex;
+    width: 100%;
+    margin-top: -180px;
 }
 
-.samyinfo{
-margin: 18%;
-top: 30px;
-left: 20px;
-position: relative;
-display: flex;
-width: 250px;
-height: 210px;
-background-color: #310f0fe4;
-border: 3px solid rgb(102, 2, 2);
-border-radius: 20px;
-overflow: hidden;
-margin-left: 4% ;
+.samyo {
+    flex-direction: 1 1 1;
+    margin: 50px;
+    padding: 50px;
+    width: fit-content;
+    justify-content: space-evenly;
 }
 
+.samyhaz {
+    border-radius: 7%;
+    margin: 8px;
+}
+
+.samyhaz:hover {
+    border-radius: 15%;
+    transform: scale(1.07);
+}
+
+.samyinfo {
+    margin: 18%;
+    top: 30px;
+    left: 20px;
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 210px;
+    background-color: #310f0fe4;
+    border: 3px solid rgb(102, 2, 2);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 4%;
+}
 
 .samyinfo .samyimg-series1 {
     height: 100%;
     width: 100%;
     border-radius: 9%;
     transition: 2s;
-
 }
-.samyinfo .samycaption{
+
+.samyinfo .samycaption {
     position: absolute;
     top: 130%;
     width: 100%;
@@ -4606,11 +4449,13 @@ margin-left: 4% ;
     text-align: center;
     border-radius: 9%;
 }
-.samyinfo .samycaption .samycontent{
-   color: var(--fesecondary-color);
+
+.samyinfo .samycaption .samycontent {
+    color: var(--fesecondary-color);
     padding-top: 40px;
 }
-.samycaption .samycontent #playicon{
+
+.samycaption .samycontent #playicon {
     font-family: 'Material Icons';
     font-size: 60px;
     line-height: 1;
@@ -4629,32 +4474,28 @@ margin-left: 4% ;
     padding: 10px;
     background-size: 40px;
 }
-.samyinfo:hover .samycaption{
-top:0;
+
+.samyinfo:hover .samycaption {
+    top: 0;
 }
 
-.samyinfo:hover .samyimg-series1{
+.samyinfo:hover .samyimg-series1 {
     transform: scale(1.5);
 }
-.samyplay{
+
+.samyplay {
     color: var(--fesecondary-color);
     text-decoration: none;
 }
 
 
-
 /* -----------------------lacasa------------------------------- */
 
-
-
-
-.kibody{
+.kibody {
     background-color: var(--feprimary-color);
 }
 
-
-
-.kitop{
+.kitop {
     display: block;
     width: 96%;
     height: 500px;
@@ -4664,161 +4505,171 @@ top:0;
     background-image: url("../media/laca01.jpg");
     background-position: 100%;
     background-size: 70%;
-    
 }
-.kititle{
+
+.kititle {
     width: 62%;
     height: 100%;
     background-color: var(--feprimary-color);
-    background: linear-gradient(to left, rgba(0, 0, 0, 0),#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000);
-}
-.kititle-title{
-position: relative;
-display: inline-block;
-width: fit-content;
-margin: 20px;
-border-left: solid rgb(255, 0, 0) 3px;
-color: white;
-font-size: 45px;
-}
-.kititle-title p {
-margin: 0 15px;
-}
-.kititle-description{
-width: 80%;
-height: 70%;
-/* border: solid red 1px; */
-margin-left: 2%;
-margin-top: 2%;
-}
-.kititle-description p{
-margin: 10px;
-color: white;
-font-size: 24px;
-}
-.kimiddle{
-margin-top: 20px;
-display: block;
-width: 96%;
-border-top: solid rgb(255, 0, 0) 2px;
-height: auto;
-padding: 30px;
-background-color: var(--feprimary-color);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
 }
 
-.kileftmiddle{
+.kititle-title {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    margin: 20px;
+    border-left: solid rgb(255, 0, 0) 3px;
+    color: white;
+    font-size: 45px;
+}
+
+.kititle-title p {
+    margin: 0 15px;
+}
+
+.kititle-description {
+    width: 80%;
+    height: 70%;
+    /* border: solid red 1px; */
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.kititle-description p {
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.kimiddle {
+    margin-top: 20px;
+    display: block;
+    width: 96%;
+    border-top: solid rgb(255, 0, 0) 2px;
+    height: auto;
+    padding: 30px;
+    background-color: var(--feprimary-color);
+}
+
+.kileftmiddle {
     display: inline-block;
     width: 20%;
     float: left;
 }
-.kirightmiddle{
+
+.kirightmiddle {
     display: inline-block;
     width: 20%;
     float: right;
 }
-.kimiddlemiddle{
+
+.kimiddlemiddle {
     display: inline-block;
     width: 50%;
     padding: 20px;
     padding-left: 55px;
 }
 
-#kititle{font-size: xx-large;font-weight: bold;font-family: 'Koulen', 'cursive', Times, serif;color: var(--fesecondary-color);text-align: center;letter-spacing: 2px;}
-
-
-.kiiframe{
-display: block;
-margin-left: auto;
-margin-right: auto;
+#kititle {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Koulen', 'cursive', Times, serif;
+    color: var(--fesecondary-color);
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-.kicast-title{
-position: relative;
-display: inline-block;
-width: fit-content;
-margin: 20px;
-border-left: solid rgb(255, 0, 0) 3px;
-color: var(--fesecondary-color);
-font-size: 45px;
+.kiiframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-.kicast-title p{
-margin: 0 15px;
+.kicast-title {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    margin: 20px;
+    border-left: solid rgb(255, 0, 0) 3px;
+    color: var(--fesecondary-color);
+    font-size: 45px;
 }
 
-.kicast{
-width: 100%;
-margin-top: 40px;
+.kicast-title p {
+    margin: 0 15px;
 }
 
-#kiimagemap{
+.kicast {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#kiimagemap {
     margin-left: 360px;
 }
 
 
 /* swiper */
 
-      .KImySwiper {
-        width: 65%;
-        height: 65%;
-        margin-bottom: 50px;
-      }
+.KImySwiper {
+    width: 65%;
+    height: 65%;
+    margin-bottom: 50px;
+}
 
-      .KImySwiper .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: var(--feprimary-color);
-        color: var(--fesecondary-color);
+.KImySwiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: var(--feprimary-color);
+    color: var(--fesecondary-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
 
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .KImySwiper.swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-
-/* ..................... */
-
-.kiinfo{
-margin: 18%;
-top: 30px;
-left: 20px;
-position: relative;
-display: flex;
-width: 65%;
-height: 65%;
-background-color: #310f0fe4;
-border: 3px solid rgb(102, 2, 2);
-border-radius: 20px;
-overflow: hidden;
+.KImySwiper.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
+/* ..................... */
+
+.kiinfo {
+    margin: 18%;
+    top: 30px;
+    left: 20px;
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 65%;
+    background-color: #310f0fe4;
+    border: 3px solid rgb(102, 2, 2);
+    border-radius: 20px;
+    overflow: hidden;
+}
 
 .kiinfo .kiimg-series2 {
     height: 100%;
     width: 100%;
     border-radius: 9%;
     transition: 2s;
-
 }
-.kiinfo .kicaption{
-        position: absolute;
+
+.kiinfo .kicaption {
+    position: absolute;
     top: 130%;
     width: 100%;
     height: 100%;
@@ -4827,11 +4678,13 @@ overflow: hidden;
     text-align: center;
     border-radius: 9%;
 }
-.kiinfo .kicaption .kicontent{
-   color: white;
+
+.kiinfo .kicaption .kicontent {
+    color: white;
     padding-top: 40px;
 }
-.kicaption .kicontent #playicon{
+
+.kicaption .kicontent #playicon {
     font-family: 'Material Icons';
     font-size: 60px;
     line-height: 1;
@@ -4850,18 +4703,19 @@ overflow: hidden;
     padding: 10px;
     background-size: 40px;
 }
-.kiinfo:hover .kicaption{
-top:0;
+
+.kiinfo:hover .kicaption {
+    top: 0;
 }
 
-.kiinfo:hover .kiimg-series2{
+.kiinfo:hover .kiimg-series2 {
     transform: scale(1.5);
 }
-.kiplay{
+
+.kiplay {
     color: white;
     text-decoration: none;
 }
-
 
 
 /*****************************************************************************************************
@@ -5401,7 +5255,7 @@ top:0;
     margin: 40px;
     position: relative;
     top: -200px;
-    left: 140px;
+    left: 80px;
     font-size: 14px;
 }
 
@@ -5442,8 +5296,16 @@ top:0;
     text-align: center;
 }
 
-img {
+.karimboarder {
     border-radius: 10px;
+}
+
+.kaseasoncaption {
+    position: relative;
+    top: -175px;
+    left: 50px;
+    color: white;
+    font-size: 30px;
 }
 
 .hanksha {
@@ -5513,6 +5375,7 @@ td.colo:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: var(--karimhmd--wallpapaer);
 }
 
 .karimbody {
@@ -5605,24 +5468,24 @@ html {
     display: none;
 }
 
-.kaycont{
+.kaycont {
     display: flex;
-     width: 150%;
-     height: 80px;
+    width: 150%;
+    height: 80px;
     margin-bottom: 170px;
-  }
-.kaseason{
-margin-left: 140px;
-transition-duration: .5s;
-
 }
+
+.kaseason {
+    margin-left: 140px;
+    transition-duration: .5s;
+}
+
 .kaseason:hover {
-box-shadow: 6px 3px 75px 0px rgb(41, 76, 230);
-border-bottom: solid rgb(128, 128, 255) 3px;
-transform: scale(1.1,1.1);
-transition-duration: .3s;
+    box-shadow: 6px 3px 75px 0px rgb(41, 76, 230);
+    border-bottom: solid rgb(128, 128, 255) 3px;
+    transform: scale(1.1, 1.1);
+    transition-duration: .3s;
 }
-
 
 @-webkit-keyframes glow {
     from {
@@ -5638,6 +5501,7 @@ transition-duration: .3s;
     background-color: var(--feprimary-color);
     background-size: cover;
     background-attachment: fixed;
+    background-image: var(--karsher);
 }
 
 #kash {
