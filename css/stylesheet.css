@@ -2739,7 +2739,6 @@ html {
 }
 
 .KGstrangerthingslogo-{
-    margin-top:40px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -2972,7 +2971,6 @@ html {
 }
 
 .KGfecontainer {
-    background-color:black;
     color: white;
     padding:50px ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -3596,38 +3594,6 @@ html {
     left: 30%;
 }
 
-li {
-    position: relative;
-    display: inline-block;
-    width: 100px;
-    height: 90%;
-    border: solid transparent 2px;
-    margin: 0 40px 0 40px;
-}
-
-li:hover {
-    transition: ease-in-out;
-    transition-duration: .25s;
-    border-bottom: solid var(--fesecondary-color) 2px;
-}
-
-li {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--feprimary-color);
-    position: relative;
-    top: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 100px;
-    height: 40px;
-}
-
-ul {
-    height: 100%;
-    text-align: center;
-    width: 500px;
-}
 
 .bx.bxs-movie {
     font-size: 40px;
@@ -5485,7 +5451,7 @@ top:0;
     color: #ffffff;
     margin: 40px;
     position: relative;
-    top: -220px;
+    top: -200px;
     left: 80px;
     font-size: 14px;
 }
@@ -5519,8 +5485,6 @@ top:0;
 
 #kah42 {
     text-align: center;
-    font-size: 45px;
-    color: var(--fesecondary-color);
 }
 
 #kacast {
@@ -5531,17 +5495,15 @@ top:0;
 
 .karimboarder{
     border-radius: 10px;
-    
                 }
-            
                 .kaseasoncaption{
                   
                     position: relative;
-                    top: -200px;
-                    left: 250px;
+                    top: -175px;
+                    left: 50px;
                    
                     color: white;
-                    font-size: 20px;
+                    font-size: 30px;
                     
                   }
 
