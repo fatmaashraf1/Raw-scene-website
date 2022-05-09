@@ -10,7 +10,9 @@
     --fH1secondary-color: rgb(37, 51, 35);
     --fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);
-
+    --feprimary-color:#000;
+    --fesecondary-color:#fff;
+    --mlaki-background-image: url(../media/mlakibg.jpg);
 }
 
 
@@ -24,6 +26,9 @@
     --fH1secondary-color: rgb(37, 51, 35);
     /*--fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);*/
+    --feprimary-color:#fff;
+    --fesecondary-color:#000;
+    --mlaki-background-image: url(../media/mlakibg2.jpg);
 }
 
 .switch {
@@ -711,8 +716,7 @@ input:checked+.slider:before {
 }
 
 .fhmenu-list-item.active {
-    color: rgb(250, 241, 112);
-    font-weight: bold;
+    color: rgb(250, 241, 112);    font-weight: bold;
 }
 
 .fhsignin-container {
@@ -1324,7 +1328,7 @@ input:checked+.slider:before {
     transform: translateX(40px);
 }
 
-:root {
+/**:root {
     --feprimary-color: #000000;
     --fesecondary-color: #e3e4e6;
     --mlk-background-image: url("hmd.jpg");
@@ -1339,7 +1343,7 @@ input:checked+.slider:before {
 
 /* footer*/
 
-.fecontainer {
+/**.fecontainer {
     display: flex;
     max-width: 1100px;
     height: 100%;
@@ -2208,7 +2212,7 @@ body.fz2 {
     transform: scale(1.1);
 }
 
-.fecontainer button {
+/**.fecontainer button {
     background-color: #555555;
     border-radius: 10px;
     cursor: pointer;
@@ -3482,7 +3486,7 @@ html {
     transform: scale(1.1);
 }
 
-.fecontainer {
+/**.fecontainer {
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     backdrop-filter: var(--kgstpbackdrop);
@@ -3541,17 +3545,7 @@ html {
 
 /******************************************start farida emad *************************************************/
 
-:root {
-    --feprimary-color: #fff;
-    --fesecondary-color: #000000;
-    --mlk-background-image: url(../Media/mlakibg.jpg);
-}
 
-.light-mode {
-    --feprimary-color: #000;
-    --fesecondary-color: white;
-    --mlk-background-image: url(../Media/mlakibg2.jpg);
-}
 
 html {
     scroll-behavior: smooth;
@@ -3559,115 +3553,12 @@ html {
 
 #harbo {
     color: var(--feprimary-color);
-    background-color: var(--fesecondary-color);
+    background-color:var(--fesecondary-color);
     transition: background 0.2 linear;
 }
 
-.nav-b {
-    position: relative;
-    display: block;
-    height: 65px;
-    width: 100%;
-    background-color: transparent;
-}
-
-.nav-logo {
-    position: relative;
-    display: inline-block;
-    top: 30%;
-    left: 5%;
-    height: 100%;
-}
-
-.logo {
-    margin: 8px;
-    width: 150px;
-}
-
-.nav-st {
-    position: absolute;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    left: 30%;
-}
-
-li {
-    position: relative;
-    display: inline-block;
-    width: 100px;
-    height: 90%;
-    border: solid transparent 2px;
-    margin: 0 40px 0 40px;
-}
-
-li:hover {
-    transition: ease-in-out;
-    transition-duration: .25s;
-    border-bottom: solid var(--fesecondary-color) 2px;
-}
-
-li {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--feprimary-color);
-    position: relative;
-    top: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 100px;
-    height: 40px;
-}
-
-ul {
-    height: 100%;
-    text-align: center;
-    width: 500px;
-}
-
-.bx.bxs-movie {
-    font-size: 40px;
-    color: red;
-}
-
-.feh2 {
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    display: inline;
-    color: var(--feprimary-color);
-}
-
-.logo-raw {
-    top: -10px;
-    display: inline;
-    position: relative;
-}
-
-.login {
-    font-size: 20px;
-    color: var(--fesecondary-color);
-    background-color: var(--feprimary-color);
-    border: solid var(--feprimary-color) 1px;
-    border-radius: 25px;
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    right: -25%;
-    top: 36%;
-    width: 100px;
-    height: 30px;
-}
-
-.login:hover {
-    border: solid red 1px;
-    background-color: var(--fesecondary-color);
-    color: var(--feprimary-color);
-    transition: ease-in-out;
-    transition-duration: .25s;
-}
-
 .fefirst {
-    background-image: url(../Media/FARIDA.jpg);
+    background-image: url(../media/harbackgroundfe.jpg);
     width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
@@ -3681,7 +3572,7 @@ ul {
 }
 
 .felogoname {
-    color: var(--fesecondary-color);
+    color: var(--feprimary-color);
 }
 
 .fefont1 {
@@ -3692,8 +3583,7 @@ ul {
     margin-left: 480px;
     font-size: 50px;
     margin-top: -80px;
-    color: var(--fesecondary-color);
-    text-shadow: 5px 2px 4px var(--feprimary-color);
+    text-shadow: 5px 2px 4px var(--fesecondary-color);
 }
 
 .firstbn {
@@ -3707,7 +3597,7 @@ ul {
     border-radius: 50px;
     height: 186px;
     width: 139px;
-    box-shadow: 0 4px 8px 0px var(--feprimary-color), 0 6px 20px 0px var(--feprimary-color);
+    box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
 }
 
 .fetbar {
@@ -3716,6 +3606,8 @@ ul {
     white-space: nowrap;
     align-items: center;
     margin-top: 70px;
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
 }
 
 .fetbar td {
@@ -3730,7 +3622,7 @@ ul {
 }
 
 .fetbar tr {
-    color: var(--primary-colorprimary-color);
+    color: var(--fesecondary-color);
 }
 
 ::-webkit-scrollbar {
@@ -3767,6 +3659,8 @@ ul {
     align-items: center;
     margin: 40px 130px;
     border-radius: 20px;
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
 }
 
 .fehcontainer {
@@ -3778,13 +3672,15 @@ ul {
     align-items: center;
     margin: 40px 130px;
     border-radius: 20px;
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
 }
 
 .feposter img {
     width: 250px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0px #393e75, 0 6px 20px 0px #393e75;
-    margin: 5px;
+    margin: 10px;
 }
 
 .feposter img:hover {
@@ -3800,8 +3696,17 @@ ul {
     width: 750px;
 }
 
+.fethirdb {
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
+    margin-top: -50px;
+}
 .fethird:hover {
-    box-shadow: 0 4px 8px 0px var(--feprimary-color), 0 6px 20px 0px var(--feprimary-color);
+    box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
+}
+
+.fethird p {
+    margin: 5px;
 }
 
 .material-symbols-outlined {
@@ -3811,7 +3716,6 @@ ul {
 .feyellow {
     color: yellow;
 }
-
 .febn {
     margin-left: 150px;
 }
@@ -3868,6 +3772,7 @@ ul {
     width: 100%;
     height: 100px;
     margin-bottom: 175px;
+    background-color: var(--feprimary-color);
 }
 
 .fesear {
@@ -3875,17 +3780,18 @@ ul {
     font-weight: 650;
     color: #8ae9e9;
     margin-left: 200px;
+    background-color: var(--feprimary-color);
 }
 
 .fesb {
-    background-color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
     height: 60px;
     width: 120px;
     margin-right: 100px;
     border-radius: 10px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    color: var(--feprimary-color);
+    color: var(--fesecondary-color);
 }
 
 .felogor {
@@ -3904,14 +3810,27 @@ ul {
     font-size: larger;
 }
 
+.fefooter {
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 130px ;
+}
+.felast {
+    margin-bottom: 0px;
+}
 .mlkbo {
-    background-image: var(--mlk-background-image);
+    background-image: var(--mlaki-background-image);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
-    color: var(--feprimary-color);
-    background-color: var(--fesecondary-color);
+    color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
 }
 
 #femalkst {
@@ -5979,7 +5898,7 @@ input:checked+.slider:before {
     transform: translateX(40px);
 }
 
-:root {
+/**:root {
     --feprimary-color: #000000;
     --fesecondary-color: #e3e4e6;
 }
@@ -5987,4 +5906,4 @@ input:checked+.slider:before {
 .light-mode {
     --feprimary-color: white;
     --fesecondary-color: #000;
-}
+}**/
