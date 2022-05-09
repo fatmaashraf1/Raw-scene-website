@@ -5574,6 +5574,8 @@ td.colo:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: var(--karimhmd--wallpapaer);
+
 }
 
 .karimbody {
@@ -5699,6 +5701,7 @@ transition-duration: .3s;
     background-color: var(--feprimary-color);
     background-size: cover;
     background-attachment: fixed;
+    background-image:var(--karsher);
 }
 
 #kash {
@@ -5960,11 +5963,15 @@ input:checked+.slider:before {
 }
 
 :root {
-    --feprimary-color: #000000;
-    --fesecondary-color: #e3e4e6;
-}
-
-.light-mode {
-    --feprimary-color: white;
-    --fesecondary-color: #000;
-}
+    --feprimary-color:#000000;
+    --fesecondary-color: #e3e4e6 ;
+    --karimhmd--wallpapaer:url("../media/hmd.jpg");
+    --karsher:url("../media/shwp1.jpg");
+  }
+  .light-mode {
+   
+    --feprimary-color:white;
+    --fesecondary-color:#000;
+    --karimhmd--wallpapaer:url("../media/hmd2.jpg");
+     --karsher:url("../media/shwp2.jpg");
+  }
