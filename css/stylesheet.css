@@ -18,13 +18,6 @@
 /************************************FARRAH THARWAT*****************************
 /*************************************************************************************/
 
-.light-mode {
-    --fH1primary-color: rgb(226 126 45);
-    --fH1secondary-color: rgb(37, 51, 35);
-    /*--fH2primary-color: rgb(250, 241, 112);
-    --fH2secondary-color: rgb(26 19 10);*/
-}
-
 .flexfh {
     width: 80%;
     margin: 5px auto;
