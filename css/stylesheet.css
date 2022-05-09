@@ -10,6 +10,7 @@
     --fH1secondary-color: rgb(37, 51, 35);
     --fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);
+
 }
 
 
@@ -5976,24 +5977,24 @@ html {
     display: none;
 }
 
-.cont {
+.kaycont{
     display: flex;
-    width: 150%;
-    height: 80px;
+     width: 150%;
+     height: 80px;
     margin-bottom: 170px;
+  }
+.kaseason{
+margin-left: 140px;
+transition-duration: .5s;
+
+}
+.kaseason:hover {
+box-shadow: 6px 3px 75px 0px rgb(41, 76, 230);
+border-bottom: solid rgb(128, 128, 255) 3px;
+transform: scale(1.1,1.1);
+transition-duration: .3s;
 }
 
-.season {
-    margin-left: 120px;
-    transition-duration: .5s;
-}
-
-.season:hover {
-    box-shadow: 6px 3px 75px 0px rgb(41, 76, 230);
-    border-bottom: solid rgb(128, 128, 255) 3px;
-    transform: scale(1.1, 1.1);
-    transition-duration: .3s;
-}
 
 @-webkit-keyframes glow {
     from {
