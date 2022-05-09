@@ -6,21 +6,23 @@
     <title>Spiderman</title>
     <!--Css file-->
     <link rel="stylesheet" href="../css/stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <script src="../Js/spider.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/64cc13dfa7.js" crossorigin="anonymous"></script>
-    <script src="jquery.js"></script>
+    <script src="../java/jquery.js"></script>
+    <script src="../java/spider.js"></script>
 
 </head>
 
 
 
-<body style="background-image: url('../media/FABackground.jpg');background-size: cover;" class="fatmabody">
-    <div class="FAback">
+<body class="fatmabody" style="background-image: var(--mlk-background-image);background-size: cover;">
+
+    <div class="FAhead" style="background-color:var(--feprimary-color); height:70px;width:100%;">
+
         <div class="FAcont">
-            <div class="FAhead">
-                <header id="top">
+            <header id="top">
+                <section class="main">
                     <div class="navbar-contmain">
                         <div class="navbar">
                             <div class="navbar-container">
@@ -46,8 +48,9 @@
                             </div>
                         </div>
                     </div>
-                </header>
-            </div>
+            </header>
+
+
             <!--Main container-->
             <div class="FAbox1">
                 <div class="FAstartcontent">
@@ -63,7 +66,8 @@
                     <!--Watch Trailer-->
                     <div class="FA_Watch">
                         <button class="FAwatch_trailer">
-                            <i class="fa-solid fa-circle-play play-trailer"></i>
+                            <i class="fa-solid fa-circle-play FAplay_trailer"></i>
+                            <span class="FA_watch_title">Watch Trailer</span>
                         </button>
                     </div>
                 </div>
@@ -72,9 +76,9 @@
 
                 <div class="FAvideo-container" style="background-color:rgba(0, 0, 0, 0.5);">
                     <div class="FAvideo-box">
-                        <video id="FAtrailer" src="../media/Trailer-3.mp4" type="video/mp4" controls></video>
+                        <video id="FAtrailer" src="../media/FA_Trailer3.mp4" type="video/mp4" controls autoplay></video>
                         <!--Close icon-->
-                        <button class="FAcloseTrailer"><i class="fa-solid fa-xmark close-video"></i></button>
+                        <button class="FAcloseTrailer"><i class="fa-solid fa-xmark FAclose_video"></i></button>
 
                     </div>
                 </div>
@@ -96,7 +100,7 @@
                                 <span id="FAplayicon" class="material-icons">
                                     play_circle
                                 </span>
-                                <h3 class="FA_h2">Homecoming 2017</h3>
+                                <h3 class="FA_h2">Homecoming<br> 2017</h3>
                                 <br>
                                 <button class="FA_button"><a
                                         href="https://milo.egybest.casa/movie/spider-man-homecoming-2017/?ref=similar"
@@ -124,7 +128,7 @@
                                 <span id="FAplayicon" class="material-icons">
                                     play_circle
                                 </span>
-                                <h3 class="FA_h2">Far from home 2019</h3>
+                                <h3 class="FA_h2">Far from home <br>2019</h3>
                                 <br>
                                 <button class="FA_button"><a
                                         href="https://milo.egybest.casa/movie/spider-man-far-from-home-2019/?ref=similar"
@@ -152,7 +156,8 @@
                                 <span id="FAplayicon" class="material-icons">
                                     play_circle
                                 </span>
-                                <h3 class="FA_h2">No way home 2021</h3>
+                                <h3 class="FA_h2">No way home <br> 2021</h3>
+                                <br>
                                 <button class="FA_button"><a
                                         href="https://go.egybest.land/%D9%81%D9%8A%D9%84%D9%85-spider-man-no-way-home-2021-%D9%85%D8%AA%D8%B1%D8%AC%D9%85/"
                                         title="Watch">
@@ -174,9 +179,15 @@
                     </div>
                     <div class="FAShow_Trailers">
 
-                        <iframe class="FA_trailer1" src="https://www.youtube.com/embed/rk-dF1lIbIg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="FA_trailer2" src="https://www.youtube.com/embed/Nt9L1jCKGnE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="FA_trailer3" src="https://www.youtube.com/embed/JfVOs4VSpmA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="FA_trailer1" src="https://www.youtube.com/embed/rk-dF1lIbIg"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <iframe class="FA_trailer2" src="https://www.youtube.com/embed/Nt9L1jCKGnE"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <iframe class="FA_trailer3" src="https://www.youtube.com/embed/JfVOs4VSpmA"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
 
                 </div>
@@ -192,61 +203,90 @@
                 <div class="swiper FAmySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="#" style="text-decoration: none;color: white;">
-                                <img src="../media/TomHolland.jpg">
-                                <p style="margin-top: 20px;
-                                padding: 10px;
-                                text-decoration: none;
-                                color: white;
-                                font-weight: bold;
-                                background: linear-gradient(to bottom, rgba(6, 0, 176, 0.925), rgba(194, 0, 0, 0.903));">
-                                    Tom holland</p>
+                            <a href="#">
+                                <img src="../media/FA_TobeyMaguire.jpg">
+                                <br>
+                                Tobey Maguire
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" style="text-decoration: none;color: white;">
-                                <img src="../media/Zendaya.jpg">
-                                <p style="margin-top: 20px;
-                                padding: 10px;
-                                text-decoration: none;
-                                color: white;
-                                font-weight: bold;
-                                background: linear-gradient(to bottom, rgba(6, 0, 176, 0.925), rgba(194, 0, 0, 0.903));">Zendaya</p>
+                            <a href="#">
+                                <img src="../media/FA_TomHolland.jpg">
+                                <br>
+                                Tom holland
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" style="text-decoration: none;color: white;">
-                                <img src="../media/TobeyMaguire.jpg">
-                                <p style="margin-top: 20px;
-                                padding: 10px;
-                                text-decoration: none;
-                                color: white;
-                                font-weight: bold;
-                                background: linear-gradient(to bottom, rgba(6, 0, 176, 0.925), rgba(194, 0, 0, 0.903));">Tobey Maguire</p>
+                            <a href="https://ar.wikipedia.org/wiki/%D8%A3%D9%86%D8%AF%D8%B1%D9%88_
+                            %D8%BA%D8%A7%D8%B1%D9%81%D9%8A%D9%84%D8%AF">
+                                <img src="../media/FA_andrewGarfield.jpg">
+                                <br>
+                                Andrew Russell
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D9%8A%D9%83%D9%88%D8
+                            %A8_%D8%A8%D8%A7%D8%AA%D8%A7%D9%84%D9%88%D9%86">
+                                <img src="../media/FA_Jacob_batalon.jpg">
+                                <br>
+                                Jacob Batalon
+                            </a>
+
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <a href="https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%8A%D8%
+                            B3%D8%A7_%D8%AA%D9%88%D9%85%D9%8A">
+                                <img src="../media/FA_MariseTomel.jpg">
+                                <br>
+                                Marise Tomei
+                            </a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="https://ar.wikipedia.org/wiki/%D8%B2%D9%8A%D9%86%D8%AF%D8%A7%D9%8A%D8%A7">
+                                <img src="../media/FA_Zendaya.jpg">
+                                <br>
+                                Zendaya
+
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a
+                                href="https://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%84%D9%8A%D9%85_%D8%AF%D8%A7%D9%81%D9%88">
+                                <img src="../media/FA_WillemDafoe.jpg">
+                                <br>
+                                Willem Dafoe
+                            </a>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <a
+                                href="https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D9%85%D8%A7%D8%B3_%D9%87%D8%A7%D8%AF%D9%86_%D8%AA%D8%B4%D9%88%D8%B1%D8%AA%D8%B4">
+                                <img src="../media/FA_Tomhardy.jpg">
+                                <br>
+                                Tom Hardy
                             </a>
 
                         </div>
                         <div class="swiper-slide">
-                            <a href="https://ar.wikipedia.org/wiki/%D8%A3%D9%86%D8%AF%D8%B1%D9%88_
-                            %D8%BA%D8%A7%D8%B1%D9%81%D9%8A%D9%84%D8%AF" style="text-decoration: none;color: white;">
-                                <img src="../media/AndrewGarfield.jpg">
-                                <p style="margin-top: 20px;
-                                padding: 10px;
-                                text-decoration: none;
-                                color: white;
-                                font-weight: bold;
-                                background: linear-gradient(to bottom, rgba(6, 0, 176, 0.925), rgba(194, 0, 0, 0.903));">Andrew Russell</p>
+                            <a href="https://www.imdb.com/name/nm0000547/">
+                                <img src="../media/FAoctavious.jpg">
+                                <br>
+                                Alfred Molina
                             </a>
+
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" style="text-decoration: none;color: white;">
-                                <img src="../media/Benedict-Cumberbatch.jpg">
-                                <p style="margin-top: 20px;
-                                padding: 10px;
-                                text-decoration: none;
-                                color: white;
-                                font-weight: bold;
-                                background: linear-gradient(to bottom, rgba(6, 0, 176, 0.925), rgba(194, 0, 0, 0.903));">Benedict Cumberbatch</p>
+                            <a href="#">
+                                <img src="../media/FA_Benedict-Cumberbatch.jpg">
+                                <br>
+                                Benedict Cumberbatch
+                                <br>
+
                             </a>
                         </div>
                     </div>
@@ -255,29 +295,22 @@
                 </div>
             </section>
 
-
-
-
-
-
-            <!--JS-->
             <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
             <script>
                 var swiper = new Swiper(".FAmySwiper", {
                     slidesPerView: 5,
-                    spaceBetween: 20,
-                    slidesPerGroup: 3,
+                    spaceBetween: 15,
+                    slidesPerGroup: 5,
                     loop: true,
                     loopFillGroupWithBlank: true,
                     navigation: {
                         nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",
                     },
-                });
+                }); 
             </script>
-            <!--JQuery-->
             <script>
-                $(document).ready(function() {
+                $(document).ready(function () {
 
                     $(".FAvideo-container").hide();
                     $(".FA_trailer2").hide();
@@ -285,33 +318,34 @@
                     $(".FA_trailer3").hide();
 
 
-                    $(".FAwatch_trailer").click(function() {
+                    $(".FAwatch_trailer").click(function () {
                         $(".FAvideo-container").show();
                     });
-                    $(".FAcloseTrailer").click(function() {
+                    $(".FAcloseTrailer").click(function () {
                         $(".FAvideo-container").hide();
                     });
+                    $(".FA_Homecoming").click(function () {
+                        $(".FA_trailer2").hide();
+                        $(".FA_trailer3").hide();
+                        $(".FA_trailer1").show();
+
+                    });
+                    $(".FA_Farfromhome").click(function () {
+                        $(".FA_trailer1").hide();
+                        $(".FA_trailer3").hide();
+                        $(".FA_trailer2").show();
+
+                    });
+                    $(".FA_Nowayhome").click(function () {
+                        $(".FA_trailer2").hide();
+                        $(".FA_trailer1").hide();
+                        $(".FA_trailer3").show();
+
+                    });
+
                 });
 
 
-                $(".FA_Homecoming").click(function() {
-                    $(".FA_trailer2").hide();
-                    $(".FA_trailer3").hide();
-                    $(".FA_trailer1").show();
-
-                });
-                $(".FA_Farfromhome").click(function() {
-                    $(".FA_trailer1").hide();
-                    $(".FA_trailer3").hide();
-                    $(".FA_trailer2").show();
-
-                });
-                $(".FA_Nowayhome").click(function() {
-                    $(".FA_trailer2").hide();
-                    $(".FA_trailer1").hide();
-                    $(".FA_trailer3").show();
-
-                });
 
                 function changeMode() {
                     var element = document.body;
@@ -319,20 +353,47 @@
 
 
                 }
+
             </script>
 
-
-
-            <footer>
-
-
-
-
-
-
+            <footer class="fecontainer">
+                <div class="f1">
+                    <h1 class=" fologo fecontainer fefont1">RawScene</h1>
+                    <h4>contact</h4>
+                    <p>
+                    <h5>Email:</h5>fcaiStudents@fci.helwan.edu.eg</p>
+                    <h4>Follow Us</h4>
+                    <p class="footicon"><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-pinterest-p"></i> <i
+                            class="fa-brands fa-youtube"></i> </p>
+                </div>
+                <div class="f2">
+                    <h4>About</h4>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="f3">
+                    <h4>Install App</h4>
+                    <p>From App Store or Google Play</p>
+                    <button type="button" class="btn btn-dark"><i class="fa-brands fa-apple"></i> App Store </button>
+                    <button type="button" class="btn btn-dark"><i class="fa-brands fa-google-play"></i> Google Play
+                    </button>
+                    <p class="copy">&copy;FCAI-HStudents_IT_Project</p>
+                    <div style="width: 100%">
+                        <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&
+                    amp;q=%D9%83%D9%84%D9%8A%D9%87%20%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%20%
+                    D9%88%20%D8%B0%D9%83%D8%A7%D8%A1%20%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8
+                    A%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%86+(
+                        My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed%22%3E
+                    <a href=" https://www.gps.ie/wearable-gps/%22%3Ewearable gps"></a>
+                        </iframe>
+                    </div>
+                </div>
             </footer>
         </div>
-
     </div>
 
 
