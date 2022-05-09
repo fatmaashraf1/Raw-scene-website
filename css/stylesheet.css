@@ -376,6 +376,11 @@ input:checked+.slider:before {
     cursor: pointer;
 }
 
+.farrahbody {
+    margin: 6%;
+    margin-bottom: 30%;
+}
+
 
 /*****************************************************************************************************
 ********************************************************************************************************
@@ -391,6 +396,7 @@ input:checked+.slider:before {
 
 .fhpage-cont {
     margin: 6%;
+    margin-bottom: 30%;
 }
 
 .fhsense1 {
