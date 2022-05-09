@@ -503,7 +503,7 @@ width: 100%;
 
 
 
-.dark-mode{
+.MainpageDarkTheme{
 
   --kgmainpagebackgroundcolor: #b9b9b9;
   --kgslideshowbackgroundcolor:#666666;
@@ -543,7 +543,7 @@ width: 100%;
                   </div>
                   <div class="signin-container">Sign In</div>
                   <label class="switch">
-                    <input type="checkbox" onclick="changeMode()">
+                    <input type="checkbox" onclick="MainpageDarkTheme()">
                     <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
                 </label>
                 </div>
@@ -1755,9 +1755,9 @@ width: 100%;
         </footer>
     </div>
     <script>
-        function DarkTheme() {
+        function MainpageDarkTheme() {
             var element = document.body;
-            element.classList.toggle("dark-mode");
+            element.classList.toggle("MainpageDarkTheme");
         }
     </script>
 </body>
