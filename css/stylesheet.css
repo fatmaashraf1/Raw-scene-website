@@ -3429,6 +3429,7 @@ html {
 .fologo {
     margin-top: 0;
     margin-left: 0;
+    background-color:transparent;
 }
 
 .footicon {
