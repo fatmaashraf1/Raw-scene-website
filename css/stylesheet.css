@@ -15,16 +15,6 @@
     --fH2secondary-color: rgb(26 19 10);
     --feprimary-color: #000;
     --fesecondary-color: #fff;
-<<<<<<< Updated upstream
-    --mlaki-background-image: url(../media/mlakibg.jpg);
-    --kasher-background-image: url(../media/shwp1.jpg);
-    --kablack: rgb(255, 255, 255);
-    --kahmd: url(../media/hmd.jpg);
-    --kaboxsh: rgb(8, 8, 121);
-    --kaboxsh2: rgb(239, 234, 173);
-    --kablack2: rgb(57, 57, 57);
-
-=======
     --fhcast: rgba(249, 244, 135, 0.377);
     --mlaki-background-image: url("../media/mlakibg.jpg");
     --FAprimary-color: #000000;
@@ -36,7 +26,6 @@
     --kaboxsh:rgb(8, 8, 121);
     --kaboxsh2:rgb(239, 234, 173);
     --kablack2:rgb(57, 57, 57);
->>>>>>> Stashed changes
 }
 
 .light-mode {
@@ -49,16 +38,6 @@
     --fH2secondary-color: rgb(26 19 10);*/
     --feprimary-color: #fff;
     --fesecondary-color: #000;
-<<<<<<< Updated upstream
-    --mlaki-background-image: url(../media/mlakibg2.jpg);
-    --kasher-background-image: url(../media/shwp2.jpg);
-    --kablack: black;
-    --kahmd: url(../media/hmd2.jpg);
-    --kaboxsh: rgb(239, 234, 173);
-    --kaboxsh2: rgb(8, 8, 121);
-    --kablack2: rgb(255, 255, 255);
-
-=======
     --mlaki-background-image: url("../media/mlakibg2.jpg");
     --kasher-background-image: url(../media/shwp2.jpg);
     --kablack:black;
@@ -66,7 +45,6 @@
     --kaboxsh:rgb(239, 234, 173);
     --kaboxsh2:rgb(8, 8, 121);
     --kablack2:rgb(255, 255, 255);
->>>>>>> Stashed changes
 }
 
 /***********************************************************************************
