@@ -620,7 +620,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.fatmabody {
+.FAbody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0%;
     margin: 0%;
@@ -655,6 +655,7 @@ html {
 }
 
 .FA_h1 {
+<<<<<<< Updated upstream
     color: white;
 }
 .FAtags{
@@ -667,10 +668,23 @@ html {
     font-weight: bolder;
 }
 .FAtags .FA_tag{
+=======
+>>>>>>> Stashed changes
     color: white;
     font-weight: bolder;
 }
-
+.FAtags{
+    display: flex;
+}
+.FAtags .FAstar{
+    color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+}
+.FAtags .FA_tag{
+    color: white;
+    font-weight: bolder;
+}
 .FAstartcontent {
     padding-left: 40px;
     padding-top: 100px;
@@ -693,11 +707,18 @@ html {
 
 .FAplay_trailer {
     color: red;
+<<<<<<< Updated upstream
     font-size: 30px;
     margin-top: 20px;
 animation: animate 2s linear infinite;
 }
 
+=======
+    font-size: 40px;
+    border-radius: 25px;
+    animation: animate 2s linear infinite;
+}
+>>>>>>> Stashed changes
 @keyframes animate {
     0%{
         box-shadow: 0 0 0 0 rgb(255, 0, 0, 0.7);
@@ -712,7 +733,6 @@ animation: animate 2s linear infinite;
         box-shadow: 0 0 0  rgb(255, 193, 7, 0);
     }
 }
-
 .FA_watch_title {
     font-size: 20px;
     font-weight: bold;
@@ -3326,7 +3346,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin: 40px 130px;
-    border-radiu: 20px;
+    border-radius: 20px;
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
 }
@@ -5525,7 +5545,6 @@ html {
     padding: 10px 15px;
     border-radius: 15px;
     margin-top: 4px;
-    margin-right: 10px;
     margin-bottom: 4px;
     transition: 0.7s ease;
 }
