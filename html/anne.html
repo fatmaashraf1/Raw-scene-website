@@ -22,35 +22,70 @@
 </head>
 
 <body class="bfh">
-    <div class="farrahbody">
-        <header id="top">
-            <section class="main">
-                <div class="navbar-contmain">
-                    <div class="navbar">
-                        <div class="navbar-container">
-                            <div class="logo-container">
-                                <h1 id="fklogo">RawScene</h1>
-                            </div>
-                            <div class="menu-container">
-                                <ul class="menu-list">
-                                    <li class="menu-list-item">Home</li>
-                                    <li class="menu-list-item active">Series</li>
-                                    <li class="menu-list-item">Movies</li>
-                                    <li class="menu-list-item">Popular</li>
-                                    <li class="menu-list-item">Trends</li>
-                                    <li class="menu-list-item">About</li>
-                                </ul>
-                            </div>
-                            <div class="signin-container">Sign In</div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="changeMode()">
-                                <span class="slider"><i class="fa-solid fa-sun"></i><i
-                                        class="fa-solid fa-moon"></i></span>
-                            </label>
+    <header id="top">
+        <section class="main">
+            <div class="navbar-contmain">
+                <div class="navbar">
+                    <div class="navbar-container">
+                        <div class="logo-container">
+                            <h1 id="fklogo">RawScene</h1>
                         </div>
+                        <div class="menu-container">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">Home</li>
+                                <li class="menu-list-item active">Series</li>
+                                <li class="menu-list-item">Movies</li>
+                                <li class="menu-list-item">Popular</li>
+                                <li class="menu-list-item">Trends</li>
+                                <li class="menu-list-item">About</li>
+                            </ul>
+                        </div>
+                        <div class="signin-container">Sign In</div>
+                        <label class="switch">
+                            <input type="checkbox" onclick="changeMode()">
+                            <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
+                        </label>
                     </div>
                 </div>
-        </header>
+            </div>
+    </header>
+    <script>
+        $(document).ready(function () {
+    
+    $(".FAvideo-container").hide();
+    $(".FA_trailer2").hide();
+    $(".FA_trailer1").hide();
+    $(".FA_trailer3").hide();
+    
+    
+    $(".FAwatch_trailer").click(function () {
+        $(".FAvideo-container").show();
+    });
+    $(".FAcloseTrailer").click(function () {
+        $(".FAvideo-container").hide();
+    });
+    $(".FA_Homecoming").click(function () {
+        $(".FA_trailer2").hide();
+        $(".FA_trailer3").hide();
+        $(".FA_trailer1").show();
+    
+    });
+    $(".FA_Farfromhome").click(function () {
+        $(".FA_trailer1").hide();
+        $(".FA_trailer3").hide();
+        $(".FA_trailer2").show();
+    
+    });
+    $(".FA_Nowayhome").click(function () {
+        $(".FA_trailer2").hide();
+        $(".FA_trailer1").hide();
+        $(".FA_trailer3").show();
+    
+    });
+    
+    });
+    </script>
+    <div class="farrahbody">
         <div class="namefh">
             <h1 style="color:rgb(255, 223, 134);font-size: 50px;">Anne with an E</h1>
             <h6 style="color: rgb(197, 197, 170);font-size: 15px;">2017 ‧ Historical film ‧ 3 seasons</h6>
@@ -61,7 +96,13 @@
         </div>
         <div>
             <div class="sfh">
-                <video class="Tfh" src="../media/Anne _ Official Trailer [HD] _ Netflix.mp4" type="video/mp4"
+                <video class="Tfh_main" src="../media/Anne _ Official Trailer [HD] _ Netflix.mp4" type="video/mp4"
+                    controls>Trailer</video>
+                <video class="Tfh1" src="../media/Anne _ Official Trailer [HD] _ Netflix.mp4" type="video/mp4"
+                    controls>Trailer</video>
+                <video class="Tfh2" src="../media/Anne _ Official Trailer [HD] _ Netflix.mp4" type="video/mp4"
+                    controls>Trailer</video>
+                <video class="Tfh3" src="../media/Anne _ Official Trailer [HD] _ Netflix.mp4" type="video/mp4"
                     controls>Trailer</video>
             </div>
             <div class="bbfh"><button class="buttonfh" onclick="mm()"> CLICK ME!</button></div>
@@ -69,7 +110,8 @@
                 <h4 class="h4fh">Seasons</h4>
             </div>
             <div class=" flexfh ">
-                <div class="season-anne"><img class="seasonsfh" src="../media/anne-s1.jpg" alt="season 1 "></div>
+                <div class="season-anne">
+                    <img class="seasonsfh" src="../media/anne-s1.jpg" alt="season 1 "></div>
                 <div class="season-anne"><img class="seasonsfh" src="../media/anne s2.jpg" alt="season 2 "></div>
                 <div class="season-anne"><img class="seasonsfh" src="../media/anne s3.png" alt="season 3 "></div>
             </div>
@@ -326,6 +368,7 @@
         <div>
             <a class="a2fh" href="https://www.imdb.com/title/tt5421602/" target="_blank">More about the cast</a>
         </div>
+    </div>
     </div>
     </section>
 
