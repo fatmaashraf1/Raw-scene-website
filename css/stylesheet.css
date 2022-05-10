@@ -16,6 +16,9 @@
     --kasher-background-image: url(../media/shwp1.jpg);
     --kablack:rgb(255, 255, 255);
     --kahmd:url(../media/hmd.jpg);
+    --kaboxsh:rgb(8, 8, 121);
+    --kaboxsh2:rgb(239, 234, 173);
+    --kablack2:rgb(57, 57, 57);
 }
 
 .light-mode {
@@ -29,6 +32,9 @@
     --kasher-background-image: url(../media/shwp2.jpg);
     --kablack:black;
     --kahmd:url(../media/hmd2.jpg);
+    --kaboxsh:rgb(239, 234, 173);
+    --kaboxsh2:rgb(8, 8, 121);
+    --kablack2:rgb(255, 255, 255);
 }
 /***********************************************************************************
 /************************************************************************************
@@ -5131,9 +5137,11 @@ input:checked+.slider:before {
 }
 
 #kah42 {
+    text-shadow: 3px 0px 2px rgb(64, 0, 255), 0 0 25px rgb(0, 8, 255);
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--kablack);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #kacast {
@@ -5301,10 +5309,10 @@ html {
 }
 
 #katitle {
-    color: rgb(218, 215, 215);
+    color: var(--kablack);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    text-shadow: 3px 3px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 0, 0);
+    text-shadow: 3px 0px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 0, 0);
 }
 
 .kaposs {
@@ -5367,9 +5375,9 @@ html {
 
 .kasea {
     width: 1450px;
-    background-color: rgb(210, 210, 210);
+    background-color: var(--kablack);
     border-radius: 10px;
-    box-shadow: 6px 7px 15px 0px rgb(165, 129, 118);
+    box-shadow: 6px 0px 15px 2px var(--kaboxsh2);
     border: solid rgb(0, 0, 0) 4px;
     margin: 18px;
     height: 240px;
@@ -5379,7 +5387,7 @@ html {
     margin: 30px;
     display: inline-block;
     height: 170px;
-    box-shadow: 6px 3px 25px 0px rgb(41, 76, 230);
+    box-shadow: 6px 3px 25px 0px var(--kaboxsh);
     border-radius: 10px;
     border: solid rgb(6, 6, 6) 4px;
 }
@@ -5390,10 +5398,12 @@ html {
     font-size: 20px;
     top: -100px;
     left: -30px;
+    color: var(--kablack2);
+
 }
 
 .kalink2 {
-    color: #000000;
+    color: var(--kablack2);
     position: relative;
     font-size: 30px;
     text-decoration: underline;
