@@ -17,11 +17,11 @@
     --fesecondary-color: #fff;
     --mlaki-background-image: url(../media/mlakibg.jpg);
     --kasher-background-image: url(../media/shwp1.jpg);
-    --kablack:rgb(255, 255, 255);
-    --kahmd:url(../media/hmd.jpg);
-    --kaboxsh:rgb(8, 8, 121);
-    --kaboxsh2:rgb(239, 234, 173);
-    --kablack2:rgb(57, 57, 57);
+    --kablack: rgb(255, 255, 255);
+    --kahmd: url(../media/hmd.jpg);
+    --kaboxsh: rgb(8, 8, 121);
+    --kaboxsh2: rgb(239, 234, 173);
+    --kablack2: rgb(57, 57, 57);
 
 }
 
@@ -37,11 +37,11 @@
     --fesecondary-color: #000;
     --mlaki-background-image: url(../media/mlakibg2.jpg);
     --kasher-background-image: url(../media/shwp2.jpg);
-    --kablack:black;
-    --kahmd:url(../media/hmd2.jpg);
-    --kaboxsh:rgb(239, 234, 173);
-    --kaboxsh2:rgb(8, 8, 121);
-    --kablack2:rgb(255, 255, 255);
+    --kablack: black;
+    --kahmd: url(../media/hmd2.jpg);
+    --kaboxsh: rgb(239, 234, 173);
+    --kaboxsh2: rgb(8, 8, 121);
+    --kablack2: rgb(255, 255, 255);
 
 }
 
@@ -701,7 +701,7 @@ html {
 .FAtags .FAstar {
     color: yellow;
     font-weight: bolder;
-    margin-top: -7px;
+    padding: 10px;
 }
 
 .FAtags .FA_tag {
@@ -760,6 +760,7 @@ html {
     font-weight: bold;
     color: red;
     padding: 10px;
+    margin-top: 4px;
 }
 
 .FAbox1 .FAvideo-container {
