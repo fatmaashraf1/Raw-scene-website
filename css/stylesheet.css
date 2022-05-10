@@ -135,10 +135,14 @@ input:checked+.slider:before {
     box-shadow: 0 4px 8px 10px rgb(226 126 45), 0px 6px 20px 5px grey;
 }
 
-.Tfh {
-    width: 100%;
-    height: 100%;
+.Tfh_main,
+.Tfh1,
+.Tfh2,
+.Tfh3 {
+    width: inherit;
+    height: inherit;
     border-radius: 0%;
+    position: absolute;
 }
 
 .sfh {
@@ -147,12 +151,28 @@ input:checked+.slider:before {
     padding: 5px;
     margin: 2px auto;
     height: 500px;
-    text-align: center;
     font-size: 50px;
     border-radius: 20px;
     border-color: rgba(116, 49, 49, 0.329);
-}
+    position: relative;
 
+}
+.buttons_trailersfh{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Trailer1fh,
+.Trailer2fh,
+.Trailer3fh{
+    color: white;
+    background-color: var(--fH1secondary-color);
+    border-radius: var(--mainRadiusfh)
+}
+.Trailer1fh:hover,
+.Trailer2fh:hover,
+.Trailer3fh:hover{
+    cursor: pointer;
+}
 .seasonsfh {
     position: relative;
     width: 100%;
@@ -1755,6 +1775,10 @@ body.fz2 {
 }
 
 .kgclickonchar p {
+
+
+    color: white;
+
     display: inline-block;
     position: relative;
     top: 300px;
@@ -2421,6 +2445,9 @@ html {
 }
 
 .KGcast-title {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: var(--kgstpbackdrop);
+    border-radius: 10px;
     color: white;
     border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
     left: 20%;
@@ -2477,6 +2504,9 @@ html {
 }
 
 .KGseasons-title {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: var(--kgstpbackdrop);
+    border-radius: 10px;
     color: white;
     border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
     left: 10%;
@@ -2489,6 +2519,9 @@ html {
 }
 
 .KGseasonscont {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    backdrop-filter: var(--kgstpbackdrop);
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -2620,8 +2653,8 @@ html {
 
 .KGcharachter-info {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 101%;
+    height: 101%;
     top: -106%;
     border-radius: 20px;
     backdrop-filter: blur(3px);
@@ -3415,6 +3448,7 @@ html {
 .fologo {
     margin-top: 0;
     margin-left: 0;
+    background-color:transparent;
 }
 
 .footicon {
