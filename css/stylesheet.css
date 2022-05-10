@@ -1739,6 +1739,7 @@ body.fz2 {
 }
 
 .kgclickonchar p {
+    color:white;
     display: inline-block;
     position: relative;
     top: 300px;
