@@ -2488,6 +2488,8 @@ html {
 }
 
 .KGseasonscont {
+    border-radius:25px;
+    backdrop-filter: var(--kgstpbackdrop);
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
