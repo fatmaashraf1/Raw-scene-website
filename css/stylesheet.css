@@ -654,9 +654,21 @@ html {
     position: relative;
 }
 
-.FA_h1,
-.FAtags {
+.FA_h1 {
     color: white;
+}
+.FAtags{
+    display: flex;
+    flex-direction: row;
+}
+.FAtags .FAstar{
+    color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+}
+.FAtags .FA_tag{
+    color: white;
+    font-weight: bolder;
 }
 
 .FAstartcontent {
@@ -673,8 +685,6 @@ html {
     background: none;
     border: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .FAwatch_trailer:hover {
@@ -685,13 +695,30 @@ html {
     color: red;
     font-size: 30px;
     margin-top: 20px;
+animation: animate 2s linear infinite;
+}
 
+@keyframes animate {
+    0%{
+        box-shadow: 0 0 0 0 rgb(255, 0, 0, 0.7);
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgb(255, 193, 7, 0);
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgb(255, 193, 7, 0);
+    }
+    100%{
+        box-shadow: 0 0 0  rgb(255, 193, 7, 0);
+    }
 }
 
 .FA_watch_title {
     font-size: 20px;
     font-weight: bold;
-    color: red; padding: 10px;
+    color: red;
+     padding: 10px;
+    margin-top: 4px;
 }
 
 .FAbox1 .FAvideo-container {
