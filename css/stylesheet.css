@@ -13,9 +13,15 @@
     --feprimary-color:#000;
     --fesecondary-color:#fff;
     --mlaki-background-image: url(../media/mlakibg.jpg);
+    --FAprimary-color: #000000;
+    --FAsecondary-color: #e3e4e6;
+    --FA-background-image: url("../media/FA_Darkbackground.jpg");
 }
 
 .light-mode {
+    --FAprimary-color: white;
+    --FAsecondary-color: #000;
+    --FA-background-image: url("../media/FABackground.jpg");
     --fH1primary-color: rgb(226 126 45);
     --fH1secondary-color: rgb(37, 51, 35);
     /*--fH2primary-color: rgb(250, 241, 112);
@@ -728,7 +734,7 @@ html {
 
 #FAtittlebox {
     padding: 20px;
-    background-color: var(--feprimary-color);
+    background-color: var(--FAprimary-color);
 }
 
 .FAtitle {
@@ -743,8 +749,8 @@ html {
 }
 
 .FAtitle:hover {
-    border-left: 100px solid var(--fesecondary-color);
-    color: var(--fesecondary-color);
+    border-left: 100px solid var(--FAsecondary-color);
+    color: var(--FAsecondary-color);
     cursor: pointer;
     transition: 1s;
 }
@@ -849,7 +855,7 @@ html {
 
 .FAheading {
     padding: 20px;
-    background-color: var(--feprimary-color);
+    background-color: var(--FAprimary-color);
 }
 
 .FAheading-title {
@@ -864,7 +870,7 @@ html {
 }
 
 .FAheading-title:hover {
-    border-left: 100px solid var(--fesecondary-color);
+    border-left: 100px solid var(--FAsecondary-color);
     color: var(--fesecondary-color);
     cursor: pointer;
     transition: 1s;
@@ -914,22 +920,6 @@ html {
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
     color: red;
-}
-
-
-
-
-/**:root {
-    --feprimary-color: #000000;
-    --fesecondary-color: #e3e4e6;
-    --mlk-background-image: url("../media/FA_Darkbackground.jpg");
-}
-
-.light-mode {
-    --feprimary-color: white;
-    --fesecondary-color: #000;
-    --mlk-background-image: url("../media/FABackground.jpg");
-
 }
 
 
