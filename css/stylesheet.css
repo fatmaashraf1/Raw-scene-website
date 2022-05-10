@@ -2416,6 +2416,8 @@ html {
 }
 
 .KGcast-title {
+    backdrop-filter: var(--kgstpbackdrop);
+    border-radius:10px;
     color: white;
     border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
     left: 20%;
@@ -2472,6 +2474,8 @@ html {
 }
 
 .KGseasons-title {
+    backdrop-filter: var(--kgstpbackdrop);
+    border-radius:10px;
     color: white;
     border-bottom: solid rgba(255, 0, 0, 0.493) 2px;
     left: 10%;
