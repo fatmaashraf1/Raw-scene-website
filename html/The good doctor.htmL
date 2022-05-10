@@ -12,62 +12,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
 
     <link rel="stylesheet" href="../css/stylesheet.css">
-    <!--<link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
-     <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/all.min.css">
-     <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/project.css">-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,700&display=swap" rel="stylesheet" ./>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Codystar">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tillana">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike+Angular">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Halant">
-    <!--<script src="https://maxcdn.bootstrap.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+    <script src="https://maxcdn.bootstrap.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body class="fk">
-    <section class="fkmain">
-        <div class="fknavbar">
-            <div class="fknavbar-container">
-                <div class="fklogo-container">
-                    <h1 id="fklogo">RawScene</h1>
-                </div>
-                <div class="fkmenu-container">
-                    <ul class="fkmenu-list">
-                        <li class="fkmenu-list-item">Home</li>
-                        <li class="fkmenu-list-item active">Series</li>
-                        <li class="fkmenu-list-item">Movies</li>
-                        <li class="fkmenu-list-item">Popular</li>
-                        <li class="fkmenu-list-item">Trends</li>
-                        <li class="fkmenu-list-item">About</li>
-                    </ul>
-                </div>
-                <div class="fksignin-container">Sign In</div>
-                <div class="fktoggle">
-                    <i class="fa-solid fa-moon fktoggle-icon1"></i>
-                    <i class="fa-solid fa-sun fktoggle-icon2"></i>
-                    <div class="fktoggle-ball"></div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="fksidebar">
-            <i class="fkleft-menu-icon fa-solid fa-magnifying-glass"></i>
-            <i class="fkleft-menu-icon fa-solid fa-house-chimney"></i>
-            <i class="fkleft-menu-icon fa-solid fa-users"></i>
-            <i class="fkleft-menu-icon fa-solid fa-book-bookmark"></i>
-            <i class="fkleft-menu-icon fa-solid fa-tv"></i>
-            <i class="fkleft-menu-icon fa-solid fa-hourglass-start"></i>
-            <i class="fkleft-menu-icon fa-solid fa-cart-shopping"></i>
-        </div>
+    <section class="main">
+      <header id="top">
+          <section class="main">
+              <div class="navbar-contmain">
+                  <div class="navbar">
+                      <div class="navbar-container">
+                          <div class="logo-container">
+                              <h1 id="fklogo">RawScene</h1>
+                          </div>
+                          <div class="menu-container">
+                              <ul class="menu-list">
+                                  <li class="menu-list-item">Home</li>
+                                  <li class="menu-list-item active">Series</li>
+                                  <li class="menu-list-item">Movies</li>
+                                  <li class="menu-list-item">Popular</li>
+                                  <li class="menu-list-item">Trends</li>
+                                  <li class="menu-list-item">About</li>
+                              </ul>
+                          </div>
+                          <div class="signin-container">Sign In</div>
+                          <label class="switch">
+              <input type="checkbox" onclick="changeMode()">
+              <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
+          </label>
+                      </div>
+                  </div>
+              </div>
+              </div>
+      </header>
+</div>
         <div class="fkcontainer">
             <div class="content-fkcontainer">
-                <div class="fkfeatured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0),#151515), url('media/finalwp.jpg')no-repeat;
-   background-size:1230px 300px;
-   background-position: center;
-   object-fit:cover;">
-                    <img class="fkfeatured-title" src="../media/flogo.png" alt="logo">
-                    <p class="fkfeatured-desc">A young surgeon with autism and savant syndrome uses his extraordinary gifts to save lives<br> and challenge skepticism.</p>
+                <div class="fkfeatured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0),#151515), url('../media/fkfinalwp.jpg')no-repeat;
+                             background-size:1300px 300px;
+                             background-position: center;
+                             object-fit:cover;">
+                    <img class="fkfeatured-title" src="../media/fklogo.png" alt="logo">
+                    <p class="fkfeatured-desc">A young surgeon with autism and savant syndrome uses his extraordinary gifts to save lives and challenge skepticism.</p>
                     <p class="fkfeatured-desc2">2017 ‧ Medical drama ‧ 5 seasons</p>
                     <button class="fkfeatured-button">Trailer</button>
                 </div>
@@ -76,47 +73,47 @@
                     <div class="fkcast-list-wrapper">
                         <div class="fkcast-list">
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/freddie.jpg" alt="freddie">
+                                <img class="fkcast-list-item-img" src="../media/fkfreddie.jpg" alt="freddie">
                                 <span class="fkcast-list-item-title">Freddie Highmore</span>
                                 <p class="fkcast-list-item-desc">as Dr.Shaun Murphy</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/hill.jpg" alt="image of hill character">
+                                <img class="fkcast-list-item-img" src="../media/fkhill.jpg" alt="image of hill character">
                                 <span class="fkcast-list-item-title">Hill Harper</span>
                                 <p class="fkcast-list-item-desc">as Dr.Marcus Andrews</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/richardFA.jpg" alt="image of richard character">
+                                <img class="fkcast-list-item-img" src="../media/fkrichard.jpg" alt="image of richard character">
                                 <span class="fkcast-list-item-title">Richard Schiff</span>
                                 <p class="fkcast-list-item-desc">as Dr.Aaron Glassman</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/christina.jpg" alt="image of christina character">
+                                <img class="fkcast-list-item-img" src="../media/fkchristina.jpg" alt="image of christina character">
                                 <span class="fkcast-list-item-title">Christina Chang</span>
                                 <p class="fkcast-list-item-desc">as Dr.Audrey Lim</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/fiona.jpg" alt="image of fiona character">
+                                <img class="fkcast-list-item-img" src="../media/fkfiona.jpg" alt="image of fiona character">
                                 <span class="fkcast-list-item-title">Fiona Gubelmann</span>
                                 <p class="fkcast-list-item-desc">as Dr.Morgin Reznick</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/willFA.jpg" alt="image of will character">
+                                <img class="fkcast-list-item-img" src="../media/fkwill.jpg" alt="image of will character">
                                 <span class="fkcast-list-item-title">Will YUN LEE</span>
                                 <p class="fkcast-list-item-desc">as Dr.Alex Park</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/paige.jpg" alt="image of paige character">
+                                <img class="fkcast-list-item-img" src="../media/fkpaige.jpg" alt="image of paige character">
                                 <span class="fkcast-list-item-title">Paige Spara</span>
                                 <p class="fkcast-list-item-desc">as Lea</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/noah.jpg" alt="image of noah character">
+                                <img class="fkcast-list-item-img" src="../media/fknoah.jpg" alt="image of noah character">
                                 <span class="fkcast-list-item-title">Noah Galvin</span>
                                 <p class="fkcast-list-item-desc">as Dr.Asher Wolke</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/bria.jpg" alt="image of bria character">
+                                <img class="fkcast-list-item-img" src="../media/fkbria.jpg" alt="image of bria character">
                                 <span class="fkcast-list-item-title">Bria Samone </span>
                                 <p class="fkcast-list-item-desc">as Dr.Jordan Allen</p>
                             </div>
@@ -130,44 +127,57 @@
                             <tr>
                                 <th>Seasons</th>
                                 <th>Description</th>
-                                <th>Release Date</th>
+                                <th width=400px>Release Date</th>
                             </tr>
                         </thead>
-                        <tbody class="text-white">
+                        <tbody>
                             <tr>
-                                <td><img class="seas" src="../media/FAFAs1.jpg" alt="s1"></td>
-                                <td class="seas-desc">A talented surgeon with autism and savant syndrome joins a prestigious hospital, where he faces skepticism from both the patients and staff.</td>
-                                <td> Sep 25, 2017</td>
+                                <td><img class="fkseas fkseas1" src="../media/fks1.jpg" alt="s1">
+                                  <span class="fkseas-table-item">Season 1 </span>
+                                  <button class="btn btn-secondary">WATCH NOW</button>
+                                </td>
+                                <td class="fkseas-desc">A talented surgeon with autism and savant syndrome joins a prestigious hospital, where he faces skepticism from both the patients and staff.</td>
+                                <td width=00px> Sep 25, 2017</td>
                             </tr>
                             <tr>
-                                <td><img class="seas" src="../media/FAFAs2.jpg" alt="s2"></td>
-                                <td class="seas-desc">As his interpersonal relationships grow stronger, Shaun continues to use his extraordinary gifts to help his surgical patients.</td>
-                                <td> Nov 26, 2018</td>
+                                <td><img class="fkseas fkseas2" src="../media/fks2.jpg" alt="s2">
+                                  <span class="fkseas-table-item">Season 2 </span>
+                                  <button class="btn btn-secondary">WATCH NOW</button>
+                                </td>
+                                <td class="fkseas-desc">As his interpersonal relationships grow stronger, Shaun continues to use his extraordinary gifts to help his surgical patients.</td>
+                                <td width=200px> Nov 26, 2018</td>
                             </tr>
                             <tr>
-                                <td><img class="seas" src="../media/FAFAs3.jpg" alt="s3"></td>
-                                <td class="seas-desc">Shaun pushes for a radical operation in order to save a newlywed's life. In addition, he and Dr. Lever give dating a shot.</td>
-                                <td> Sep 23, 2019</td>
+                              <td><img class="fkseas fkseas3" src="../media/fks3.jpg" alt="s3">
+                                <span class="fkseas-table-item">Season 3 </span>
+                                <button class="btn btn-secondary">WATCH NOW</button>
+                                </td>
+                                <td class="fkseas-desc">Shaun pushes for a radical operation in order to save a newlywed's life. In addition, he and Dr. Lever give dating a shot.</td>
+                                <td width=200px> Sep 23, 2019</td>
                             </tr>
                             <tr>
-                                <td><img class="seas" src="../media/FAs4.jpg" alt="s4"></td>
-                                <td class="seas-desc">Dr. Shaun Murphy must perform a risky surgery on a patient without electricity when the power suddenly goes out at the hospital in Guatemala.</td>
-                                <td> Jun 7, 2021</td>
+                                <td><img class="fkseas fkseas4" src="../media/fks4.jpg" alt="s4">
+                                  <span class="fkseas-table-item">Season 4</span>
+                                  <button class="btn btn-secondary fkbutton">WATCH NOW</button></td>
+                                <td class="fkseas-desc">Dr. Shaun Murphy must perform a risky surgery on a patient without electricity when the power suddenly goes out at the hospital in Guatemala.</td>
+                                <td width=200px> Jun 7, 2021</td>
                             </tr>
                             <tr>
-                                <td><img class="seas" src="../media/FAs5.jpg" alt="s5"></td>
-                                <td class="seas-desc">Shaun and Lea make a big life decision and are pleasantly surprised by the support they receive from their friends at the hospital</td>
-                                <td> May 16, 2022</td>
+                                <td><img class="fkseas fkseas5" src="../media/fks5.jpg" alt="s5">
+                                <span class="fkseas-table-item">Season 5 </span>
+                                <button class="btn btn-secondary">WATCH NOW</button>
+                                </td>
+                                <td class="fkseas-desc">Shaun and Lea make a big life decision and are pleasantly surprised by the support they receive from their friends at the hospital</td>
+                                <td width=200px> May 16, 2022</td>
                             </tr>
                         </tbody>
                     </table>
-
                 </div>
             </div>
         </div>
         </div>
 
-        <script src="../main.js"></script>
+        <script src="../java/main.js"></script>
 </body>
 
 </html>

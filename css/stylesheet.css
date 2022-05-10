@@ -1025,7 +1025,7 @@ h2.fzh{
     color:rgb(255, 255, 255) ;
 }
 .fzlogo-raw{
-    text-shadow: 2px 2px 5px white; 
+    text-shadow: 2px 2px 5px white;
     font-size: 50px;
     top: -10px;
     display: inline;
@@ -1217,7 +1217,7 @@ color: black;
 
 }
 .fz2logo-raw{
-text-shadow: 2px 2px 5px  #F8F8FF; 
+text-shadow: 2px 2px 5px  #F8F8FF;
 font-size: 50px;
 top: -10px;
 display: inline;
@@ -2373,6 +2373,7 @@ html {
 
 .KGstrangerthingsab {
     display: inline-block;
+
     padding: 5px;
     font-family: 'Segoe UI';
     font-size: 18px;
@@ -2409,14 +2410,15 @@ html {
     width: 100px;
     height: 100px;
 }
+.KGtitleandtrailercont{
 
-.KGtitleandtrailercont {
     display: flex;
     flex-wrap: wrap;
 }
 
 .KGcast {
     margin-top: 30px;
+
     position: relative;
     display: block;
     width: 100%;
@@ -2431,6 +2433,7 @@ html {
     margin-bottom: 20px;
     position: relative;
     width: 95%;
+
     height: fit-content;
     left: 2.5%;
 }
@@ -2465,6 +2468,7 @@ html {
     transform: translateY(10px);
     cursor: pointer;
     box-shadow: 0 4px 8px 10px rgb(89, 0, 255), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
+
 }
 
 .KGcast-img {
@@ -2545,8 +2549,8 @@ html {
     height: 100%;
     border-radius: 20px;
 }
+.KGseasons-desc{
 
-.KGseasons-desc {
     color: white;
     margin: 20px;
     font-family: 'Prompt', sans-serif;
@@ -2561,9 +2565,7 @@ html {
         top: 0px;
     }
 
-    50% {
-        top: 30px;
-    }
+
 
     100% {
         top: 0px;
@@ -2578,9 +2580,8 @@ html {
     animation: blink 3s .3s infinite;
     box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
 }
-
-@keyframes blink {
-    0% {
+@keyframes blink{
+    0%{
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
 
@@ -2624,27 +2625,33 @@ html {
 .KGfecontainer p {
     font-size: 16px;
     cursor: pointer;
+
 }
 
 .KGfecontainer h1 {
     cursor: pointer;
     font-size: 16px;
+
 }
 
 .KGfecontainer h2 {
     font-size: 16px;
+
 }
 
 .KGfecontainer h3 {
     font-size: 16px;
+
 }
 
 .KGfecontainer h4 {
     font-size: 16px;
+
 }
 
 .KGfecontainer h5 {
     font-size: 16px;
+
 }
 
 .KGcharachter-info {
@@ -2692,14 +2699,17 @@ html {
     box-shadow: 0 4px 8px 10px rgb(255, 255, 255), 0 6px 20px 5px rgb(151, 151, 151)247);
     color: rgb(255, 174, 0);
     transform: scale(1.KG1);
-    
+
 }*/
 
 .KGfecontainer button {
     background-color: #555555;
     border-radius: 10px;
     cursor: pointer;
-}
+
+  }
+
+
 
 
 /**********************************************************************************************
@@ -2731,7 +2741,7 @@ html {
   html, body {
     width: 100%;
     height: 100vh;
-    overflow: hidden; 
+    overflow: hidden;
     background: #22222A;
     font-family: 'Fira Mono', monospace;
     -webkit-font-smoothing: antialiased;
@@ -4229,8 +4239,8 @@ input:checked+.slider:before {
     margin: 0.2em;
     float: left;
 }
-
-#samyimg:hover {
+#samgreybox { border: none; border-radius: 10px; background-color: darkgray; color: var(--feprimary-color); width: fit-content; padding: 0.5em; margin: 0.2em; float: left;}
+#samyimg:hover{
     transform: scale(0.96);
     border-radius: 5%;
 }
@@ -4281,8 +4291,7 @@ input:checked+.slider:before {
 #samtable2 {
     margin-top: 50px;
 }
-
-#sammyvid {
+#sammyvid{
     top: 100px;
     border-radius: 20px;
 }
@@ -4399,6 +4408,10 @@ input:checked+.slider:before {
     background-image: url("../media/laca01.jpg");
     background-position: 100%;
     background-size: 70%;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
 .kititle {
@@ -4617,36 +4630,36 @@ input:checked+.slider:before {
 *********************************FARIDAKHALED*******************************************************
 ****************************************************************************************************************
 ********************************************************************************************************************************/
-
-.fk {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+.fk{
     box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: #151515;
 }
 
-.fknavbar {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    background-color: black;
+/*.navbar-contmain {
+    width: 102%;
+    margin-left: -2%;
+    height: fit-content;
+}
+
+.navbar {
+    background-color: var(--feprimary-color);
     display: flex;
     width: 100%;
-    height: 50px;
-    overflow: hidden;
+    height: 70px;
+    border-radius: 10px;
 }
 
-.fknavbar-container {
+.navbar-container {
     display: flex;
     align-items: center;
-    padding: 0 50px;
+    padding: 5px 50px;
     height: 100%;
-    color: white;
+    color: var(--feprimary-color);
 }
 
-.fklogo-container {
+.logo-container {
     padding-right: 7em;
 }
 
@@ -4654,47 +4667,50 @@ input:checked+.slider:before {
     font-family: 'Halant', sans-serif;
     font-style: oblique;
     font-size: 2.3em;
-    color: #b3b3cc;
+    color: var(--fesecondary-color);
     animation: glow 1s ease-in-out infinite alternate;
     top: -15px;
     display: inline;
 }
 
-.fkmenu-container {
+.menu-container {
     padding-right: 10em;
 }
 
-.fkmenu-list {
+.menu-list {
     align-items: center;
     margin-top: 15px;
     display: flex;
     list-style: none;
-    padding-bottom: 15px;
 }
 
-.fkmenu-list-item {
-    margin-bottom: 20px;
+.menu-list-item {
     margin: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: white;
 }
 
-.fkmenu-list-item:hover {
+.menu-list-item:hover {
     cursor: pointer;
-    color: #b3b3e6;
+    color: #8b7efe;
+    border-bottom: solid rgb(255, 13, 146) 2px;
 }
 
-.fkmenu-list-item.active {
-    color: #b3b3e6;
-    font-weight: bold;
+.menu-list-item.active {
+    color: #7d70f8;
 }
 
-.fksignin-container {
-    color: #fff;
-    border: 1px solid white;
+.signin-container {
+    position: relative;
+    right: -20%;
+    color: var(--fesecondary-color);
+    border: 1px solid var(--fesecondary-color);
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
     display: inline-flex;
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 15px;
     margin-top: 4px;
     margin-right: 10px;
@@ -4702,14 +4718,15 @@ input:checked+.slider:before {
     transition: 0.7s ease;
 }
 
-.fksignin-container:hover {
-    cursor: pointer;
-    color: #887799;
+.signin-container:hover {
+    color: #0c0019;
     background-color: #fff;
     transform: scale(1.1);
 }
 
-.fktoggle {
+.toggle {
+    position: relative;
+    right: -6%;
     margin-left: 10px;
     width: 40px;
     height: 20px;
@@ -4721,7 +4738,7 @@ input:checked+.slider:before {
     position: relative;
 }
 
-.fktoggle-ball {
+.toggle-ball {
     width: 18px;
     height: 18px;
     background-color: black;
@@ -4731,66 +4748,46 @@ input:checked+.slider:before {
     cursor: pointer;
 }
 
-.fktoggle-icon1 {
+.toggle-icon1 {
     color: black;
 }
 
-.fktoggle-icon2 {
+.toggle-icon2 {
     color: gold;
-}
-
-.fksidebar {
-    width: 50px;
-    height: 100%;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 60px;
-}
-
-.fkleft-menu-icon {
-    color: white;
-    flex-direction: column;
-    font-size: 20px;
-    margin-bottom: 40px;
-}
+}*/
 
 .fkcontainer {
-    background-color: #151515;
     min-height: calc(100vh - 50px);
     color: white;
 }
-
-.content-fkcontainer {
-    margin-left: 50px;
-}
-
 .fkfeatured-content {
-    padding: 40px;
+    padding:5px;
     height: 50vh;
 }
 
 .fkfeatured-title {
-    width: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 450px;
 }
 
 .fkfeatured-desc {
     color: lightgray;
-    font-family: 'Halant', serif;
-    width: 500px;
-    margin: 30px 0;
-    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    width: 600px;
+    margin-left:4em;
+    font-size: 30px;
 }
 
 .fkfeatured-desc2 {
-    font-size: 14px;
+    margin-top: 3em;
+    margin-left: 60em;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
 .fkfeatured-button {
+  margin-left: 7em;
     margin-bottom: 30px;
     letter-spacing: 1px;
     font-size: 15px;
@@ -4811,9 +4808,9 @@ input:checked+.slider:before {
 }
 
 .fkcast-list-title {
-    margin-top: 70px;
+    margin-top: 200px;
     font-size: 30px;
-    margin-left: 450px;
+    margin-left: 10px;
     font-family: 'Alike Angular', serif;
 }
 
@@ -4898,47 +4895,60 @@ input:checked+.slider:before {
 .T-seasons {
     padding: 20px 50px;
 }
-
-.titles {
-    padding: 50px 10px;
-}
-
-.seas {
-    width: 170px;
-    height: 200px;
+.fkseas {
+    width: 190px;
+    height: 220px;
     border-radius: 25%;
+    transition: all 1s ease-in-out;
+}
+.fkseas:hover{
+  cursor: pointer;
+
+  opacity: 0.5;
 }
 
-.seas-desc {
-    padding: 100px;
-    margin-right: 50px;
+.fkseas-desc {
+    margin-right: 10px;
 }
 
-.seas-desc:hover {
-    color: white;
+#fkseasons tr:nth-child(even){
+  background-color: #14141f;
 }
-
 #fkseasons {
-    align-items: center;
-    margin: 0 60px;
-    border-radius: 10%;
-    padding: 30px;
-    border: 2px solid white;
+     text-align: center;
+     background-color:#1f1f2e;
+     align-items: center;
+     margin: 0 60px;
+     border-radius: 7%;
+     padding: 10px;
 }
-
+#fkseasons th{
+  font-size: 1.6em;
+  font-family: 'Alike Angular',sans-serif;
+  color:#d1d1e0;
+}
+#fkseasons td{
+  font-size: 1.3em;
+  font-family:'Tillana';
+}
 #fkseasons th,
 #fkseasons td {
-    border: 2px solid white;
-    padding-top: 10px;
-    border-radius: 30%
+    padding: 30px 50px;
 }
-
-#fkseasons img {
-    border: none;
+#fkseasons:hover .fkseas1{
+  transform: scale(1.2);
 }
 
 
-/*sign in&up page farida khaled*/
+
+
+
+
+
+
+
+
+/*************************************************SIGN IN & UP FARIDA KHALED*************************************************************************/
 
 .fk2 {
     background-color: #646464;
