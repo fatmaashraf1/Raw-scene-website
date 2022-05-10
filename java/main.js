@@ -106,12 +106,13 @@ function displayShow8() {
     document.getElementById("fetrailer8").innerHTML = "<video src='../Media/fetrailer8.mp4' controls width=400px/>";
 }
 
-var fevideo = document.getElementById('fevideo_background');
-var fewrapper = document.getElementById('femalkst');
-var feimage = document.getElementById('feimage_background');
-fevideo.addEventListener('ended', function() {
-    fevideo.style.display = 'none';
-    feimage.style.display = 'inline';
+
+var video = document.getElementById('fevideo_background');
+var wrapper = document.getElementById('femalkst');
+var image = document.getElementById('feimage_background');
+video.addEventListener('ended', function() {
+    video.style.display = 'none';
+    image.style.display = 'inline';
     alert("Click on actor to see his biography");
 }, false);
 

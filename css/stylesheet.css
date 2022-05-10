@@ -3148,9 +3148,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.harbo2 {
+    background-color: var(--feprimary-color);
+}
 #harbo {
-    color: var(--feprimary-color);
-    background-color:var(--fesecondary-color);
+    color: var(--fesecondary-color);
+    background-color:var(--feprimary-color);
     transition: background 0.2 linear;
 }
 
@@ -3160,8 +3163,12 @@ html {
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--feprimary-color);
 }
 
+.fesecond {
+    background-color: var(--feprimary-color);
+}
 .felogoimg {
     width: 400px;
     margin-left: 500px;
@@ -3203,8 +3210,6 @@ html {
     white-space: nowrap;
     align-items: center;
     margin-top: 70px;
-    background-color: var(--feprimary-color);
-    color: var(--fesecondary-color);
 }
 
 .fetbar td {
@@ -3255,7 +3260,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin: 40px 130px;
-    border-radius: 20px;
+    border-radiu: 20px;
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
 }
@@ -3296,7 +3301,7 @@ html {
 .fethirdb {
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
-    margin-top: -50px;
+    padding-bottom: 20px;
 }
 .fethird:hover {
     box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
@@ -3372,6 +3377,9 @@ html {
     background-color: var(--feprimary-color);
 }
 
+.fefullsear {
+    background-color: var(--feprimary-color);
+}
 .fesear {
     font-size: 44px;
     font-weight: 650;
@@ -3411,11 +3419,11 @@ html {
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
     display: flex;
-    height: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding:40px 130px ;
+
 }
 .felast {
     margin-bottom: 0px;
@@ -3433,6 +3441,7 @@ html {
 #femalkst {
     margin-left: 200px;
     background-color: transparent;
+    margin-top: 50px;
 }
 
 #fevideo_background {
@@ -3443,8 +3452,7 @@ html {
 #feimage_background {
     height: 400px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0px var(--feprimary-color), 0 6px 20px 0px var(--feprimary-color);
-    border-radius: 10px;
+    box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
     display: none;
 }
 
@@ -3471,10 +3479,6 @@ html {
     text-shadow: #e3371e -1px -2px 0.5em;
 }
 
-footer {
-    background-color: var(--fesecondary-color);
-}
-
 .faridaemadiframe {
     height: 100px;
     border: 0;
@@ -3489,10 +3493,6 @@ footer {
     color: #0593a2;
     font-weight: 800;
     margin-right: 70px;
-}
-
-.thimlk img {
-    width: 300px;
 }
 
 .thimlk p {
@@ -3859,10 +3859,6 @@ input:checked+.slider:before {
     }
 }
 
-#ezzim {
-    display: inline-block;
-}
-
 .fetop-img {
     width: 150px;
     height: 200px;
@@ -3884,14 +3880,16 @@ input:checked+.slider:before {
 }
 
 .fesearch-cont {
-    background-color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
     height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:var(--fesecondary-color);
 }
 
 .fesearchele {
+    background-color: var(--feprimary-color);
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -3900,10 +3898,11 @@ input:checked+.slider:before {
 }
 
 .fesearchele h3 {
+    background-color: var(--feprimary-color);
     align-self: center;
     margin-right: 1rem;
     font-size: 2rem;
-    color: var(--feprimary-color);
+    color: var(--fesecondary-color);
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -3913,18 +3912,20 @@ input:checked+.slider:before {
 }
 
 .fesearchbar {
+    background-color: #8ae9e9;
     padding: 1rem 2rem;
     font-size: 1.4rem;
     border: none;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     outline: none;
-    color: var(--fesecondary-color);
+    color:var(--feprimary-color);
     width: 350px;
     margin-left: 500px;
 }
 
 .fesearchlist {
+    background-color: var(--feprimary-color);
     position: absolute;
     right: 0;
     top: 100%;
@@ -3934,11 +3935,11 @@ input:checked+.slider:before {
 }
 
 .fesearchlist .fesearchlistitems {
-    background-color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
     padding: 0.5rem;
     border-bottom: 1px solid var(--fesecondary-color);
     width: calc(350px - 8px);
-    color: var(--feprimary-color);
+    color: var(--fesecondary-color);
     cursor: pointer;
     transition: background-color 200ms ease;
 }
@@ -3950,6 +3951,7 @@ input:checked+.slider:before {
 .fesearchlistitems {
     display: flex;
     align-items: center;
+    background-color: var(--feprimary-color);
 }
 
 .fethumbnail img {
@@ -3957,6 +3959,9 @@ input:checked+.slider:before {
     margin-right: 1rem;
 }
 
+.fethumbnail {
+    background-color: var(--feprimary-color);
+}
 .feinfo h3 {
     font-weight: 600;
     font-size: 1rem;
@@ -3996,7 +4001,6 @@ input:checked+.slider:before {
     display: flex;
     width: 100%;
     height: 50px;
-    overflow: hidden;
 }
 
 .fknavbar-container {
@@ -4164,8 +4168,7 @@ input:checked+.slider:before {
     font-size: xx-large;
     font-weight: bold;
     font-family: 'Koulen', 'cursive' Times serif;
-    color: var(--fesecondary-color);
-    text-align: center;
+    color: var(--fesecondary-color);    text-align: center;
     letter-spacing: 2px;
     margin-top: 50px;
     margin-left: 55px;
