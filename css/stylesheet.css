@@ -693,8 +693,8 @@ html {
 
 .FAtags .FAstar {
     color: yellow;
-    padding: 10px;
     font-weight: bolder;
+    margin-top: -7px;
 }
 
 .FAtags .FA_tag {
@@ -753,7 +753,6 @@ html {
     font-weight: bold;
     color: red;
     padding: 10px;
-    margin-top: 4px;
 }
 
 .FAbox1 .FAvideo-container {
