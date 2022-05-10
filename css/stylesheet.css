@@ -14,7 +14,7 @@
     --fesecondary-color:#fff;
     --mlaki-background-image: url(../media/mlakibg.jpg);
     --kasher-background-image: url(../media/shwp1.jpg);
-    --kablack:black;
+    --kablack:rgb(255, 255, 255);
     --kahmd:url(../media/hmd.jpg);
 }
 
@@ -27,7 +27,7 @@
     --fesecondary-color:#000;
     --mlaki-background-image: url(../media/mlakibg2.jpg);
     --kasher-background-image: url(../media/shwp2.jpg);
-    --kablack:rgb(255, 255, 255);
+    --kablack:black;
     --kahmd:url(../media/hmd2.jpg);
 }
 /***********************************************************************************
@@ -5111,7 +5111,7 @@ input:checked+.slider:before {
 
 #korederdlist {
     font-size: 25px;
-    color: whitesmoke;
+    color:var(--kablack);
 }
 
 .imdb {
@@ -5132,6 +5132,8 @@ input:checked+.slider:before {
 
 #kah42 {
     text-align: center;
+    color: var(--kablack);
+    font-size: 30px;
 }
 
 #kacast {
@@ -5233,10 +5235,11 @@ mark {
 }
 
 #txthmd {
-    color: var(--fesecondary-color);
+    color:var(--kablack);
     font-size: 30px;
-    text-shadow: 3px 3px 2px rgb(64, 0, 255), 0 0 25px rgb(0, 8, 255);
+    text-shadow: 3px 0px 2px rgb(64, 0, 255), 0 0 25px rgb(0, 8, 255);
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .kaup {
