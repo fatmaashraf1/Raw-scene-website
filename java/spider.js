@@ -10,7 +10,7 @@ var swiper = new Swiper(".FAmySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-}); 
+});
 $(document).ready(function () {
 
     $(".FAvideo-container").hide();

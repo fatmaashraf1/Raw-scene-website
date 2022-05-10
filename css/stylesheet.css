@@ -10,13 +10,92 @@
     --fH1secondary-color: rgb(37, 51, 35);
     --fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);
+    --feprimary-color:#000;
+    --fesecondary-color:#fff;
+    --mlaki-background-image: url(../media/mlakibg.jpg);
 }
 
-
+.light-mode {
+    --fH1primary-color: rgb(226 126 45);
+    --fH1secondary-color: rgb(37, 51, 35);
+    /*--fH2primary-color: rgb(250, 241, 112);
+    --fH2secondary-color: rgb(26 19 10);*/
+    --feprimary-color:#fff;
+    --fesecondary-color:#000;
+    --mlaki-background-image: url(../media/mlakibg2.jpg);
+}
 /***********************************************************************************
 /************************************************************************************
 /************************************FARRAH THARWAT*****************************
 /*************************************************************************************/
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-left: -200px;
+    margin-bottom: 42px;
+    margin-top: 45px;
+    color: rgb(243, 234, 234);
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0.5;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.fa-sun {
+    margin-left: 2px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.fa-moon {
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 1px;
+    bottom: 1px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .4s;
+    margin-top: 100px;
+}
+
+input:checked+.slider {
+    color: yellow;
+}
+
+input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+
+/**********************************************************************************************
+/**********************************************************************************************
+/************************************LIGHT AND DARK MORD****************************************
+/***********************************************************************************************/
 
 .flexfh {
     width: 80%;
@@ -840,7 +919,7 @@ html {
 
 
 
-:root {
+/**:root {
     --feprimary-color: #000000;
     --fesecondary-color: #e3e4e6;
     --mlk-background-image: url("../media/FA_Darkbackground.jpg");
@@ -852,6 +931,7 @@ html {
     --mlk-background-image: url("../media/FABackground.jpg");
 
 }
+
 
 
 
@@ -1714,7 +1794,7 @@ body.fz2 {
 }
 */
 
-.fecontainer button {
+/**.fecontainer button {
     background-color: #555555;
     border-radius: 10px;
     cursor: pointer;
@@ -3003,7 +3083,7 @@ html {
 }
 */
 
-.fecontainer {
+/**.fecontainer {
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     backdrop-filter: var(--kgstpbackdrop);
@@ -3062,106 +3142,33 @@ html {
 
 /******************************************start farida emad *************************************************/
 
-:root {
-    --feprimary-color: #fff;
-    --fesecondary-color: #000000;
-    --mlk-background-image: url(../Media/mlakibg.jpg);
-}
 
-.light-mode {
-    --feprimary-color: #000;
-    --fesecondary-color: white;
-    --mlk-background-image: url(../Media/mlakibg2.jpg);
-}
 
 html {
     scroll-behavior: smooth;
 }
 
+.harbo2 {
+    background-color: var(--feprimary-color);
+}
 #harbo {
-    color: var(--feprimary-color);
-    background-color: var(--fesecondary-color);
+    color: var(--fesecondary-color);
+    background-color:var(--feprimary-color);
     transition: background 0.2 linear;
 }
 
-.nav-b {
-    position: relative;
-    display: block;
-    height: 65px;
-    width: 100%;
-    background-color: transparent;
-}
-
-.nav-logo {
-    position: relative;
-    display: inline-block;
-    top: 30%;
-    left: 5%;
-    height: 100%;
-}
-
-.logo {
-    margin: 8px;
-    width: 150px;
-}
-
-.nav-st {
-    position: absolute;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    left: 30%;
-}
-
-.bx.bxs-movie {
-    font-size: 40px;
-    color: red;
-}
-
-.feh2 {
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    display: inline;
-    color: var(--feprimary-color);
-}
-
-.logo-raw {
-    top: -10px;
-    display: inline;
-    position: relative;
-}
-
-.login {
-    font-size: 20px;
-    color: var(--fesecondary-color);
-    background-color: var(--feprimary-color);
-    border: solid var(--feprimary-color) 1px;
-    border-radius: 25px;
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    right: -25%;
-    top: 36%;
-    width: 100px;
-    height: 30px;
-}
-
-.login:hover {
-    border: solid red 1px;
-    background-color: var(--fesecondary-color);
-    color: var(--feprimary-color);
-    transition: ease-in-out;
-    transition-duration: .25s;
-}
-
 .fefirst {
-    background-image: url(../Media/FARIDA.jpg);
+    background-image: url(../media/harbackgroundfe.jpg);
     width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--feprimary-color);
 }
 
+.fesecond {
+    background-color: var(--feprimary-color);
+}
 .felogoimg {
     width: 400px;
     margin-left: 500px;
@@ -3169,7 +3176,7 @@ html {
 }
 
 .felogoname {
-    color: var(--fesecondary-color);
+    color: var(--feprimary-color);
 }
 
 .fefont1 {
@@ -3180,8 +3187,7 @@ html {
     margin-left: 480px;
     font-size: 50px;
     margin-top: -80px;
-    color: var(--fesecondary-color);
-    text-shadow: 5px 2px 4px var(--feprimary-color);
+    text-shadow: 5px 2px 4px var(--fesecondary-color);
 }
 
 .firstbn {
@@ -3195,7 +3201,7 @@ html {
     border-radius: 50px;
     height: 186px;
     width: 139px;
-    box-shadow: 0 4px 8px 0px var(--feprimary-color), 0 6px 20px 0px var(--feprimary-color);
+    box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
 }
 
 .fetbar {
@@ -3218,7 +3224,7 @@ html {
 }
 
 .fetbar tr {
-    color: var(--primary-colorprimary-color);
+    color: var(--fesecondary-color);
 }
 
 ::-webkit-scrollbar {
@@ -3254,7 +3260,9 @@ html {
     justify-content: space-between;
     align-items: center;
     margin: 40px 130px;
-    border-radius: 20px;
+    border-radiu: 20px;
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
 }
 
 .fehcontainer {
@@ -3266,13 +3274,15 @@ html {
     align-items: center;
     margin: 40px 130px;
     border-radius: 20px;
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
 }
 
 .feposter img {
     width: 250px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0px #393e75, 0 6px 20px 0px #393e75;
-    margin: 5px;
+    margin: 10px;
 }
 
 .feposter img:hover {
@@ -3288,8 +3298,17 @@ html {
     width: 750px;
 }
 
+.fethirdb {
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
+    padding-bottom: 20px;
+}
 .fethird:hover {
-    box-shadow: 0 4px 8px 0px var(--feprimary-color), 0 6px 20px 0px var(--feprimary-color);
+    box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
+}
+
+.fethird p {
+    margin: 5px;
 }
 
 .material-symbols-outlined {
@@ -3299,7 +3318,6 @@ html {
 .feyellow {
     color: yellow;
 }
-
 .febn {
     margin-left: 150px;
 }
@@ -3356,24 +3374,29 @@ html {
     width: 100%;
     height: 100px;
     margin-bottom: 175px;
+    background-color: var(--feprimary-color);
 }
 
+.fefullsear {
+    background-color: var(--feprimary-color);
+}
 .fesear {
     font-size: 44px;
     font-weight: 650;
     color: #8ae9e9;
     margin-left: 200px;
+    background-color: var(--feprimary-color);
 }
 
 .fesb {
-    background-color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
     height: 60px;
     width: 120px;
     margin-right: 100px;
     border-radius: 10px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    color: var(--feprimary-color);
+    color: var(--fesecondary-color);
 }
 
 .felogor {
@@ -3392,19 +3415,33 @@ html {
     font-size: larger;
 }
 
+.fefooter {
+    background-color: var(--feprimary-color);
+    color: var(--fesecondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 130px ;
+
+}
+.felast {
+    margin-bottom: 0px;
+}
 .mlkbo {
-    background-image: var(--mlk-background-image);
+    background-image: var(--mlaki-background-image);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
-    color: var(--feprimary-color);
-    background-color: var(--fesecondary-color);
+    color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
 }
 
 #femalkst {
     margin-left: 200px;
     background-color: transparent;
+    margin-top: 50px;
 }
 
 #fevideo_background {
@@ -3415,8 +3452,7 @@ html {
 #feimage_background {
     height: 400px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0px var(--feprimary-color), 0 6px 20px 0px var(--feprimary-color);
-    border-radius: 10px;
+    box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
     display: none;
 }
 
@@ -3443,10 +3479,6 @@ html {
     text-shadow: #e3371e -1px -2px 0.5em;
 }
 
-footer {
-    background-color: var(--fesecondary-color);
-}
-
 .faridaemadiframe {
     height: 100px;
     border: 0;
@@ -3461,10 +3493,6 @@ footer {
     color: #0593a2;
     font-weight: 800;
     margin-right: 70px;
-}
-
-.thimlk img {
-    width: 300px;
 }
 
 .thimlk p {
@@ -3831,10 +3859,6 @@ input:checked+.slider:before {
     }
 }
 
-#ezzim {
-    display: inline-block;
-}
-
 .fetop-img {
     width: 150px;
     height: 200px;
@@ -3856,14 +3880,16 @@ input:checked+.slider:before {
 }
 
 .fesearch-cont {
-    background-color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
     height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:var(--fesecondary-color);
 }
 
 .fesearchele {
+    background-color: var(--feprimary-color);
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -3872,10 +3898,11 @@ input:checked+.slider:before {
 }
 
 .fesearchele h3 {
+    background-color: var(--feprimary-color);
     align-self: center;
     margin-right: 1rem;
     font-size: 2rem;
-    color: var(--feprimary-color);
+    color: var(--fesecondary-color);
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -3885,18 +3912,20 @@ input:checked+.slider:before {
 }
 
 .fesearchbar {
+    background-color: #8ae9e9;
     padding: 1rem 2rem;
     font-size: 1.4rem;
     border: none;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     outline: none;
-    color: var(--fesecondary-color);
+    color:var(--feprimary-color);
     width: 350px;
     margin-left: 500px;
 }
 
 .fesearchlist {
+    background-color: var(--feprimary-color);
     position: absolute;
     right: 0;
     top: 100%;
@@ -3906,11 +3935,11 @@ input:checked+.slider:before {
 }
 
 .fesearchlist .fesearchlistitems {
-    background-color: var(--fesecondary-color);
+    background-color: var(--feprimary-color);
     padding: 0.5rem;
     border-bottom: 1px solid var(--fesecondary-color);
     width: calc(350px - 8px);
-    color: var(--feprimary-color);
+    color: var(--fesecondary-color);
     cursor: pointer;
     transition: background-color 200ms ease;
 }
@@ -3922,6 +3951,7 @@ input:checked+.slider:before {
 .fesearchlistitems {
     display: flex;
     align-items: center;
+    background-color: var(--feprimary-color);
 }
 
 .fethumbnail img {
@@ -3929,6 +3959,9 @@ input:checked+.slider:before {
     margin-right: 1rem;
 }
 
+.fethumbnail {
+    background-color: var(--feprimary-color);
+}
 .feinfo h3 {
     font-weight: 600;
     font-size: 1rem;
@@ -3968,7 +4001,6 @@ input:checked+.slider:before {
     display: flex;
     width: 100%;
     height: 50px;
-    overflow: hidden;
 }
 
 .fknavbar-container {
@@ -4136,8 +4168,7 @@ input:checked+.slider:before {
     font-size: xx-large;
     font-weight: bold;
     font-family: 'Koulen', 'cursive' Times serif;
-    color: var(--fesecondary-color);
-    text-align: center;
+    color: var(--fesecondary-color);    text-align: center;
     letter-spacing: 2px;
     margin-top: 50px;
     margin-left: 55px;
@@ -5414,7 +5445,6 @@ html {
 
 .signin-container {
     position: relative;
-    right: -20%;
     color: var(--fesecondary-color);
     border: 1px solid var(--fesecondary-color);
     text-decoration: none;
@@ -5486,7 +5516,6 @@ html {
     display: inline-block;
     width: 90px;
     height: 34px;
-    margin-left: 60px;
 }
 
 .switch input {
@@ -5533,16 +5562,13 @@ input:checked+.slider {
 input:checked+.slider:before {
     transform: translateX(40px);
 }
-:root{
---feprimary-color:#000000;
---fesecondary-color: #e3e4e6;
---karimhmd--wallpapaer:url("../media/hmd.jpg");
---karsher:url("../media/shwp1.jpg");
 
+/**:root {
+    --feprimary-color: #000000;
+    --fesecondary-color: #e3e4e6;
 }
+
 .light-mode {
     --feprimary-color: white;
     --fesecondary-color: #000;
-    --karimhmd--wallpapaer: url("../media/hmd2.jpg");
-    --karsher: url("../media/shwp2.jpg");
-}
+}**/
