@@ -15,6 +15,7 @@
     --fH2secondary-color: rgb(26 19 10);
     --feprimary-color: #000;
     --fesecondary-color: #fff;
+<<<<<<< Updated upstream
     --mlaki-background-image: url(../media/mlakibg.jpg);
     --kasher-background-image: url(../media/shwp1.jpg);
     --kablack: rgb(255, 255, 255);
@@ -23,6 +24,19 @@
     --kaboxsh2: rgb(239, 234, 173);
     --kablack2: rgb(57, 57, 57);
 
+=======
+    --fhcast: rgba(249, 244, 135, 0.377);
+    --mlaki-background-image: url("../media/mlakibg.jpg");
+    --FAprimary-color: #000000;
+    --FAsecondary-color: #e3e4e6;
+    --FA-background-image: url("../media/FA_Darkbackground.jpg");
+    --kasher-background-image: url(../media/shwp1.jpg);
+    --kablack:rgb(255, 255, 255);
+    --kahmd:url(../media/hmd.jpg);
+    --kaboxsh:rgb(8, 8, 121);
+    --kaboxsh2:rgb(239, 234, 173);
+    --kablack2:rgb(57, 57, 57);
+>>>>>>> Stashed changes
 }
 
 .light-mode {
@@ -35,6 +49,7 @@
     --fH2secondary-color: rgb(26 19 10);*/
     --feprimary-color: #fff;
     --fesecondary-color: #000;
+<<<<<<< Updated upstream
     --mlaki-background-image: url(../media/mlakibg2.jpg);
     --kasher-background-image: url(../media/shwp2.jpg);
     --kablack: black;
@@ -43,6 +58,15 @@
     --kaboxsh2: rgb(8, 8, 121);
     --kablack2: rgb(255, 255, 255);
 
+=======
+    --mlaki-background-image: url("../media/mlakibg2.jpg");
+    --kasher-background-image: url(../media/shwp2.jpg);
+    --kablack:black;
+    --kahmd:url(../media/hmd2.jpg);
+    --kaboxsh:rgb(239, 234, 173);
+    --kaboxsh2:rgb(8, 8, 121);
+    --kablack2:rgb(255, 255, 255);
+>>>>>>> Stashed changes
 }
 
 /***********************************************************************************
@@ -3530,9 +3554,17 @@ html {
 .fologo {
     margin-top: 0;
     margin-left: 0;
+<<<<<<< Updated upstream
     background-color: transparent;
+=======
+    background-color:transparent;
+    font-size:48px;
+>>>>>>> Stashed changes
 }
 
+.reviewtxt {
+    color:black;
+}
 .footicon {
     font-size: larger;
 }
@@ -3544,9 +3576,13 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+<<<<<<< Updated upstream
     padding: 40px 130px;
     box-shadow: 6px 3px 25px 0px rgb(134, 134, 134);
 
+=======
+    padding: 0px 130px;
+>>>>>>> Stashed changes
 }
 
 .felast {
@@ -4162,106 +4198,6 @@ input:checked+.slider:before {
 
 .hidelist {
     display: none;
-}
-
-.fk {
-    font-family: 'Roboto', sans-serif;
-}
-
-.fknavbar {
-    background-color: transparent;
-    display: flex;
-    width: 100%;
-    height: 50px;
-}
-
-.fknavbar-container {
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-    height: 100%;
-    color: white;
-}
-
-.fklogo-container {
-    padding-right: 7em;
-}
-
-#fklogo {
-    font-family: 'Tapestry', cursive;
-    font-size: 3.3em;
-    color: #b3b3cc;
-    animation: glow 1s ease-in-out infinite alternate;
-    top: -15px;
-    display: inline;
-}
-
-.fkmenu-container {
-    padding-right: 10em;
-}
-
-.fkmenu-list {
-    align-items: center;
-    margin-top: 15px;
-    display: flex;
-    list-style: none;
-    padding-bottom: 15px;
-}
-
-.fkmenu-list-item {
-    margin-bottom: 20px;
-    margin: 20px;
-}
-
-.fkmenu-list-item:hover {
-    cursor: pointer;
-    color: #b3b3e6;
-}
-
-.fkmenu-list-item.active {
-    color: #b3b3e6;
-    font-weight: bold;
-}
-
-.fksignin-container {
-    color: white;
-    border: 1px solid white;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-flex;
-    padding: 5px 10px;
-    border-radius: 15px;
-    margin-top: 4px;
-    margin-right: 10px;
-    margin-bottom: 4px;
-    transition: 0.7s ease;
-}
-
-.fksignin-container:hover {
-    cursor: pointer;
-    color: #887799;
-    background-color: #fff;
-    transform: scale(1.1);
-}
-
-.fksidebar {
-    width: 50px;
-    height: 100%;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 60px;
-}
-
-.fkleft-menu-icon {
-    color: white;
-    flex-direction: column;
-    font-size: 20px;
-    margin-bottom: 40px;
 }
 
 
