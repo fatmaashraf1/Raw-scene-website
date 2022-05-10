@@ -1,4 +1,7 @@
 :root {
+    --FAprimary-color: #000000;
+    --FAsecondary-color: #e3e4e6;
+    --FA-background-image: url("../media/FA_Darkbackground.jpg");
     --mainWidthfh: 80%;
     --mainRadiusfh: 5%;
     --kgfriendsnavbarbackgroundcolor: black;
@@ -10,8 +13,8 @@
     --fH1secondary-color: rgb(37, 51, 35);
     --fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);
-    --feprimary-color:#000;
-    --fesecondary-color:#fff;
+    --feprimary-color: #000;
+    --fesecondary-color: #fff;
     --mlaki-background-image: url(../media/mlakibg.jpg);
     --kasher-background-image: url(../media/shwp1.jpg);
     --kablack:rgb(255, 255, 255);
@@ -19,15 +22,19 @@
     --kaboxsh:rgb(8, 8, 121);
     --kaboxsh2:rgb(239, 234, 173);
     --kablack2:rgb(57, 57, 57);
+
 }
 
 .light-mode {
+    --FAprimary-color: white;
+    --FAsecondary-color: #000;
+    --FA-background-image: url("../media/FABackground.jpg");
     --fH1primary-color: rgb(226 126 45);
     --fH1secondary-color: rgb(37, 51, 35);
     /*--fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);*/
-    --feprimary-color:#fff;
-    --fesecondary-color:#000;
+    --feprimary-color: #fff;
+    --fesecondary-color: #000;
     --mlaki-background-image: url(../media/mlakibg2.jpg);
     --kasher-background-image: url(../media/shwp2.jpg);
     --kablack:black;
@@ -35,7 +42,9 @@
     --kaboxsh:rgb(239, 234, 173);
     --kaboxsh2:rgb(8, 8, 121);
     --kablack2:rgb(255, 255, 255);
+
 }
+
 /***********************************************************************************
 /************************************************************************************
 /************************************FARRAH THARWAT*****************************
@@ -163,22 +172,26 @@ input:checked+.slider:before {
     position: relative;
 
 }
-.buttons_trailersfh{
+
+.buttons_trailersfh {
     display: flex;
     justify-content: space-evenly;
 }
+
 .Trailer1fh,
 .Trailer2fh,
-.Trailer3fh{
+.Trailer3fh {
     color: white;
     background-color: var(--fH1secondary-color);
     border-radius: var(--mainRadiusfh)
 }
+
 .Trailer1fh:hover,
 .Trailer2fh:hover,
-.Trailer3fh:hover{
+.Trailer3fh:hover {
     cursor: pointer;
 }
+
 .seasonsfh {
     position: relative;
     width: 100%;
@@ -626,7 +639,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.fatmabody {
+.FAbody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0%;
     margin: 0%;
@@ -660,9 +673,40 @@ html {
     position: relative;
 }
 
-.FA_h1,
-.FAtags {
+.FA_h1 {
     color: white;
+}
+
+.FAtags {
+    display: flex;
+    flex-direction: row;
+}
+
+.FAtags .FAstar {
+    color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.FAtags .FA_tag {
+
+    color: white;
+    font-weight: bolder;
+}
+
+.FAtags {
+    display: flex;
+}
+
+.FAtags .FAstar {
+    color: yellow;
+    font-weight: bolder;
+    margin-top: -7px;
+}
+
+.FAtags .FA_tag {
+    color: white;
+    font-weight: bolder;
 }
 
 .FAstartcontent {
@@ -675,12 +719,11 @@ html {
     color: white;
     font-weight: bolder;
 }
+
 .FAwatch_trailer {
     background: none;
     border: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .FAwatch_trailer:hover {
@@ -689,15 +732,34 @@ html {
 
 .FAplay_trailer {
     color: red;
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 40px;
+    border-radius: 25px;
+    animation: animate 2s linear infinite;
+}
 
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgb(255, 0, 0, 0.7);
+    }
+
+    40% {
+        box-shadow: 0 0 0 50px rgb(255, 193, 7, 0);
+    }
+
+    80% {
+        box-shadow: 0 0 0 50px rgb(255, 193, 7, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 rgb(255, 193, 7, 0);
+    }
 }
 
 .FA_watch_title {
     font-size: 20px;
     font-weight: bold;
-    color: red; padding: 10px;
+    color: red;
+    padding: 10px;
 }
 
 .FAbox1 .FAvideo-container {
@@ -1657,15 +1719,19 @@ body.fz2 {
 
 @keyframes blink {
     0% {}
+
     25% {
         box-shadow: 0 4px 8px 10px rgba(65, 16, 128, 0.623), 0 6px 20px 5px rgba(101, 0, 110, 0.719);
     }
+
     50% {
         box-shadow: 0 4px 8px 10px rgba(179, 110, 7, 0.575), 0 6px 20px 5px rgba(255, 145, 0, 0.466);
     }
+
     75% {
         box-shadow: 0 4px 8px 10px rgba(65, 16, 128, 0.623), 0 6px 20px 5px rgba(101, 0, 110, 0.719);
     }
+
     100% {}
 }
 
@@ -2373,6 +2439,7 @@ html {
     0% {
         opacity: 100%;
     }
+
     50% {
         opacity: 50%;
     }
@@ -2575,9 +2642,11 @@ html {
     0% {
         top: 0px;
     }
+
     50% {
         top: 30px;
     }
+
     100% {
         top: 0px;
     }
@@ -2596,12 +2665,15 @@ html {
     0% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
+
     25% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 94, 0);
     }
+
     50% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 60, 0);
     }
+
     100% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
@@ -3196,9 +3268,10 @@ html {
 .harbo2 {
     background-color: var(--feprimary-color);
 }
+
 #harbo {
     color: var(--fesecondary-color);
-    background-color:var(--feprimary-color);
+    background-color: var(--feprimary-color);
     transition: background 0.2 linear;
 }
 
@@ -3214,6 +3287,7 @@ html {
 .fesecond {
     background-color: var(--feprimary-color);
 }
+
 .felogoimg {
     width: 400px;
     margin-left: 500px;
@@ -3305,7 +3379,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin: 40px 130px;
-    border-radiu: 20px;
+    border-radius: 20px;
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
 }
@@ -3348,6 +3422,7 @@ html {
     color: var(--fesecondary-color);
     padding-bottom: 20px;
 }
+
 .fethird:hover {
     box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
 }
@@ -3363,6 +3438,7 @@ html {
 .feyellow {
     color: yellow;
 }
+
 .febn {
     margin-left: 150px;
 }
@@ -3425,6 +3501,7 @@ html {
 .fefullsear {
     background-color: var(--feprimary-color);
 }
+
 .fesear {
     font-size: 44px;
     font-weight: 650;
@@ -3454,7 +3531,7 @@ html {
 .fologo {
     margin-top: 0;
     margin-left: 0;
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .footicon {
@@ -3468,13 +3545,15 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding:40px 130px ;
+    padding: 40px 130px;
     box-shadow: 6px 3px 25px 0px rgb(134, 134, 134);
-    
+
 }
+
 .felast {
     margin-bottom: 0px;
 }
+
 .mlkbo {
     background-image: var(--mlaki-background-image);
     background-size: cover;
@@ -3720,13 +3799,16 @@ input:checked+.slider:before {
         margin-right: 100px;
         margin-top: -450px;
     }
+
     #femalkst {
         margin-left: 15px;
     }
+
     #fevideo_background {
         width: 350px;
         margin-top: 200px;
     }
+
     .thimlk {
         max-width: 350px;
         margin-top: 400px;
@@ -3734,11 +3816,13 @@ input:checked+.slider:before {
         margin-left: 0;
         padding: 0%;
     }
+
     .thimlk h1 {
         margin: 0;
         padding: 0;
         margin: right -20px;
     }
+
     .thimlk .fecontainer {
         max-width: 400px;
         margin-right: -200px;
@@ -3747,140 +3831,178 @@ input:checked+.slider:before {
         padding-right: 165px;
         font-size: xx-small;
     }
+
     .mlkpri {
         max-width: 350px;
         width: 350px;
     }
+
     .thimlk p {
         font-size: small;
     }
+
     .mlkcast {
         max-width: 400px;
         margin: 0;
     }
+
     .mlkcast tr {
         max-width: 350px;
     }
+
     .mlkcast h1 {
         margin-right: 50px;
     }
+
     .mlksira {
         font-size: smaller;
     }
+
     footer {
         font-size: xx-small;
     }
+
     footer .fecontainer {
         margin: 0;
         width: 100px;
     }
+
     .f1 {
         margin: 5px;
         margin-bottom: -50px;
     }
+
     .f2 {
         margin: 5px;
         margin-bottom: -50px;
         margin-left: 30px;
     }
+
     .f3 {
         margin-bottom: -75px;
         margin-right: -50px;
         margin-left: 50px;
     }
+
     .f3 .btn {
         font-size: 0.5rem;
     }
+
     .f3 iframe {
         height: 30px;
     }
+
     .mlkdown h1 {
         margin-right: -100px;
     }
+
     .downbt {
         margin-right: -100px;
     }
+
     #mlkfilm {
         margin-right: 0;
     }
+
     #mlkfilm h1 {
         margin-right: 50px;
     }
+
     #mlkfilmw {
         margin-right: 0;
         width: 390px;
     }
+
     .nav-b {
         width: 400px;
     }
+
     .cmlklogo {
         width: 100px;
         font-size: x-large;
     }
+
     .logo-raw {
         font-size: small;
     }
+
     .nav-st ul {
         display: none;
     }
+
     .switch {
         margin-left: 80px;
         margin-top: 20px;
     }
+
     #feimage_background {
         height: 300px;
         margin-top: 150px;
         margin-left: 80px;
     }
+
     .actorcol {
         margin-right: 0;
         margin-left: -10px;
     }
+
     .fehcontainer {
         flex-direction: column;
         align-items: center;
     }
+
     .fewriting {
         width: 350px;
     }
+
     .bn {
         margin: 0;
         align-items: center;
     }
+
     .bn .btn {
         margin: 2px;
     }
+
     .third {
         width: 360px;
     }
+
     .fefirst {
         width: 400px;
         background-image: none;
     }
+
     .festart {
         width: 400px;
     }
+
     .felogoimg {
         width: 400px;
         margin-left: 0;
         margin-top: 0;
     }
+
     .felogoname {
         margin-left: -425px;
         color: #e3e4e6;
         width: 400px;
         font-size: xx-large;
     }
+
     .festart button {
         margin-left: -340px;
     }
+
     .felogor {
         color: var(--feprimary-color);
         font-size: x-large;
     }
+
     .felogor img {
         display: none;
     }
+
     .fesearchbar {
         width: 200px;
         margin-left: -270px;
@@ -3889,6 +4011,7 @@ input:checked+.slider:before {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+
     .fesb {
         margin-bottom: 85px;
         margin-right: 265px;
@@ -3897,9 +4020,11 @@ input:checked+.slider:before {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
+
     .fesearchf {
         width: 400px;
     }
+
     .fesearchf h2 {
         margin-left: -260px;
         margin-top: -165px;
@@ -3932,7 +4057,7 @@ input:checked+.slider:before {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--fesecondary-color);
+    color: var(--fesecondary-color);
 }
 
 .fesearchele {
@@ -3966,7 +4091,7 @@ input:checked+.slider:before {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     outline: none;
-    color:var(--feprimary-color);
+    color: var(--feprimary-color);
     width: 350px;
     margin-left: 500px;
 }
@@ -4009,6 +4134,7 @@ input:checked+.slider:before {
 .fethumbnail {
     background-color: var(--feprimary-color);
 }
+
 .feinfo h3 {
     font-weight: 600;
     font-size: 1rem;
@@ -4215,7 +4341,8 @@ input:checked+.slider:before {
     font-size: xx-large;
     font-weight: bold;
     font-family: 'Koulen', 'cursive' Times serif;
-    color: var(--fesecondary-color);    text-align: center;
+    color: var(--fesecondary-color);
+    text-align: center;
     letter-spacing: 2px;
     margin-top: 50px;
     margin-left: 55px;
@@ -5117,7 +5244,7 @@ input:checked+.slider:before {
 
 #korederdlist {
     font-size: 25px;
-    color:var(--kablack);
+    color: var(--kablack);
 }
 
 .imdb {
@@ -5243,7 +5370,7 @@ mark {
 }
 
 #txthmd {
-    color:var(--kablack);
+    color: var(--kablack);
     font-size: 30px;
     text-shadow: 3px 0px 2px rgb(64, 0, 255), 0 0 25px rgb(0, 8, 255);
     text-align: center;
@@ -5346,6 +5473,7 @@ html {
     from {
         text-shadow: 0 0 10px rgb(0, 17, 255), 0 0 20px rgb(34, 42, 96), 0 0 30px #0774da, 0 0 40px #00668b, 0 0 20px rgb(0, 34, 255), 0 0 20px rgb(75, 99, 255), 0 0 20px rgb(113, 200, 240);
     }
+
     to {
         text-shadow: 0 0 20px rgb(247, 4, 255), 0 0 30px #61005a, 0 0 40px #961355, 0 0 50px #d20b0b, 0 0 60px #840462, 0 0 80px #490226, 0 0 20px rgb(255, 0, 251), 0 0 20px rgb(255, 0, 47);
     }
@@ -5508,7 +5636,6 @@ html {
     padding: 10px 15px;
     border-radius: 15px;
     margin-top: 4px;
-    margin-right: 10px;
     margin-bottom: 4px;
     transition: 0.7s ease;
 }
@@ -5630,64 +5757,73 @@ input:checked+.slider:before {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     box-sizing: border-box;
-  }
-  .signin-cont{
-      /*width: 230px;
+}
+
+.signin-cont {
+    /*width: 230px;
       height: 300px;*/
-      backdrop-filter: blur(15px);
-      border: solid rgb(0, 0, 0) 1px;
-      border-radius: 20px;
-      
-  
-      border-radius: 50px;
-      margin-top: 7%;
-      width: 400px;
-      height: 500px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  .inputsin {
-      border-radius: 10px;
-      text-align: center;
-      color: white;
-      background-color: rgb(77, 77, 77);
-      height: 30px;
-      display: block;
-      margin: 40px;
-  }
-  ::placeholder {
-      color: white;
-  }
-  .signtext {
-      font-size: 20px;
-      color: aliceblue;
-      position: relative;
-      top: 30px;
-  }
-  .signbut {
-      font-size: 18px;
-      color: black;
-      border-radius: 30px;
-      width: 130px;
-      height: 30px;
-  }
-  .contains pre {
-      font-size: 14px;
-      color: rgb(0, 0, 0);
-      margin-top: 5px;
-  }
-  .contains a{
-      font-size: 14px;
-      color: red;
-      text-decoration: none;
-  }
-  .signbut {
-      margin-top: 50px;
-  }
-  .contains p{
-      display: block;
-      margin-top: 30px;
-  }
-  .logo {
-      margin-top: 20px;
-  }
+    backdrop-filter: blur(15px);
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 20px;
+
+
+    border-radius: 50px;
+    margin-top: 7%;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputsin {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    height: 30px;
+    display: block;
+    margin: 40px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.signtext {
+    font-size: 20px;
+    color: aliceblue;
+    position: relative;
+    top: 30px;
+}
+
+.signbut {
+    font-size: 18px;
+    color: black;
+    border-radius: 30px;
+    width: 130px;
+    height: 30px;
+}
+
+.contains pre {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+}
+
+.contains a {
+    font-size: 14px;
+    color: red;
+    text-decoration: none;
+}
+
+.signbut {
+    margin-top: 50px;
+}
+
+.contains p {
+    display: block;
+    margin-top: 30px;
+}
+
+.logo {
+    margin-top: 20px;
+}
