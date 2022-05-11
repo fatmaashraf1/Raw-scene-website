@@ -5902,39 +5902,59 @@ input:checked+.slider:before {
     margin: 40px;
 }
 
-::placeholder {
-    color: white;
+.contains ::placeholder {
+    text-align:center;
+    color: black;
+    border-radius:20px;
 }
 
 .signtext {
     font-size: 20px;
     color: aliceblue;
     position: relative;
-    top: 30px;
+    
+    
 }
 
 .signbut {
     font-size: 18px;
     color: black;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 130px;
     height: 30px;
 }
 
 .contains pre {
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(246 246 246);
+    margin-top: 20px;
 }
-
+.contains input{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+    display:block;
+    margin:30px;
+    width:45%;
+    height:20px;
+    border-radius:20px;
+    border:solid transparent 2px
+}
 .contains a {
-    font-size: 14px;
-    color: red;
+    font-size: 16px;
+    color: #ff0101;
+    font-weight:bold;
     text-decoration: none;
 }
 
 .signbut {
+    border:solid transparent 1px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 20px 0 rgb(0 0 0 / 10%);
     margin-top: 50px;
+    transition:ease-in-out;
+    transition-duration:.1s;
+}
+.signbut:hover {
+    background-color:#999999;
+    cursor:pointer;
 }
 
 .contains p {
