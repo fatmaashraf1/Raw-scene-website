@@ -5241,15 +5241,17 @@ td.colo:hover {
 }
 
 #exka1 {
-    height: 1000px;
+   
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
     background-image: var(--kahmd);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .karimbody {
     background-color: var(--feprimary-color);
+    
 }
 
 mark {
