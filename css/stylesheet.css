@@ -632,7 +632,7 @@ input:checked+.slider:before {
     }
 
     .FAbox1 {
-        height: 349px;
+        height: 454px;
     }
 }
 
@@ -1452,7 +1452,12 @@ input:checked+.slider:before {
     padding: 20px;
 }
 
-.FA_B4 .TorabAlmas_Trailer video {
+.FA_B4 {
+    margin-bottom: 62px;
+}
+
+
+.TorabAlmas_Trailer video {
     width: 80%;
     padding: 20px;
 }
