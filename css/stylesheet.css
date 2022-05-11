@@ -2687,13 +2687,13 @@ body.fz2 {
 }
 
 .kgfriendsbodywholepage .friends-episode {
-    color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
     display: inline-block;
     width: 10%;
     height: auto;
     padding: 5px;
     margin: 5px;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(130 130 130);
     border-radius: 5px;
     transition: ease-out;
     transition-duration: .125s;
@@ -2701,8 +2701,8 @@ body.fz2 {
 
 .kgfriendsbodywholepage .friends-episode:hover {
     cursor: pointer;
-    color: white;
-    background-color: rgb(139, 139, 139);
+    color: black;
+    background-color: rgb(215 215 215);
 }
 
 .kgfriendsbodywholepage .friends-episode-more {
@@ -2710,7 +2710,7 @@ body.fz2 {
     margin: 5px;
     display: inline-block;
     width: fit-content;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(130 130 130);
     border-radius: 10px;
     height: 80%;
     text-align: center;
@@ -2724,9 +2724,10 @@ body.fz2 {
 
 .kgfriendsbodywholepage .friends-episode-more:hover {
     cursor: pointer;
-    color: white;
-    background-color: rgb(99, 99, 99);
+    color: black;
+    background-color: rgb(215 215 215);
 }
+
 
 .kgimgmapfriendsimg {
     display: block;
