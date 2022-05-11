@@ -2797,7 +2797,7 @@ html {
 
 
 /*slideshow*/
-
+/*
 .slideshow-top {
     background-color: var(--kgslideshowbackgroundcolor);
 }
@@ -2807,7 +2807,7 @@ html {
     margin: 0;
     padding: 0;
 }
-
+*/
 
 /*
   html, body {
@@ -2820,7 +2820,7 @@ html {
     font-size: .88rem;
     color: #bdbdd5;
   }*/
-
+/*lastedit/////////////////////
 .content-width {
     width: 86%;
     height: 100vh;
@@ -2872,7 +2872,7 @@ html {
     height: auto;
     opacity: 0;
     display: block;
-    /* transition: property name | duration | timing-function | delay  */
+    /* transition: property name | duration | timing-function | delay
     transition: opacity .3s ease-out .45s;
 }
 
@@ -2894,7 +2894,7 @@ html {
 }
 
 
-/* Staggered Vertical Items ------------------------------------------------------*/
+
 
 .item-header {
     position: absolute;
@@ -2938,7 +2938,7 @@ html {
 }
 
 
-/* Controls ----------------------------------------------------------------------*/
+
 
 .controls {
     position: relative;
@@ -2986,9 +2986,9 @@ html {
     border-left: solid rgb(145, 0, 0) 5px;
 }
 
-
+*/lastedit//////////////////
 /* to add new card create div for this class*/
-
+/*lastedit///////////////////
 .stuff-e {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
@@ -3009,7 +3009,7 @@ html {
     width: 210px;
     border-bottom: solid red 2px;
     transform: translateY(15px);
-    /* margin-top: 45px; */
+    /* margin-top: 45px; 
 }
 
 .stuff-img {
@@ -3028,9 +3028,14 @@ html {
     left: 40px;
 }
 
+*/
+
+
+/*lastedit*/
+
 
 /* when add photo add to this class*/
-
+/*lastedit//////
 .stuff-img-t {
     width: 100%;
     height: 100%;
@@ -3054,9 +3059,10 @@ html {
     padding-left: 5px;
     border-left: solid green 5px;
 }
-
+*/lastedit//////////////////
 
 /* to add new card create div for this class*/
+/*last edit////////////////
 
 .stuff-a {
     transition-timing-function: ease-in-out;
@@ -3174,7 +3180,7 @@ html {
     --kgrawscenecolor: black;
     --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
-
+*///////////////////////////////////////////////////////////////////////////////////last edit///////
 
 /*.light {
     display: inline-block;
