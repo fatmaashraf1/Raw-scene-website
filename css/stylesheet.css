@@ -4145,6 +4145,31 @@ input:checked+.slider:before {
 
 /* ------------------------------------------------------------ */
 
+/* Small */
+@media (min-width: 768px) {
+    .SAMYcontainer {
+        width: 925px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .SAMYcontainer {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .SAMYcontainer {
+        width: 1448px;
+    }
+}
+
+.SAMY2container{
+    display: flex;
+}
+
 #sambody1 {
     background: var(--feprimary-color);
     background-repeat: no-repeat;
@@ -4167,8 +4192,11 @@ input:checked+.slider:before {
     margin: 0.2em;
     float: left;
 }
+.kiroimg{
+    margin-bottom: 4px;
+}
 
-#samyimg:hover {
+.kiroimg:hover {
     transform: scale(0.96);
     border-radius: 5%;
 }
