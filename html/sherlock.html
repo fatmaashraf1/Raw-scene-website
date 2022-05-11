@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/stylesheet.css">
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/64cc13dfa7.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width device-width" intial scale="1.0">
     <title> Sherlock | Raw Scene</title>
     <script src="../java/main.js">
@@ -28,8 +29,6 @@
                                 <li class="menu-list-item">Home</li>
                                 <li class="menu-list-item active">Series</li>
                                 <li class="menu-list-item">Movies</li>
-                                <li class="menu-list-item">Popular</li>
-                                <li class="menu-list-item">Trends</li>
                                 <li class="menu-list-item">About</li>
                             </ul>
                         </div>
@@ -38,7 +37,29 @@
                     <input type="checkbox" onclick="changeMode()">
                     <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
                 </label>
+                <input type="search" class="t" value="" id="search" onchange="openpage()" type="search" name="search" placeholder="write & chose" autofocus list="fruitlist" style="margin-left:30px;">
+                <datalist id="fruitlist">
+                        <option>sherlock</option>
+                        <option>house</option>
+                        <option>spiderman</option>
+                        <option>تراب الماس</option>
+                        <option>the vampire diaries</option>
+                        <option>little women</option>
+                        <option>stranger things</option>
+                        <option>friends</option>
+                        <option>the good doctor</option>
+                        <option>la casa de papel</option>
+                        <option>you</option>
+                        <option>ملاكي اسكندرية</option>
+                        <option>harry potter</option>
+                        <option>anne with an e</option>
+                        <option>sense and sensibility</option>
+                    </datalist>
+                    <input class="s"   type="submit" name="submit" value="Search">    
+                </div>
+            </form>
                     </div>
+                    
                 </div>
             </div>
             </div>
@@ -207,6 +228,35 @@
     putting Sherlock and friends through a series of sick, 
     manipulative psychological and potentially fatal games.
     </pre></div>
+    <footer class="fefooter">
+        <div class="f1">
+            <h1 class=" fologo fecontainer fefont1">RawScene</h1>
+            <h4>contact</h4>
+            <p>
+                <h5>Email:</h5>fcaiStudents@fci.helwan.edu.eg</p>
+            <h4>Follow Us</h4>
+            <p class="footicon"><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-pinterest-p"></i> <i class="fa-brands fa-youtube"></i> </p>
+        </div>
+        <div class="f2">
+            <h4>About</h4>
+            <p>About Us</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="f3">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <button type="button" class="btn btn-dark"><i class="fa-brands fa-apple"></i> App Store </button>
+            <button type="button" class="btn btn-dark"><i class="fa-brands fa-google-play"></i> Google Play </button>
+            <p class="copy">&copy;FCAI-HStudents_IT_Project</p>
+            <form class="feed"> 
+                <label for="feed"><h2 class="review">Reviews:</h2></label><br>
+                <textarea name="inreview" cols="30" rows="4" placeholder="Please Enter Your Feedback:" ></textarea></br>
+                <input type="submit" value="submit" class="btn btn-dark fosub">
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>

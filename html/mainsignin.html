@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+    
         <title>Sign In</title>
+        <script src="../java/main.js">
+        </script>
         <link rel="stylesheet" href="../css/stylesheet.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -9,7 +12,54 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,900;1,200;1,300;1,500&display=swap" rel="stylesheet">
     </head>
     <body class="signinbo">
-            </div>
+        <header id="top">
+            <section class="main">
+                <div class="navbar-contmain">
+                    <div class="navbar">
+                        <div class="navbar-container">
+                            <div class="logo-container">
+                                <h1 id="fklogo">RawScene</h1>
+                            </div>
+                            <div class="menu-container">
+                                <ul class="menu-list">
+                                    <li class="menu-list-item">Home</li>
+                                    <li class="menu-list-item active">Series</li>
+                                    <li class="menu-list-item">Movies</li>
+                                    <li class="menu-list-item">About</li>
+                                </ul>
+                            </div>
+                            <div class="signin-container" style="height: 30px; width: 70px; text-align: center;left: -120px;">Sign In</div>
+                            <label class="switch"style="left: -120px;">
+                        <input type="checkbox" onclick="changeMode()" >
+                        <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
+                    </label>
+                    <input type="search" style="left: -120px;" class="t" value="" id="search" onchange="openpage()" type="search" name="search" placeholder="write & chose" autofocus list="fruitlist" >
+                    <datalist id="fruitlist">
+                            <option>sherlock</option>
+                            <option>house</option>
+                            <option>spiderman</option>
+                            <option>تراب الماس</option>
+                            <option>the vampire diaries</option>
+                            <option>little women</option>
+                            <option>stranger things</option>
+                            <option>friends</option>
+                            <option>the good doctor</option>
+                            <option>la casa de papel</option>
+                            <option>you</option>
+                            <option>ملاكي اسكندرية</option>
+                            <option>harry potter</option>
+                            <option>anne with an e</option>
+                            <option>sense and sensibility</option>
+                        </datalist>
+                        <input class="s"   type="submit" name="submit" value="Search">    
+                    </div>
+                </form>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+        </header>
             <center>
             <div class="signin-cont">
                 <div class="contains">
