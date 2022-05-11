@@ -9,23 +9,21 @@
     --kgfriendsmainpagebackgroundcolor: black;
     --kgfriendstablebackgroundcolor: black;
     --mainHeightfh: 5%;
-    --fH1primary-color: rgb(226 126 45);
-    --fH1secondary-color: rgb(37, 51, 35);
-    --fH2primary-color: rgb(250, 241, 112);
-    --fH2secondary-color: rgb(26 19 10);
+    --fH1primary-color: rgb(37, 51, 35);
+    --fH1secondary-color: rgb(226 126 45);
+    --fH2primary-color: rgb(26 19 10);
+    --fH2secondary-color: rgb(250, 241, 112);
+    --fh22secondary: rgba(250, 241, 112, 0.726);
     --feprimary-color: #000;
     --fesecondary-color: #fff;
     --fhcast: rgba(249, 244, 135, 0.377);
     --mlaki-background-image: url("../media/mlakibg.jpg");
-    --FAprimary-color: #000000;
-    --FAsecondary-color: #e3e4e6;
-    --FA-background-image: url("../media/FA_Darkbackground.jpg");
-    --kasher-background-image: url(../media/shwp1.jpg);
-    --kablack:rgb(255, 255, 255);
-    --kahmd:url(../media/hmd.jpg);
-    --kaboxsh:rgb(8, 8, 121);
-    --kaboxsh2:rgb(239, 234, 173);
-    --kablack2:rgb(57, 57, 57);
+    --kasher-background-image: url("../media/shwp1.jpg");
+    --kablack: rgb(255, 255, 255);
+    --kahmd: url("../media/hmd.jpg");
+    --kaboxsh: rgb(8, 8, 121);
+    --kaboxsh2: rgb(239, 234, 173);
+    --kablack2: rgb(57, 57, 57);
 }
 
 .light-mode {
@@ -34,24 +32,25 @@
     --FA-background-image: url("../media/FABackground.jpg");
     --fH1primary-color: rgb(226 126 45);
     --fH1secondary-color: rgb(37, 51, 35);
-    /*--fH2primary-color: rgb(250, 241, 112);
-    --fH2secondary-color: rgb(26 19 10);*/
+    --fH2primary-color: rgb(250, 241, 112);
+    --fH2secondary-color: rgb(26 19 10);
+    --fh22secondary: rgba(102, 81, 64, 0.726);
     --feprimary-color: #fff;
     --fesecondary-color: #000;
     --mlaki-background-image: url("../media/mlakibg2.jpg");
-    --kasher-background-image: url(../media/shwp2.jpg);
-    --kablack:black;
-    --kahmd:url(../media/hmd2.jpg);
-    --kaboxsh:rgb(239, 234, 173);
-    --kaboxsh2:rgb(8, 8, 121);
-    --kablack2:rgb(255, 255, 255);
+    --kasher-background-image: url("../media/shwp2.jpg");
+    --kablack: black;
+    --kahmd: url("../media/hmd2.jpg");
+    --kaboxsh: rgb(239, 234, 173);
+    --kaboxsh2: rgb(8, 8, 121);
+    --kablack2: rgb(255, 255, 255);
 }
+
 
 /***********************************************************************************
 /************************************************************************************
 /************************************FARRAH THARWAT*****************************
 /*************************************************************************************/
-
 
 .switch {
     position: relative;
@@ -149,7 +148,15 @@ input:checked+.slider:before {
 
 .flexfh div:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 8px 10px rgb(226 126 45), 0px 6px 20px 5px grey;
+    box-shadow: 0 4px 8px 10px var(--fH1secondary-color), 0px 6px 20px 5px grey;
+}
+
+.farrahtrailers4:link {
+    text-decoration: none;
+}
+
+.farrahtrailers4:hover {
+    color: #d7f2ff80;
 }
 
 .Tfh_main,
@@ -158,7 +165,9 @@ input:checked+.slider:before {
 .Tfh3 {
     width: inherit;
     height: inherit;
-    border-radius: 0%;
+    border-radius: 10px;
+    top: 1%;
+    left: 10%;
     position: absolute;
 }
 
@@ -172,7 +181,6 @@ input:checked+.slider:before {
     border-radius: 20px;
     border-color: rgba(116, 49, 49, 0.329);
     position: relative;
-
 }
 
 .buttons_trailersfh {
@@ -183,15 +191,19 @@ input:checked+.slider:before {
 .Trailer1fh,
 .Trailer2fh,
 .Trailer3fh {
-    color: white;
+    color: rgba(255, 248, 189, 0.849);
     background-color: var(--fH1secondary-color);
-    border-radius: var(--mainRadiusfh)
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 1%;
+    border-color: var(--fH1primary-color);
 }
 
 .Trailer1fh:hover,
 .Trailer2fh:hover,
 .Trailer3fh:hover {
     cursor: pointer;
+    transform: scale(1.09);
 }
 
 .seasonsfh {
@@ -202,7 +214,7 @@ input:checked+.slider:before {
 }
 
 .bfh {
-    background-color: var(--fH1secondary-color);
+    background-color: var(--fH1primary-color);
     padding: 0%;
     margin: 0%;
 }
@@ -312,7 +324,7 @@ input:checked+.slider:before {
 .charachterfh:hover {
     transform: scale(1.08);
     cursor: pointer;
-    box-shadow: 0px 2px 8px 8px rgb(190 108 32);
+    box-shadow: 0px 2px 8px 8px var(--fH1secondary-color);
 }
 
 .cast-imgfh {
@@ -396,7 +408,7 @@ input:checked+.slider:before {
     display: inline-block;
     margin-top: 80px;
     margin-bottom: 80px;
-    border-bottom: solid var(--fH1primary-color) 3px;
+    border-bottom: solid var(--fH1secondary-color)3px;
 }
 
 .season-anne {
@@ -436,7 +448,7 @@ input:checked+.slider:before {
 ********************************************************************************************************************************/
 
 .farrahbody2 {
-    background-color: rgb(26 19 10);
+    background-color: var(--fH2primary-color);
     margin: 0%;
     padding: 0%
 }
@@ -461,13 +473,13 @@ input:checked+.slider:before {
 }
 
 .fhh1 {
-    color: rgb(250, 241, 112);
+    color: var(--fH2secondary-color);
     font-size: 350%;
     font-family: 'Cinzel', serif;
 }
 
 .fhh4 {
-    color: rgba(250, 241, 112, 0.726);
+    color: var(--fh22secondary);
     font-size: 80%;
     font-family: 'Cinzel', serif;
 }
@@ -519,9 +531,9 @@ input:checked+.slider:before {
     margin-top: 15%;
     margin-bottom: 80px;
     font-family: 'Cinzel', serif;
-    color: rgb(250, 241, 112);
+    color: var(--fH2secondary-color);
     font-size: 250%;
-    border-bottom: solid rgba(255, 246, 127, 0.377) 3px;
+    border-bottom: solid var(--fh22secondary) 3px;
 }
 
 .fhcontainer {
@@ -601,7 +613,7 @@ input:checked+.slider:before {
 .fhd {
     font-size: 200%;
     font-family: 'Cinzel', serif;
-    color: rgb(250, 241, 112);
+    color: var(--fH2secondary-color);
 }
 
 
@@ -613,28 +625,34 @@ input:checked+.slider:before {
 
 
 /* Small */
+
 @media (min-width: 768px) {
     .FAcont {
         width: 925px;
     }
 
     .FAbox1 {
-        height: 349px;
+        height: 470px;
     }
 }
 
+
 /* Medium */
+
 @media (min-width: 992px) {
     .FAcont {
         width: 970px;
     }
 }
 
+
 /* Large */
+
 @media (min-width: 1200px) {
     .FAcont {
         width: 1448px;
     }
+
 }
 
 html {
@@ -646,7 +664,6 @@ html {
     padding: 0%;
     margin: 0%;
 }
-
 
 .FAhead {
     width: 3000px;
@@ -663,7 +680,7 @@ html {
 }
 
 .FAbox1 {
-    height: 470px;
+    height: 476px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -691,7 +708,6 @@ html {
 }
 
 .FAtags .FA_tag {
-
     color: white;
     font-weight: bolder;
 }
@@ -809,6 +825,7 @@ html {
 
 
 /* End of Start box */
+
 .FAseries {
     height: 465px;
     background: linear-gradient(to bottom, rgba(3, 1, 61, 0.925), rgba(80, 0, 0, 0.903));
@@ -857,7 +874,6 @@ html {
     overflow: hidden;
 }
 
-
 .FAseries .FAsr1film .FAimg-series {
     height: 100%;
     width: 100%;
@@ -902,7 +918,6 @@ html {
 
 .FAsr1film .FAcaption .FAcontent #smallicon {
     color: white;
-
 }
 
 .FAseries .FAsr1film .FAcaption .FAcontent button {
@@ -931,15 +946,18 @@ html {
     border: 5px solid red;
     height: inherit;
     width: inherit;
-
 }
 
+
 /****************************************************************************/
+
+
 /* Cast */
 
 .FAcast {
     height: 465px;
     background: linear-gradient(to bottom, rgba(3, 1, 61, 0.925), rgba(80, 0, 0, 0.903));
+    margin-bottom: 44px;
 }
 
 .FAheading {
@@ -965,7 +983,6 @@ html {
     transition: 1s;
 }
 
-
 .FAmySwiper .swiper-wrapper.swiper-slide {
     height: 300px;
     border: 50% yellow solid;
@@ -978,11 +995,11 @@ html {
     height: 201px;
     width: 131px;
     border-radius: 100%;
-
+    transition: 0.6s;
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a img:hover {
-    transform: scale(1.2);
+    transform: scale(.8);
     transition: 0.6s;
 }
 
@@ -998,7 +1015,6 @@ html {
     font-weight: bold;
 }
 
-
 .swiper-button-next,
 .swiper-button-prev {
     color: red;
@@ -1012,19 +1028,467 @@ html {
 }
 
 
+/*****************************************************************************************************
+********************************************************************************************************
+*********************************TORAB ALMAS FATMA ASHRAF*******************************************************
+****************************************************************************************************************
+********************************************************************************************************************************/
 
+/* Small */
+@media (min-width: 768px) {
+    .FAcont {
+        width: 925px;
+    }
 
-/**:root {
-    --feprimary-color: #000000;
-    --fesecondary-color: #e3e4e6;
-    --mlk-background-image: url("../media/FA_Darkbackground.jpg");
 }
 
-.light-mode {
-    --feprimary-color: white;
-    --fesecondary-color: #000;
-    --mlk-background-image: url("../media/FABackground.jpg");
+/* Medium */
+@media (min-width: 992px) {
+    .FAcont {
+        width: 970px;
+    }
+}
 
+/* Large */
+@media (min-width: 1200px) {
+    .FAcont {
+        width: 1448px;
+    }
+}
+
+/*******************************/
+:root {
+    --FAprimary-color: #000000;
+    --FAsecondary-color: #e3e4e6;
+    --fatmafont1: 'Readex Pro', sans-serif;
+    /*Table content and paragraphs*/
+    --fatmafont2: 'Noto Nastaliq Urdu', serif;
+    /*Torab Almas*/
+    --fatmafont3: 'Rakkas', cursive;
+    /*Titles*/
+    --FA-background: linear-gradient(to bottom, rgb(6 5 54 / 93%), rgb(28 106 160 / 90%));
+}
+
+
+.light-mode {
+    --FAprimary-color: white;
+    --FAsecondary-color: #000;
+    --FA-background: linear-gradient(to bottom, rgb(201 205 222), rgb(83 156 204));
+}
+
+.FAbody2 {
+    padding: 0%;
+    margin: 0%;
+    background: var(--FA-background);
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/**************  Header *****************/
+
+.navbar-contmain {
+    width: 102%;
+    margin-left: -2%;
+    height: fit-content;
+
+}
+
+.navbar {
+    background-color: var(--FAprimary-color);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 5px 50px;
+    height: 100%;
+    color: var(--FAprimary-color);
+}
+
+.logo-container {
+    padding-right: 7em;
+}
+
+#fklogo {
+    font-family: 'Halant', sans-serif;
+    font-style: oblique;
+    font-size: 2.3em;
+    color: var(--FAsecondary-color);
+    animation: glow 1s ease-in-out infinite alternate;
+    top: -15px;
+    display: inline;
+}
+
+.menu-container {
+    padding-right: 10em;
+}
+
+.menu-list {
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item {
+    margin: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: var(--FAsecondary-color);
+}
+
+.menu-list-item:hover {
+    cursor: pointer;
+    color: #8b7efe;
+    border-bottom: solid rgb(255, 13, 146) 2px;
+
+
+}
+
+.menu-list-item.active {
+    color: #7d70f8;
+
+}
+
+.signin-container {
+    position: relative;
+    color: var(--FAsecondary-color);
+    border: 1px solid var(--FAsecondary-color);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    transition: 0.7s ease;
+
+}
+
+.signin-container:hover {
+    color: #0c0019;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.toggle {
+    position: relative;
+    right: -6%;
+    margin-left: 10px;
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toggle-icon1 {
+    color: black;
+}
+
+.toggle-icon2 {
+    color: gold;
+}
+
+.manage {
+    margin: -2px;
+}
+
+#kp1 {
+    margin-top: -20px;
+    font-size: 18px;
+    color: var(--fesecondary-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.kaposs {
+
+    bottom: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00008b;
+    border-radius: 34px;
+    transition: .4s;
+    font-size: 23px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    margin-left: 20px;
+
+}
+
+.fa-solid {
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background: yellow;
+}
+
+input:checked+.slider:before {
+    transform: translateX(40px);
+}
+
+
+/*************** End of Header ****************/
+:root {
+    --FAprimary-color: #000000;
+    --FAsecondary-color: #e3e4e6;
+    --fatmafont1: 'Readex Pro', sans-serif;
+    /*Table content and paragraphs*/
+    --fatmafont2: 'Noto Nastaliq Urdu', serif;
+    /*Torab Almas*/
+    --fatmafont3: 'Rakkas', cursive;
+    /*Titles*/
+    --FA-background: linear-gradient(to bottom, rgb(6 5 54 / 93%), rgb(28 106 160 / 90%));
+}
+
+
+.light-mode {
+    --FAprimary-color: white;
+    --FAsecondary-color: #000;
+    --FA-background: linear-gradient(to bottom, rgb(201 205 222), rgb(83 156 204));
+}
+
+/***************** BODY  ************************/
+
+.FAhead {
+    background-color: var(--FAprimary-color);
+    width: 100%;
+    height: 70px;
+
+}
+
+.FAcont {
+    z-index: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.FAcont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.FA_B1 {
+    height: 460px;
+    margin-top: 40px;
+    border: 10px solid var(--FAsecondary-color);
+}
+
+.FA_fulltable {
+    width: 317px;
+    text-align: center;
+    color: var(--FAsecondary-color);
+    height: 350px;
+    border-spacing: 10px;
+    margin: 50px;
+}
+
+.FA_fulltable td {
+    font-family: var(--fatmafont1);
+    font-size: 22px;
+    border: 5px solid var(--FAsecondary-color);
+    padding: 8px;
+    transition: 0.5s;
+
+}
+
+.FA_fulltable td:hover {
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.FA_fulltable .FAstar {
+    color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.FA_fulltable .FAtable_content td {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.FA_fulltable .FAtable_content td:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+.FA_B2img {
+    float: right;
+    margin-top: -20px;
+    transition-duration: 0.5s;
+}
+
+.FA_B2img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+/******************************* B0X 2************************************************/
+
+.FA_B2 .FA_storytitle,
+.FA_B3 .FA_casttitle,
+.FA_B4 .FA_TorabAlmas {
+    background-color: var(--FAprimary-color);
+    height: 90px;
+}
+
+.FA_B2 .FA_storytitle p {
+    color: var(--FAsecondary-color);
+    font-weight: bold;
+    font-size: 56px;
+    direction: rtl;
+    padding: 10px;
+    font-family: var(--fatmafont3);
+}
+
+.FA_B2 .FA_story {
+    margin-top: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.FA_B2 .FA_story p {
+    direction: rtl;
+    padding: 10px;
+    font-size: 30px;
+    color: var(--FAsecondary-color);
+    font-family: var(--fatmafont1);
+}
+
+/**************** BOX 3*******************/
+
+.FA_B3 .FA_casttitle p,
+.FA_B4 .FA_TorabAlmas p {
+    color: var(--FAsecondary-color);
+    font-weight: bold;
+    font-size: 50px;
+    direction: rtl;
+    padding: 17px;
+    text-align: center;
+    font-family: var(--fatmafont3);
+
+}
+
+.FA_B3 .FA_castmap,
+.FA_B4 .TorabAlmas_Trailer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+
+}
+
+.FA_B3 .FA_castmap img {
+    padding: 20px;
+}
+
+.FA_B4 {
+    margin-bottom: 62px;
+}
+
+
+.TorabAlmas_Trailer video {
+    width: 80%;
+    padding: 20px;
+}
+
+.FA_B5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    background: var(--FA-background);
+    height: 165px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.FA_B5 a {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(0, 238, 255);
+    text-decoration: none;
+    font-family: var(--fatmafont1);
+    color: black;
+    -webkit-box-reflect: below 0px linear-gradient(#0002, #0002);
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: -46px;
+}
+
+.FA_B5 a:hover {
+    color: white;
+    background-color: rgb(0, 6, 78);
 }
 
 
@@ -1848,10 +2312,7 @@ body.fz2 {
 }
 
 .kgclickonchar p {
-
-
     color: white;
-
     display: inline-block;
     position: relative;
     top: 300px;
@@ -1896,6 +2357,7 @@ body.fz2 {
     transform: scale(1.1);
 }
 */
+
 
 /**.fecontainer button {
     background-color: #555555;
@@ -2508,6 +2970,9 @@ html {
 }
 
 .KGcharachterscont {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: var(--kgstpbackdrop);
+    border-radius: 25px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -2785,6 +3250,248 @@ html {
 }
 
 
+
+
+/**********MAin Page Css Code - Kero Bel E****************/
+:root {
+    --kgdarkmodebuttoncolor: grey;
+    --kgbackgroundcolorunderslideshow: #22222A;
+    --kgmainpagebackgroundcolor: #252525;
+    --kgslideshowbackgroundcolor: #22222A;
+    --kgnavbarbackgroundcolor: black;
+    --kgbodytextcolor: white;
+    --kgcardcolor: #2c2c2c;
+    --kgrawscenecolor: white;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.kgbodycode {
+    background-color: var(--kgbackgroundcolorunderslideshow);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.kgbodycode h2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+
+.kgbodycode a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.english-cont {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    border-top: solid red 2px;
+    background-color: var(--kgmainpagebackgroundcolor);
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+}
+
+.english-title {
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    border-left: solid rgb(145, 0, 0) 5px;
+}
+
+/* to add new card create div for this class*/
+.stuff-e {
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    margin: 30px;
+    border-radius: 5%;
+    top: 30px;
+    left: 20px;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color: var(--kgcardcolor);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stuff-e:hover {
+    position: relative;
+    width: 210px;
+    border-bottom: solid red 2px;
+    transform: translateY(15px);
+    /* margin-top: 45px; */
+}
+
+.stuff-img {
+    /* top: ;
+    margin-left: ; */
+    position: relative;
+    width: 100%;
+    height: 85%;
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 5%;
+
+}
+
+.stuff-name {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    left: 40px;
+}
+
+/* when add photo add to this class*/
+.stuff-img-t {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.arabic-cont {
+    display: block;
+    border-top: solid green;
+    background-color: var(--kgmainpagebackgroundcolor);
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.arabic-title {
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    border-left: solid green 5px;
+}
+
+/* to add new card create div for this class*/
+.stuff-a {
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    margin: 30px;
+    border-radius: 5%;
+    top: 30px;
+    left: 20px;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color: var(--kgcardcolor);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stuff-a:hover {
+    position: relative;
+    width: 210px;
+    border-bottom: solid green 2px;
+    transform: translateY(15px);
+    /* margin-top: 45px; */
+}
+
+.stuff-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desc {
+    position: relative;
+    left: 2px;
+    font-size: 18px;
+}
+
+.desc-spider {
+    position: relative;
+    left: 2px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.ar {
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #2c2c2c;
+    color: white;
+    top: 180px;
+    right: 1.4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.en {
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #2c2c2c;
+    color: white;
+    top: 120px;
+    right: 1.4%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.en:hover {
+    background-color: #555555;
+    width: 42px;
+    height: 42px;
+}
+
+.ar:hover {
+    background-color: #555555;
+    width: 42px;
+    height: 42px;
+}
+
+
+
+.MainpageDarkTheme {
+
+    --kgmainpagebackgroundcolor: #b9b9b9;
+    --kgslideshowbackgroundcolor: #666666;
+    --kgnavbarbackgroundcolor: rgb(80, 80, 80);
+    --kgbodytextcolor: rgb(0, 0, 0);
+    --kgcardcolor: #dadada;
+    --kgbackgroundcolorunderslideshow: #666666;
+    --kgrawscenecolor: black;
+    --kgdarkmodebuttoncolor: rgb(255, 145, 0);
+}
+
+
+
+
+/**********MAin Page Css Code - Kero Bel E****************/
+
+
 /**********************************************************************************************
 /**********************************************************************************************
 /************************************FARIDA EMAD****************************************
@@ -2798,7 +3505,7 @@ html {
 
 
 /*slideshow*/
-
+/*
 .slideshow-top {
     background-color: var(--kgslideshowbackgroundcolor);
 }
@@ -2808,7 +3515,7 @@ html {
     margin: 0;
     padding: 0;
 }
-
+*/
 
 /*
   html, body {
@@ -2821,7 +3528,7 @@ html {
     font-size: .88rem;
     color: #bdbdd5;
   }*/
-
+/*lastedit/////////////////////
 .content-width {
     width: 86%;
     height: 100vh;
@@ -2873,7 +3580,7 @@ html {
     height: auto;
     opacity: 0;
     display: block;
-    /* transition: property name | duration | timing-function | delay  */
+    /* transition: property name | duration | timing-function | delay
     transition: opacity .3s ease-out .45s;
 }
 
@@ -2895,7 +3602,7 @@ html {
 }
 
 
-/* Staggered Vertical Items ------------------------------------------------------*/
+
 
 .item-header {
     position: absolute;
@@ -2939,7 +3646,7 @@ html {
 }
 
 
-/* Controls ----------------------------------------------------------------------*/
+
 
 .controls {
     position: relative;
@@ -2987,9 +3694,10 @@ html {
     border-left: solid rgb(145, 0, 0) 5px;
 }
 
-
+*/
+lastedit //////////////////
 /* to add new card create div for this class*/
-
+/*lastedit///////////////////
 .stuff-e {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
@@ -3010,7 +3718,7 @@ html {
     width: 210px;
     border-bottom: solid red 2px;
     transform: translateY(15px);
-    /* margin-top: 45px; */
+    /* margin-top: 45px; 
 }
 
 .stuff-img {
@@ -3029,9 +3737,14 @@ html {
     left: 40px;
 }
 
+*/
+
+
+/*lastedit*/
+
 
 /* when add photo add to this class*/
-
+/*lastedit//////
 .stuff-img-t {
     width: 100%;
     height: 100%;
@@ -3055,9 +3768,11 @@ html {
     padding-left: 5px;
     border-left: solid green 5px;
 }
-
+*/
+lastedit //////////////////
 
 /* to add new card create div for this class*/
+/*last edit////////////////
 
 .stuff-a {
     transition-timing-function: ease-in-out;
@@ -3098,7 +3813,7 @@ html {
 
 .desc {
     position: relative;
-    left: 20px;
+    left: 2px;
     font-size: 18px;
 }
 
@@ -3176,6 +3891,7 @@ html {
     --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
 
+* ///////////////////////////////////////////////////////////////////////////////////last edit///////
 
 /*.light {
     display: inline-block;
@@ -3200,6 +3916,7 @@ html {
     transform: scale(1.1);
 }
 */
+
 
 /**.fecontainer {
     padding: 50px;
@@ -3260,8 +3977,6 @@ html {
 
 /******************************************start farida emad *************************************************/
 
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -3292,12 +4007,11 @@ html {
 .felogoimg {
     width: 400px;
     margin-left: 500px;
-    margin-top:-500px;
+    margin-top: 120px;
 }
 
 .felogoname {
     color: var(--feprimary-color);
-    margin-top:-200px;
 }
 
 .fefont1 {
@@ -3359,11 +4073,11 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: blue;
+    background-color: #56b2f8;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: blue;
+    background-color: #56b2f8;
 }
 
 .fetitle {
@@ -3381,7 +4095,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin: 40px 130px;
-    border-radiu: 20px;
+    border-radius: 20px;
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
 }
@@ -3496,13 +4210,12 @@ html {
 .fesearchf {
     width: 100%;
     height: 100px;
-    margin-bottom: 225px;
+    margin-bottom: 175px;
     background-color: var(--feprimary-color);
 }
 
 .fefullsear {
     background-color: var(--feprimary-color);
-    margin-top:55px;
 }
 
 .fesear {
@@ -3534,13 +4247,13 @@ html {
 .fologo {
     margin-top: 0;
     margin-left: 0;
-    background-color:transparent;
-    font-size:48px;
+    background-color: transparent;
 }
 
 .reviewtxt {
-    color:black;
+    color: black;
 }
+
 .footicon {
     font-size: larger;
 }
@@ -4195,6 +4908,31 @@ input:checked+.slider:before {
 
 /* ------------------------------------------------------------ */
 
+/* Small */
+@media (min-width: 768px) {
+    .SAMYcontainer {
+        width: 925px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .SAMYcontainer {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .SAMYcontainer {
+        width: 1448px;
+    }
+}
+
+.SAMY2container {
+    display: flex;
+}
+
 #sambody1 {
     background: var(--feprimary-color);
     background-repeat: no-repeat;
@@ -4218,7 +4956,11 @@ input:checked+.slider:before {
     float: left;
 }
 
-#samyimg:hover {
+.kiroimg {
+    margin-bottom: 4px;
+}
+
+.kiroimg:hover {
     transform: scale(0.96);
     border-radius: 5%;
 }
@@ -5257,15 +5999,17 @@ td.colo:hover {
 }
 
 #exka1 {
-    height: 1000px;
+
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
     background-image: var(--kahmd);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .karimbody {
     background-color: var(--feprimary-color);
+
 }
 
 mark {
@@ -5432,7 +6176,6 @@ html {
     top: -100px;
     left: -30px;
     color: var(--kablack2);
-
 }
 
 .kalink2 {
@@ -5531,24 +6274,27 @@ html {
 }
 
 .signin-container {
+    left:-120px;
     position: relative;
+    width: 10%;
+    height:50;
     color: var(--fesecondary-color);
     border: 1px solid var(--fesecondary-color);
     text-decoration: none;
     font-size: 15px;
-    font-weight: 600;
-    display: inline-flex;
-    padding: 10px 15px;
+    font-weight: 400;
+    display: inline-block;
+    text-align:center;
+    padding:2px;
     border-radius: 15px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
 }
 
 .signin-container:hover {
     color: #0c0019;
     background-color: #fff;
     transform: scale(1.1);
+    cursor:pointer;
 }
 
 .toggle {
@@ -5651,6 +6397,7 @@ input:checked+.slider:before {
 
 
 /**** sign in main *************************************************/
+
 .signinbo {
     background-color: #646464;
     background-image: url("../media/feedbackwp.png");
@@ -5670,8 +6417,6 @@ input:checked+.slider:before {
     backdrop-filter: blur(15px);
     border: solid rgb(0, 0, 0) 1px;
     border-radius: 20px;
-
-
     border-radius: 50px;
     margin-top: 7%;
     width: 400px;
@@ -5689,39 +6434,62 @@ input:checked+.slider:before {
     margin: 40px;
 }
 
-::placeholder {
-    color: white;
+.contains ::placeholder {
+    text-align: center;
+    color: black;
+    border-radius: 20px;
 }
 
 .signtext {
     font-size: 20px;
     color: aliceblue;
     position: relative;
-    top: 30px;
+
+
 }
 
 .signbut {
     font-size: 18px;
     color: black;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 130px;
     height: 30px;
 }
 
 .contains pre {
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(246 246 246);
+    margin-top: 20px;
+}
+
+.contains input {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+    display: block;
+    margin: 30px;
+    width: 45%;
+    height: 20px;
+    border-radius: 20px;
+    border: solid transparent 2px
 }
 
 .contains a {
-    font-size: 14px;
-    color: red;
+    font-size: 16px;
+    color: #ff0101;
+    font-weight: bold;
     text-decoration: none;
 }
 
 .signbut {
+    border: solid transparent 1px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 20px 0 rgb(0 0 0 / 10%);
     margin-top: 50px;
+    transition: ease-in-out;
+    transition-duration: .1s;
+}
+
+.signbut:hover {
+    background-color: #999999;
+    cursor: pointer;
 }
 
 .contains p {
