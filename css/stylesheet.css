@@ -21,11 +21,11 @@
     --FAsecondary-color: #e3e4e6;
     --FA-background-image: url("../media/FA_Darkbackground.jpg");
     --kasher-background-image: url(../media/shwp1.jpg);
-    --kablack:rgb(255, 255, 255);
-    --kahmd:url(../media/hmd.jpg);
-    --kaboxsh:rgb(8, 8, 121);
-    --kaboxsh2:rgb(239, 234, 173);
-    --kablack2:rgb(57, 57, 57);
+    --kablack: rgb(255, 255, 255);
+    --kahmd: url(../media/hmd.jpg);
+    --kaboxsh: rgb(8, 8, 121);
+    --kaboxsh2: rgb(239, 234, 173);
+    --kablack2: rgb(57, 57, 57);
 }
 
 .light-mode {
@@ -40,18 +40,18 @@
     --fesecondary-color: #000;
     --mlaki-background-image: url("../media/mlakibg2.jpg");
     --kasher-background-image: url(../media/shwp2.jpg);
-    --kablack:black;
-    --kahmd:url(../media/hmd2.jpg);
-    --kaboxsh:rgb(239, 234, 173);
-    --kaboxsh2:rgb(8, 8, 121);
-    --kablack2:rgb(255, 255, 255);
+    --kablack: black;
+    --kahmd: url(../media/hmd2.jpg);
+    --kaboxsh: rgb(239, 234, 173);
+    --kaboxsh2: rgb(8, 8, 121);
+    --kablack2: rgb(255, 255, 255);
 }
+
 
 /***********************************************************************************
 /************************************************************************************
 /************************************FARRAH THARWAT*****************************
 /*************************************************************************************/
-
 
 .switch {
     position: relative;
@@ -172,7 +172,6 @@ input:checked+.slider:before {
     border-radius: 20px;
     border-color: rgba(116, 49, 49, 0.329);
     position: relative;
-
 }
 
 .buttons_trailersfh {
@@ -613,24 +612,28 @@ input:checked+.slider:before {
 
 
 /* Small */
+
 @media (min-width: 768px) {
     .FAcont {
         width: 925px;
     }
-
     .FAbox1 {
         height: 349px;
     }
 }
 
+
 /* Medium */
+
 @media (min-width: 992px) {
     .FAcont {
         width: 970px;
     }
 }
 
+
 /* Large */
+
 @media (min-width: 1200px) {
     .FAcont {
         width: 1448px;
@@ -646,7 +649,6 @@ html {
     padding: 0%;
     margin: 0%;
 }
-
 
 .FAhead {
     width: 3000px;
@@ -691,7 +693,6 @@ html {
 }
 
 .FAtags .FA_tag {
-
     color: white;
     font-weight: bolder;
 }
@@ -743,15 +744,12 @@ html {
     0% {
         box-shadow: 0 0 0 0 rgb(255, 0, 0, 0.7);
     }
-
     40% {
         box-shadow: 0 0 0 50px rgb(255, 193, 7, 0);
     }
-
     80% {
         box-shadow: 0 0 0 50px rgb(255, 193, 7, 0);
     }
-
     100% {
         box-shadow: 0 0 0 rgb(255, 193, 7, 0);
     }
@@ -809,6 +807,7 @@ html {
 
 
 /* End of Start box */
+
 .FAseries {
     height: 465px;
     background: linear-gradient(to bottom, rgba(3, 1, 61, 0.925), rgba(80, 0, 0, 0.903));
@@ -857,7 +856,6 @@ html {
     overflow: hidden;
 }
 
-
 .FAseries .FAsr1film .FAimg-series {
     height: 100%;
     width: 100%;
@@ -902,7 +900,6 @@ html {
 
 .FAsr1film .FAcaption .FAcontent #smallicon {
     color: white;
-
 }
 
 .FAseries .FAsr1film .FAcaption .FAcontent button {
@@ -931,10 +928,12 @@ html {
     border: 5px solid red;
     height: inherit;
     width: inherit;
-
 }
 
+
 /****************************************************************************/
+
+
 /* Cast */
 
 .FAcast {
@@ -965,7 +964,6 @@ html {
     transition: 1s;
 }
 
-
 .FAmySwiper .swiper-wrapper.swiper-slide {
     height: 300px;
     border: 50% yellow solid;
@@ -978,12 +976,11 @@ html {
     height: 201px;
     width: 131px;
     border-radius: 100%;
-    transition-duration: 0.6s;
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a img:hover {
-    transform: scale(.8);
-    transition-duration: 0.6s;
+    transform: scale(1.2);
+    transition: 0.6s;
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a {
@@ -998,7 +995,6 @@ html {
     font-weight: bold;
 }
 
-
 .swiper-button-next,
 .swiper-button-prev {
     color: red;
@@ -1010,8 +1006,6 @@ html {
 .swiper-rtl .swiper-button-prev:after {
     color: red;
 }
-
-
 
 
 /**:root {
@@ -1720,19 +1714,15 @@ body.fz2 {
 
 @keyframes blink {
     0% {}
-
     25% {
         box-shadow: 0 4px 8px 10px rgba(65, 16, 128, 0.623), 0 6px 20px 5px rgba(101, 0, 110, 0.719);
     }
-
     50% {
         box-shadow: 0 4px 8px 10px rgba(179, 110, 7, 0.575), 0 6px 20px 5px rgba(255, 145, 0, 0.466);
     }
-
     75% {
         box-shadow: 0 4px 8px 10px rgba(65, 16, 128, 0.623), 0 6px 20px 5px rgba(101, 0, 110, 0.719);
     }
-
     100% {}
 }
 
@@ -1848,10 +1838,7 @@ body.fz2 {
 }
 
 .kgclickonchar p {
-
-
     color: white;
-
     display: inline-block;
     position: relative;
     top: 300px;
@@ -1896,6 +1883,7 @@ body.fz2 {
     transform: scale(1.1);
 }
 */
+
 
 /**.fecontainer button {
     background-color: #555555;
@@ -2440,7 +2428,6 @@ html {
     0% {
         opacity: 100%;
     }
-
     50% {
         opacity: 50%;
     }
@@ -2643,11 +2630,9 @@ html {
     0% {
         top: 0px;
     }
-
     50% {
         top: 30px;
     }
-
     100% {
         top: 0px;
     }
@@ -2666,15 +2651,12 @@ html {
     0% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
-
     25% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 94, 0);
     }
-
     50% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.034), 0 6px 20px 5px rgb(255, 60, 0);
     }
-
     100% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
@@ -3201,6 +3183,7 @@ html {
 }
 */
 
+
 /**.fecontainer {
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -3259,8 +3242,6 @@ html {
 
 
 /******************************************start farida emad *************************************************/
-
-
 
 html {
     scroll-behavior: smooth;
@@ -3532,17 +3513,13 @@ html {
 .fologo {
     margin-top: 0;
     margin-left: 0;
-<<<<<<< Updated upstream
     background-color: transparent;
-=======
-    background-color:transparent;
-    font-size:48px;
->>>>>>> Stashed changes
 }
 
 .reviewtxt {
-    color:black;
+    color: black;
 }
+
 .footicon {
     font-size: larger;
 }
@@ -3554,13 +3531,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-<<<<<<< Updated upstream
-    padding: 40px 130px;
-    box-shadow: 6px 3px 25px 0px rgb(134, 134, 134);
-
-=======
     padding: 0px 130px;
->>>>>>> Stashed changes
 }
 
 .felast {
@@ -3812,16 +3783,13 @@ input:checked+.slider:before {
         margin-right: 100px;
         margin-top: -450px;
     }
-
     #femalkst {
         margin-left: 15px;
     }
-
     #fevideo_background {
         width: 350px;
         margin-top: 200px;
     }
-
     .thimlk {
         max-width: 350px;
         margin-top: 400px;
@@ -3829,13 +3797,11 @@ input:checked+.slider:before {
         margin-left: 0;
         padding: 0%;
     }
-
     .thimlk h1 {
         margin: 0;
         padding: 0;
         margin: right -20px;
     }
-
     .thimlk .fecontainer {
         max-width: 400px;
         margin-right: -200px;
@@ -3844,178 +3810,140 @@ input:checked+.slider:before {
         padding-right: 165px;
         font-size: xx-small;
     }
-
     .mlkpri {
         max-width: 350px;
         width: 350px;
     }
-
     .thimlk p {
         font-size: small;
     }
-
     .mlkcast {
         max-width: 400px;
         margin: 0;
     }
-
     .mlkcast tr {
         max-width: 350px;
     }
-
     .mlkcast h1 {
         margin-right: 50px;
     }
-
     .mlksira {
         font-size: smaller;
     }
-
     footer {
         font-size: xx-small;
     }
-
     footer .fecontainer {
         margin: 0;
         width: 100px;
     }
-
     .f1 {
         margin: 5px;
         margin-bottom: -50px;
     }
-
     .f2 {
         margin: 5px;
         margin-bottom: -50px;
         margin-left: 30px;
     }
-
     .f3 {
         margin-bottom: -75px;
         margin-right: -50px;
         margin-left: 50px;
     }
-
     .f3 .btn {
         font-size: 0.5rem;
     }
-
     .f3 iframe {
         height: 30px;
     }
-
     .mlkdown h1 {
         margin-right: -100px;
     }
-
     .downbt {
         margin-right: -100px;
     }
-
     #mlkfilm {
         margin-right: 0;
     }
-
     #mlkfilm h1 {
         margin-right: 50px;
     }
-
     #mlkfilmw {
         margin-right: 0;
         width: 390px;
     }
-
     .nav-b {
         width: 400px;
     }
-
     .cmlklogo {
         width: 100px;
         font-size: x-large;
     }
-
     .logo-raw {
         font-size: small;
     }
-
     .nav-st ul {
         display: none;
     }
-
     .switch {
         margin-left: 80px;
         margin-top: 20px;
     }
-
     #feimage_background {
         height: 300px;
         margin-top: 150px;
         margin-left: 80px;
     }
-
     .actorcol {
         margin-right: 0;
         margin-left: -10px;
     }
-
     .fehcontainer {
         flex-direction: column;
         align-items: center;
     }
-
     .fewriting {
         width: 350px;
     }
-
     .bn {
         margin: 0;
         align-items: center;
     }
-
     .bn .btn {
         margin: 2px;
     }
-
     .third {
         width: 360px;
     }
-
     .fefirst {
         width: 400px;
         background-image: none;
     }
-
     .festart {
         width: 400px;
     }
-
     .felogoimg {
         width: 400px;
         margin-left: 0;
         margin-top: 0;
     }
-
     .felogoname {
         margin-left: -425px;
         color: #e3e4e6;
         width: 400px;
         font-size: xx-large;
     }
-
     .festart button {
         margin-left: -340px;
     }
-
     .felogor {
         color: var(--feprimary-color);
         font-size: x-large;
     }
-
     .felogor img {
         display: none;
     }
-
     .fesearchbar {
         width: 200px;
         margin-left: -270px;
@@ -4024,7 +3952,6 @@ input:checked+.slider:before {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
-
     .fesb {
         margin-bottom: 85px;
         margin-right: 265px;
@@ -4033,11 +3960,9 @@ input:checked+.slider:before {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
-
     .fesearchf {
         width: 400px;
     }
-
     .fesearchf h2 {
         margin-left: -260px;
         margin-top: -165px;
@@ -5274,7 +5199,6 @@ td.colo:hover {
 
 .karimbody {
     background-color: var(--feprimary-color);
-    
 }
 
 mark {
@@ -5387,7 +5311,6 @@ html {
     from {
         text-shadow: 0 0 10px rgb(0, 17, 255), 0 0 20px rgb(34, 42, 96), 0 0 30px #0774da, 0 0 40px #00668b, 0 0 20px rgb(0, 34, 255), 0 0 20px rgb(75, 99, 255), 0 0 20px rgb(113, 200, 240);
     }
-
     to {
         text-shadow: 0 0 20px rgb(247, 4, 255), 0 0 30px #61005a, 0 0 40px #961355, 0 0 50px #d20b0b, 0 0 60px #840462, 0 0 80px #490226, 0 0 20px rgb(255, 0, 251), 0 0 20px rgb(255, 0, 47);
     }
@@ -5441,7 +5364,6 @@ html {
     top: -100px;
     left: -30px;
     color: var(--kablack2);
-
 }
 
 .kalink2 {
@@ -5660,6 +5582,7 @@ input:checked+.slider:before {
 
 
 /**** sign in main *************************************************/
+
 .signinbo {
     background-color: #646464;
     background-image: url("../media/feedbackwp.png");
@@ -5679,8 +5602,6 @@ input:checked+.slider:before {
     backdrop-filter: blur(15px);
     border: solid rgb(0, 0, 0) 1px;
     border-radius: 20px;
-
-
     border-radius: 50px;
     margin-top: 7%;
     width: 400px;
