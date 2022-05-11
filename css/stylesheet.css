@@ -14,6 +14,10 @@
     --fH2primary-color: rgb(26 19 10);
     --fH2secondary-color: rgb(250, 241, 112);
     --fh22secondary: rgba(250, 241, 112, 0.726);
+    --farraha3: rgba(201, 150, 102, 0.76);
+    --farraha3hover: rgba(201, 150, 102, 0.603);
+    --farraha3color: rgba(255, 216, 138, 0.637);
+    --farraha3colorhover: rgba(208, 211, 53, 0.726);
     --feprimary-color: #000;
     --fesecondary-color: #fff;
     --fhcast: rgba(249, 244, 135, 0.377);
@@ -32,7 +36,7 @@
   --fzsprimary:#970c13;
   --fzssecondry:red;
   --ffzsecondry:#B0CFDE ;
-  --fatmazeprimary:url("../media/tvd.png");
+  --fatmazeprimary:url("../media/blackfa.jpeg");
   --fszprimary:#ccc;
 
   --fatmazsecondary:url("../media/lm.jpeg");
@@ -49,6 +53,10 @@
     --fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);
     --fh22secondary: rgba(102, 81, 64, 0.726);
+    --farraha3: rgba(117, 86, 58, 0.76);
+    --farraha3hover: rgba(177, 119, 65, 0.685);
+    --farraha3color: rgba(199, 169, 108, 0.637);
+    --farraha3colorhover: rgba(138, 139, 32, 0.726);
     --feprimary-color: #fff;
     --fesecondary-color: #000;
     --mlaki-background-image: url("../media/mlakibg2.jpg");
@@ -66,7 +74,7 @@
     --fzsprimary:black;
     --fzssecondry:black;
     --ffzsecondry:black;
-    --fatmazeprimary:url("../media/tvd22.jpg");
+    --fatmazeprimary:url("../media/greyfa.jpeg");
     --fszprimary:black;
     --fatmazsecondary:url("../media/beigefa.jpeg");
     --fatmazzsecondry:black;
@@ -167,16 +175,21 @@
     width: 20%;
   }
   .fzvideo{
-    float: center;
-    box-shadow: 4px 6px 5px var(--fzssecondry) ;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 0px 5px 3px var(--fzssecondry) ;
     outline: none;
   }
   .fzgellry-cont{
     display: flex;
+    margin-left: 90px;
+  
   
   }
      body.fz { 
-        background-image: var(--fatmazzprimary);
+        background-image: var(--fatmazeprimary);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;   
@@ -185,7 +198,7 @@
      .fz3title{color: var(--feprimary-color);  text-shadow: 2px 2px 5px white; 
     }
       .fz3add{
-        display: flex;
+        display: block;
         
       }
       .fz3add2{
@@ -214,22 +227,27 @@
     }
   
   
-     .fztabletd:hover
+     .fztabletd
     {
+        position: relative;
+        margin-left: 200px;
+    
   background-color: rgb(49, 49, 49);
   color: #000;
   border-radius: 10px;
-  box-shadow: 2px 4px 4px var(--fzssecondry);
+  box-shadow: 4px 0px 5px 3px var(--fzssecondry) ;
     }
      
   
-  
+  .fzt:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
+  }
   .fzt td, th {
     
     text-align: left;
     padding: 8px;
     text-decoration-color: var(--fesecondary-color);
-    border-radius: 50% ;
     
   }
     
@@ -253,11 +271,7 @@
       min-width: 10px;
      
   }
-  .fzpromo{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 100px;
-    margin-inline-end: 30px;
-  }
+
   .fzm{
     border-radius: 10px; 
     display: block;
@@ -932,18 +946,17 @@ input:checked+.slider:before {
 /**********************************************************************************************
 /************************************LIGHT AND DARK MORD****************************************
 /***********************************************************************************************/
-
 .flexfh {
     width: 80%;
     margin: 5px auto;
-    /**margin-top: 25px;**/
+    /*margin-top: 25px;*/
     display: flex;
     justify-content: space-evenly;
     border-radius: var(--mainRadiusfh);
 }
 
 .flexfh div {
-    background-color: var(--fH1primary-color);
+    background-color: var(--fH1secondary-color);
     color: rgba(192, 231, 243, 0.301);
     width: 90%;
     margin: 5%;
@@ -1051,7 +1064,7 @@ input:checked+.slider:before {
 }
 
 
-/**imd**/
+/*imd*/
 
 .t1fh {
     border-radius: var(--mainRadiusfh);
@@ -1095,7 +1108,7 @@ input:checked+.slider:before {
 }
 
 
-/**characters**/
+/*characters*/
 
 .farrahmap {
     margin: 5%;
@@ -1115,7 +1128,7 @@ input:checked+.slider:before {
 }
 
 
-/**link2**/
+/*link2*/
 
 .charachterfh {
     transition-timing-function: ease-in-out;
@@ -1181,7 +1194,7 @@ input:checked+.slider:before {
 }
 
 
-/**link2**/
+/*link2*/
 
 .a2fh {
     float: right;
@@ -1208,7 +1221,7 @@ input:checked+.slider:before {
 }
 
 
-/*end-link*/
+/end-link/
 
 .h4fh {
     font-size: 28px;
@@ -1255,11 +1268,11 @@ input:checked+.slider:before {
 }
 
 
-/*****************************************************************************************************
-********************************************************************************************************
-*********************************SENSE AND SENSIBILITY*******************************************************
-****************************************************************************************************************
-********************************************************************************************************************************/
+/***********************************
+************************************
+************SENSE AND SENSIBILITY******************
+**************************************
+********************************************/
 
 .farrahbody2 {
     background-color: var(--fH2primary-color);
@@ -1396,25 +1409,25 @@ input:checked+.slider:before {
     padding: 3%;
     border-radius: 10px;
     text-align: center;
-    background-color: rgba(201, 150, 102, 0.76);
+    background-color: var(--farraha3);
 }
 
 .a3fh:hover {
-    background-color: rgba(201, 150, 102, 0.603);
+    background-color: var(--farraha3hover);
     transform: scale(0.9);
 }
 
 .fha3:link {
-    color: rgba(255, 216, 138, 0.637);
+    color: var(--farraha3color);
     text-decoration: none;
 }
 
 .fha3:hover {
-    color: rgb(250, 223, 183);
+    color: var(--farraha3colorhover);
 }
 
 .fha3:visited {
-    color: rgba(208, 211, 53, 0.726);
+    color: var(--farraha3colorhover);
     text-decoration: underline;
 }
 
@@ -1431,13 +1444,11 @@ input:checked+.slider:before {
 }
 
 
-/*****************************************************************************************************
-********************************************************************************************************
-*********************************FATMA ASHRAF*******************************************************
-****************************************************************************************************************
-********************************************************************************************************************************/
-
-
+/***********************************
+************************************
+************FATMA ASHRAF******************
+**************************************
+********************************************/
 /* Small */
 
 @media (min-width: 768px) {
@@ -2470,9 +2481,7 @@ div.fzdesc {
     width: 20%;
 }
 
-.fzvideo {
-    float: left;
-}
+
 
 .fzgellry-cont {
     display: flex;
@@ -2505,19 +2514,6 @@ div.fz {
 .fztab {
     display: flex;
 }
-
-.fztableinf {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid white;
-}
-
-.fztabletd:hover {
-    background-color: rgb(49, 49, 49);
-    color: #000;
-}
-
 
 /*
 td,
@@ -2557,8 +2553,7 @@ tr.fzr:nth-child(even) {
 
 .fzpromo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 100px;
-    margin-inline-end: 30px;
+
 }
 
 
