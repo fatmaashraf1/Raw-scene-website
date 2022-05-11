@@ -9,7 +9,8 @@
     --kgfriendsmainpagebackgroundcolor: black;
     --kgfriendstablebackgroundcolor: black;
     --mainHeightfh: 5%;
-    --fH1primary-color: rgb(37, 51, 35);    --fH1secondary-color: rgb(226 126 45);
+    --fH1primary-color: rgb(37, 51, 35);
+    --fH1secondary-color: rgb(226 126 45);
     --fH2primary-color: rgb(26 19 10);
     --fH2secondary-color: rgb(250, 241, 112);
     --fh22secondary: rgba(250, 241, 112, 0.726);
@@ -23,12 +24,29 @@
     --kaboxsh: rgb(8, 8, 121);
     --kaboxsh2: rgb(239, 234, 173);
     --kablack2: rgb(57, 57, 57);
+
+  --fatmazprimary:white;
+  --fatmazzprimary:url("../media/black-background.png"); 
+  --fezzprimary:black;
+  --fezprimary:black;
+  --fatmazzzprimary:black;
+  --fzsprimary:#970c13;
+  --fzssecondry:red;
+  --ffzsecondry:#B0CFDE ;
+  --fatmazeprimary:url("../media/tvd.png");
+  --fszprimary:#ccc;
+
+  --fatmazsecondary:url("../media/lm.jpg");
+  --fatmazzsecondary: white ;
+  --fatmazzzsecondry: transparent;
 }
 
 .light-mode {
     --FAprimary-color: white;
-    --FAsecondary-color: #000;  --FA-background-image: url("../media/FABackground.jpg");
-    --fH1primary-color: rgb(226 126 45);    --fH1secondary-color: rgb(37, 51, 35);
+    --FAsecondary-color: #000;
+    --FA-background-image: url("../media/FABackground.jpg");
+    --fH1primary-color: rgb(226 126 45);
+    --fH1secondary-color: rgb(37, 51, 35);
     --fH2primary-color: rgb(250, 241, 112);
     --fH2secondary-color: rgb(26 19 10);
     --fh22secondary: rgba(102, 81, 64, 0.726);
@@ -41,14 +59,416 @@
     --kaboxsh: rgb(239, 234, 173);
     --kaboxsh2: rgb(8, 8, 121);
     --kablack2: rgb(255, 255, 255);
+    --fatmazprimary:black;
+    --fatmazzprimary:url("../media/gray-background.jpg");
+    --fezzprimary: rgb(49, 49, 49);
+    --fezprimary:white;
+    --fatmazzzprimary: transparent;
+    --fzsprimary:black;
+    --fzssecondry:black;
+    --ffzsecondry:black;
+    --fatmazeprimary:url("../media/tvd22.jpg");
+    --fszprimary:black;
+  
+    --fatmazsecondary:url("../media/beige-background2.jpg");
+    --fatmazzsecondry:black;
+    --fatmazzzsecondry:black;
+  
 }
 
+
+
+/***********************************
+************************************
+************FARIDAKHALED******************
+**************************************
+********************************************/
+.fk{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: #151515;
+}
+.fkcontainer {
+    min-height: calc(100vh - 50px);
+    color: white;
+}
+.fkfeatured-content {
+    padding:5px;
+    height: 50vh;
+}
+
+.fkfeatured-title {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 450px;
+}
+
+.fkfeatured-desc {
+    color: lightgray;
+    font-family: 'Cormorant Garamond', serif;
+    width: 600px;
+    margin-left:4em;
+    font-size: 30px;
+}
+
+.fkfeatured-desc2 {
+    margin-top: 3em;
+    margin-left: 60em;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#fktrailer{
+  width: 100%;
+  height: 70vh;
+  margin-top: 20em;
+  margin-left: 10em;
+}
+.fkvideo-container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+}
+
+
+.fkclosetra {
+    position: absolute;
+    cursor: pointer;
+    color: #9494b8;
+    background: none;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    right: 0;
+    background-color: black;
+    margin-top: 20em;
+    margin-left: 10em;
+}
+.fkfeatured-button {
+  margin-left: 7em;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color: #151515;
+    color: #9494b8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+    font-weight: bold;
+    transition: 0.7s ease;
+}
+
+.fkfeatured-button:hover {
+    color: #47476b;
+    background-color: #b3b3cc;
+    transform: scale(1.1);
+}
+
+.fkcast-list-title {
+    margin-top: 200px;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Alike Angular', serif;
+}
+
+.fkcast-list-container {
+    padding: 0 20px;
+}
+
+.fkcast-list-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.fkcast-list {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.fkcast-list-item {
+    margin-right: 30px;
+    position: relative;
+}
+
+.fkcast-list-item:hover .fkcast-list-item-img {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+}
+
+.fkcast-list-item:hover .fkcast-list-item-title,
+.fkcast-list-item:hover .fkcast-list-item-desc {
+    opacity: 1;
+}
+
+.fkcast-list-item-img {
+    transition: all 0.7s ease-in-out;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fkcast-list-item-title {
+    font-family: 'Alike Angular', sans-serif;
+    color: #9494b8;
+    background-color: #333;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.fkcast-list-item-desc {
+    font-family: 'Alike Angular', sans-serif;
+    background-color: #333;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.fkarrow {
+    font-size: 120px;
+    position: absolute;
+    top: 138px;
+    right: 0;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#fkthird{
+    padding: 20px 20px;
+}
+.fkseas:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+  text-shadow:white;
+}
+
+.fkseas{
+    object-fit: cover;
+    width: 190px;
+    height: 220px;
+    border-radius: 25%;
+    transition: all 1s ease-in-out;
+    position: relative;
+    box-shadow: 0px 0px 20px white;
+}
+.fkseas-table-item{
+  background-color: #52527a;
+  padding: 0 10px;
+  font-size:30px;
+  font-weight:bold;
+  position: relative;
+  top: -170px;
+  margin:100px 0px;
+  margin-left:0px;
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+.fksd:hover .fkseas-table-item,
+.fksd:hover .fkbtf {
+     opacity: 1;
+}
+.fksd .fkbtf{
+  position:relative;
+  top:-150px;
+  opacity: 0;
+  transition: 1s all ease-in-out
+}
+.fkseas-desc {
+    margin-right: 10px;
+}
+
+#fkseasons tr:nth-child(even){
+  background-color: #14141f;
+}
+#fkseasons {
+     text-align: center;
+     background-color:#1f1f2e;
+     align-items: center;
+     margin: 0px 60px;
+     border-radius: 7%;
+     padding: 10px;
+}
+#fkseasons th{
+  font-size: 1.6em;
+  font-family: 'Alike Angular',sans-serif;
+  color:#d1d1e0;
+}
+#fkseasons td{
+  font-size: 1.3em;
+  font-family:'Tillana';
+}
+#fkseasons th,
+#fkseasons td {
+    padding: 20px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************
+*******************FARIDA KHALED SIGN IN & SIGN UP*************
+******************************************/
+.fk3{
+  --color-primary:#b3b3b3;
+  --color-primary-dark:#4d4d4d;
+  --color-secondary:#2d2d86;
+  --color-secondary-dark:#19194d;
+  --color-error:#cc3333;
+  --color-success:#4bb544;
+  --border-radius: 20%;
+
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-size: 18px;
+  background: url(../media/fk3back.png);
+  background-size: cover;
+}
+.fk3container{
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0,0,0,0.2);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(15px);
+}
+.fk3form{
+  margin-top: 100px;
+
+}
+.fk3container,
+.fk3form-button{
+  font: 500 1rem 'Halant' ,sans-serif;
+  color:white;
+}
+.fk3form-input{
+  font: 500 1rem 'Halant' ,sans-serif;
+  color:black;
+}
+.fk3form--hidden{
+  display: none;
+}
+.form > *:first-child{
+  margin-top: 0;
+}
+.form > *:last-child{
+  margin-bottom: 0;
+}
+.fk3form-msg{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.fk3form-title{
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.fk3form-msg-success{
+  color: var(--color-success);
+}
+.fk3form-msg-error{
+  color: var(--color-error);
+}
+.fk3form-input-group{
+  margin-bottom: 1rem;
+}
+.fk3form-input{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius:4px;
+  border:1px solid white;
+  background-color: white;
+  transition: background 0.2s, border-color 0.2s;
+}
+.fk3form-input:focus{
+  border-color: var(--color-secondary);
+}
+.fk3form-input-error{
+  color:var(--color-error);
+  border-color: var(--color-error);
+}
+.fk3input-error-message{
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color:var(--color-error);
+}
+.fk3form-button{
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background: var(--color-secondary);
+}
+.fk3form-button:hover{
+  background: var(--color-secondary-dark);
+}
+.fk3form-button:active{
+  transform: scale(0.98);
+}
+.fk3form-text{
+  text-align: center;
+}
+.fk3formlink{
+  color: var(--color-secondary-dark);
+  text-decoration: none;
+  cursor: pointer;
+}
+.fk3formlink:hover{
+  text-decoration: underline;
+}
+.fk3form-input::placeholder{
+  color: black;
+}
+
+/***********************************************END FARIDA KHALED****************************************************/
 
 /***********************************************************************************
 /************************************************************************************
 /************************************FARRAH THARWAT*****************************
 /*************************************************************************************/
-.switch{
+
+.switch {
     position: relative;
     display: inline-block;
     width: 40px;
@@ -58,7 +478,14 @@
     margin-top: 45px;
     color: rgb(243, 234, 234);
 }
-
+.fzt td, th {
+  
+    text-align: left;
+    padding: 8px;
+    text-decoration-color: var(--fesecondary-color);
+    border-radius: 50% ;
+    
+  }
 .switch input {
     display: none;
 }
@@ -176,7 +603,8 @@ input:checked+.slider:before {
     font-size: 50px;
     border-radius: 20px;
     border-color: rgba(116, 49, 49, 0.329);
-    position: relative;}
+    position: relative;
+}
 
 .buttons_trailersfh {
     display: flex;
@@ -659,7 +1087,8 @@ html {
     padding: 0%;
     margin: 0%;
 }
-.FAhead{
+
+.FAhead {
     width: 3000px;
     height: 70px;
     background-color: black;
@@ -735,7 +1164,8 @@ html {
 .FAwatch_trailer {
     background: none;
     border: none;
-    display: flex;}
+    display: flex;
+}
 
 .FAwatch_trailer:hover {
     cursor: pointer;
@@ -822,7 +1252,8 @@ html {
 .FAseries {
     height: 465px;
     background: linear-gradient(to bottom, rgba(3, 1, 61, 0.925), rgba(80, 0, 0, 0.903));
-    margin-top: 20px;}
+    margin-top: 20px;
+}
 
 .FAseries .FAbox2 {
     display: flex;
@@ -863,7 +1294,9 @@ html {
     background-color: #310f0fe4;
     border: 3px solid yellow;
     border-radius: 20px;
-    overflow: hidden;}
+    overflow: hidden;
+}
+
 .FAseries .FAsr1film .FAimg-series {
     height: 100%;
     width: 100%;
@@ -907,7 +1340,8 @@ html {
 }
 
 .FAsr1film .FAcaption .FAcontent #smallicon {
-    color: white;}
+    color: white;
+}
 
 .FAseries .FAsr1film .FAcaption .FAcontent button {
     border: none;
@@ -934,7 +1368,9 @@ html {
 .FA_trailer3 {
     border: 5px solid red;
     height: inherit;
-    width: inherit;}
+    width: inherit;
+}
+
 
 /****************************************************************************/
 
@@ -967,7 +1403,9 @@ html {
     border-left: 100px solid var(--fesecondary-color);
     color: var(--fesecondary-color);
     cursor: pointer;
-    transition: 1s;}
+    transition: 1s;
+}
+
 .FAmySwiper .swiper-wrapper.swiper-slide {
     height: 300px;
     border: 50% yellow solid;
@@ -1152,7 +1590,7 @@ html {
     font-size: 15px;
     font-weight: 600;
     display: inline-flex;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border-radius: 15px;
     margin-top: 4px;
     margin-right: 10px;
@@ -1554,7 +1992,7 @@ h2.fzh{
     color:rgb(255, 255, 255) ;
 }
 .fzlogo-raw{
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px white; 
     font-size: 50px;
     top: -10px;
     display: inline;
@@ -1746,7 +2184,7 @@ color: black;
 
 }
 .fz2logo-raw{
-text-shadow: 2px 2px 5px  #F8F8FF;
+text-shadow: 2px 2px 5px  #F8F8FF; 
 font-size: 50px;
 top: -10px;
 display: inline;
@@ -2903,7 +3341,6 @@ html {
 
 .KGstrangerthingsab {
     display: inline-block;
-
     padding: 5px;
     font-family: 'Segoe UI';
     font-size: 18px;
@@ -2940,15 +3377,14 @@ html {
     width: 100px;
     height: 100px;
 }
-.KGtitleandtrailercont{
 
+.KGtitleandtrailercont {
     display: flex;
     flex-wrap: wrap;
 }
 
 .KGcast {
     margin-top: 30px;
-
     position: relative;
     display: block;
     width: 100%;
@@ -2966,7 +3402,6 @@ html {
     margin-bottom: 20px;
     position: relative;
     width: 95%;
-
     height: fit-content;
     left: 2.5%;
 }
@@ -3001,7 +3436,6 @@ html {
     transform: translateY(10px);
     cursor: pointer;
     box-shadow: 0 4px 8px 10px rgb(89, 0, 255), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
-
 }
 
 .KGcast-img {
@@ -3082,8 +3516,8 @@ html {
     height: 100%;
     border-radius: 20px;
 }
-.KGseasons-desc{
 
+.KGseasons-desc {
     color: white;
     margin: 20px;
     font-family: 'Prompt', sans-serif;
@@ -3098,7 +3532,9 @@ html {
         top: 0px;
     }
 
-
+    50% {
+        top: 30px;
+    }
 
     100% {
         top: 0px;
@@ -3113,8 +3549,9 @@ html {
     animation: blink 3s .3s infinite;
     box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
 }
-@keyframes blink{
-    0%{
+
+@keyframes blink {
+    0% {
         box-shadow: 0 4px 8px 10px rgba(255, 0, 0, 0.027), 0 6px 20px 5px rgba(255, 0, 0, 0.247);
     }
 
@@ -3158,33 +3595,27 @@ html {
 .KGfecontainer p {
     font-size: 16px;
     cursor: pointer;
-
 }
 
 .KGfecontainer h1 {
     cursor: pointer;
     font-size: 16px;
-
 }
 
 .KGfecontainer h2 {
     font-size: 16px;
-
 }
 
 .KGfecontainer h3 {
     font-size: 16px;
-
 }
 
 .KGfecontainer h4 {
     font-size: 16px;
-
 }
 
 .KGfecontainer h5 {
     font-size: 16px;
-
 }
 
 .KGcharachter-info {
@@ -3232,17 +3663,14 @@ html {
     box-shadow: 0 4px 8px 10px rgb(255, 255, 255), 0 6px 20px 5px rgb(151, 151, 151)247);
     color: rgb(255, 174, 0);
     transform: scale(1.KG1);
-
+    
 }*/
 
 .KGfecontainer button {
     background-color: #555555;
     border-radius: 10px;
     cursor: pointer;
-
-  }
-
-
+}
 
 
 
@@ -3466,6 +3894,9 @@ html {
     width: 42px;
     height: 42px;
 }
+
+
+
 .MainpageDarkTheme {
 
     --kgmainpagebackgroundcolor: #b9b9b9;
@@ -3477,6 +3908,9 @@ html {
     --kgrawscenecolor: black;
     --kgdarkmodebuttoncolor: rgb(255, 145, 0);
 }
+
+
+
 
 /**********MAin Page Css Code - Kero Bel E****************/
 
@@ -3510,7 +3944,7 @@ html {
   html, body {
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    overflow: hidden; 
     background: #22222A;
     font-family: 'Fira Mono', monospace;
     -webkit-font-smoothing: antialiased;
@@ -3684,7 +4118,7 @@ html {
 }
 
 */
-lastedit //////////////////
+
 /* to add new card create div for this class*/
 /*lastedit///////////////////
 .stuff-e {
@@ -3707,7 +4141,7 @@ lastedit //////////////////
     width: 210px;
     border-bottom: solid red 2px;
     transform: translateY(15px);
-    /* margin-top: 45px;
+    /* margin-top: 45px; 
 }
 
 .stuff-img {
@@ -3758,7 +4192,7 @@ lastedit //////////////////
     border-left: solid green 5px;
 }
 */
-lastedit //////////////////
+
 
 /* to add new card create div for this class*/
 /*last edit////////////////
@@ -3784,7 +4218,7 @@ lastedit //////////////////
     border-bottom: solid green 2px;
     transform: translateY(15px);
     /* margin-top: 45px; */
-}
+
 
 .designed {
     text-align: center;
@@ -3870,17 +4304,19 @@ lastedit //////////////////
 }
 
 .dark-mode {
-    --kgmainpagebackgroundcolor: #b9b9b9;
-    --kgslideshowbackgroundcolor: #a7a7a7;
+    --kgfriendsnavbarbackgroundcolor:rgb(71, 0, 71);
+    --kgfriendspagetextcolor:black;
+    --kgfriendsmainpagebackgroundcolor: #b9b9b9;
+    --kgfriendstablebackgroundcolor:#666666;
     --kgnavbarbackgroundcolor: rgb(80, 80, 80);
-    --kgbodytextcolor: rgb(0, 0, 0);
-    --kgcardcolor: #dadada;
-    --kgbackgroundcolorunderslideshow: #a7a7a7;
-    --kgrawscenecolor: black;
-    --kgdarkmodebuttoncolor: rgb(255, 145, 0);
+    --kgbodytextcolor:rgb(0, 0, 0);
+    --kgcardcolor:#dadada;
+    --kgbackgroundcolorunderslideshow:#666666;
+    --kgrawscenecolor:black;
+    --kgdarkmodebuttoncolor:rgb(255, 145, 0);
 }
 
-* ///////////////////////////////////////////////////////////////////////////////////last edit///////
+
 
 /*.light {
     display: inline-block;
@@ -3966,7 +4402,7 @@ lastedit //////////////////
 
 /******************************************start farida emad *************************************************/
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -4205,6 +4641,7 @@ html{
 
 .fefullsear {
     background-color: var(--feprimary-color);
+    margin-top: 70px;
 }
 
 .fesear {
@@ -4865,10 +5302,14 @@ input:checked+.slider:before {
 .fesearchlist::-webkit-scrollbar-thumb {
     background-color: #8ae9e9;
     outline: none;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 
 .hidelist {
-    display: none;}
+    display: none;
+}
+
+
 /******************************************end farida emad*********************************************************/
 
 
@@ -4928,7 +5369,6 @@ input:checked+.slider:before {
 
 .ksimgs {
     margin-top: 20px;
-    margin-left: 35px;
 }
 
 #samgreybox {
@@ -4997,7 +5437,8 @@ input:checked+.slider:before {
 #samtable2 {
     margin-top: 50px;
 }
-#sammyvid{
+
+#sammyvid {
     top: 100px;
     border-radius: 20px;
 }
@@ -5113,7 +5554,8 @@ input:checked+.slider:before {
     margin-right: auto;
     background-image: url("../media/laca01.jpg");
     background-position: 100%;
-    background-size: 70%;}
+    background-size: 70%;
+}
 
 .kititle {
     width: 62%;
@@ -5331,36 +5773,36 @@ input:checked+.slider:before {
 *********************************FARIDAKHALED*******************************************************
 ****************************************************************************************************************
 ********************************************************************************************************************************/
-.fk{
-    box-sizing: border-box;
-    margin:0;
+
+.fk {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
     padding: 0;
-    background-color: #151515;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
-/*.navbar-contmain {
-    width: 102%;
-    margin-left: -2%;
-    height: fit-content;
-}
-
-.navbar {
-    background-color: var(--feprimary-color);
+.fknavbar {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background-color: black;
     display: flex;
     width: 100%;
-    height: 70px;
-    border-radius: 10px;
+    height: 50px;
+    overflow: hidden;
 }
 
-.navbar-container {
+.fknavbar-container {
     display: flex;
     align-items: center;
-    padding: 5px 50px;
+    padding: 0 50px;
     height: 100%;
-    color: var(--feprimary-color);
+    color: white;
 }
 
-.logo-container {
+.fklogo-container {
     padding-right: 7em;
 }
 
@@ -5368,50 +5810,47 @@ input:checked+.slider:before {
     font-family: 'Halant', sans-serif;
     font-style: oblique;
     font-size: 2.3em;
-    color: var(--fesecondary-color);
+    color: #b3b3cc;
     animation: glow 1s ease-in-out infinite alternate;
     top: -15px;
     display: inline;
 }
 
-.menu-container {
+.fkmenu-container {
     padding-right: 10em;
 }
 
-.menu-list {
+.fkmenu-list {
     align-items: center;
     margin-top: 15px;
     display: flex;
     list-style: none;
+    padding-bottom: 15px;
 }
 
-.menu-list-item {
+.fkmenu-list-item {
+    margin-bottom: 20px;
     margin: 20px;
-    margin-bottom: 40px;
-    font-size: 20px;
-    color: white;
 }
 
-.menu-list-item:hover {
+.fkmenu-list-item:hover {
     cursor: pointer;
-    color: #8b7efe;
-    border-bottom: solid rgb(255, 13, 146) 2px;
+    color: #b3b3e6;
 }
 
-.menu-list-item.active {
-    color: #7d70f8;
+.fkmenu-list-item.active {
+    color: #b3b3e6;
+    font-weight: bold;
 }
 
-.signin-container {
-    position: relative;
-    right: -20%;
-    color: var(--fesecondary-color);
-    border: 1px solid var(--fesecondary-color);
+.fksignin-container {
+    color: #fff;
+    border: 1px solid white;
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
     display: inline-flex;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 15px;
     margin-top: 4px;
     margin-right: 10px;
@@ -5419,15 +5858,14 @@ input:checked+.slider:before {
     transition: 0.7s ease;
 }
 
-.signin-container:hover {
-    color: #0c0019;
+.fksignin-container:hover {
+    cursor: pointer;
+    color: #887799;
     background-color: #fff;
     transform: scale(1.1);
 }
 
-.toggle {
-    position: relative;
-    right: -6%;
+.fktoggle {
     margin-left: 10px;
     width: 40px;
     height: 20px;
@@ -5439,7 +5877,7 @@ input:checked+.slider:before {
     position: relative;
 }
 
-.toggle-ball {
+.fktoggle-ball {
     width: 18px;
     height: 18px;
     background-color: black;
@@ -5449,46 +5887,66 @@ input:checked+.slider:before {
     cursor: pointer;
 }
 
-.toggle-icon1 {
+.fktoggle-icon1 {
     color: black;
 }
 
-.toggle-icon2 {
+.fktoggle-icon2 {
     color: gold;
-}*/
+}
+
+.fksidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.fkleft-menu-icon {
+    color: white;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
 
 .fkcontainer {
+    background-color: #151515;
     min-height: calc(100vh - 50px);
     color: white;
 }
+
+.content-fkcontainer {
+    margin-left: 50px;
+}
+
 .fkfeatured-content {
-    padding:5px;
+    padding: 40px;
     height: 50vh;
 }
 
 .fkfeatured-title {
-    margin-left: 20px;
-    margin-top: 50px;
-    width: 450px;
+    width: 400px;
 }
 
 .fkfeatured-desc {
     color: lightgray;
-    font-family: 'Cormorant Garamond', serif;
-    width: 600px;
-    margin-left:4em;
-    font-size: 30px;
+    font-family: 'Halant', serif;
+    width: 500px;
+    margin: 30px 0;
+    font-size: 20px;
 }
 
 .fkfeatured-desc2 {
-    margin-top: 3em;
-    margin-left: 60em;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
 
 .fkfeatured-button {
-  margin-left: 7em;
     margin-bottom: 30px;
     letter-spacing: 1px;
     font-size: 15px;
@@ -5509,9 +5967,9 @@ input:checked+.slider:before {
 }
 
 .fkcast-list-title {
-    margin-top: 200px;
+    margin-top: 70px;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 450px;
     font-family: 'Alike Angular', serif;
 }
 
@@ -5596,60 +6054,47 @@ input:checked+.slider:before {
 .T-seasons {
     padding: 20px 50px;
 }
-.fkseas {
-    width: 190px;
-    height: 220px;
+
+.titles {
+    padding: 50px 10px;
+}
+
+.seas {
+    width: 170px;
+    height: 200px;
     border-radius: 25%;
-    transition: all 1s ease-in-out;
-}
-.fkseas:hover{
-  cursor: pointer;
-
-  opacity: 0.5;
 }
 
-.fkseas-desc {
-    margin-right: 10px;
+.seas-desc {
+    padding: 100px;
+    margin-right: 50px;
 }
 
-#fkseasons tr:nth-child(even){
-  background-color: #14141f;
+.seas-desc:hover {
+    color: white;
 }
+
 #fkseasons {
-     text-align: center;
-     background-color:#1f1f2e;
-     align-items: center;
-     margin: 0 60px;
-     border-radius: 7%;
-     padding: 10px;
+    align-items: center;
+    margin: 0 60px;
+    border-radius: 10%;
+    padding: 30px;
+    border: 2px solid white;
 }
-#fkseasons th{
-  font-size: 1.6em;
-  font-family: 'Alike Angular',sans-serif;
-  color:#d1d1e0;
-}
-#fkseasons td{
-  font-size: 1.3em;
-  font-family:'Tillana';
-}
+
 #fkseasons th,
 #fkseasons td {
-    padding: 30px 50px;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 30%
 }
-#fkseasons:hover .fkseas1{
-  transform: scale(1.2);
+
+#fkseasons img {
+    border: none;
 }
 
 
-
-
-
-
-
-
-
-
-/*************************************************SIGN IN & UP FARIDA KHALED*************************************************************************/
+/*sign in&up page farida khaled*/
 
 .fk2 {
     background-color: #646464;
@@ -5982,7 +6427,7 @@ td.colo:hover {
 #exka1 {
 
     background-position: center;
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-image: var(--kahmd);
     background-size: cover;
     background-attachment: fixed;
@@ -6255,10 +6700,8 @@ html {
 }
 
 .signin-container {
-    left:-120px;
     position: relative;
-    width: 10%;
-    height:50;
+    width: fit-content;
     color: var(--fesecondary-color);
     border: 1px solid var(--fesecondary-color);
     text-decoration: none;
