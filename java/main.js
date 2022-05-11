@@ -147,7 +147,7 @@ function openpage(){
     }
     if (x==="house")
     {
-        window.open("house%20md.html")
+        window.open("house md.htm")
     }
     if (x==="spiderman")
     {
@@ -163,7 +163,7 @@ function openpage(){
     }
     if (x==="little women")
     {
-        window.open("littlewomen.html")
+        window.open("littlewomen.htm")
     }
     if (x==="stranger things")
     {
