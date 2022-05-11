@@ -992,10 +992,11 @@ html {
     height: 201px;
     width: 131px;
     border-radius: 100%;
+    transition: 0.6s;
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a img:hover {
-    transform: scale(1.2);
+    transform: scale(.8);
     transition: 0.6s;
 }
 
