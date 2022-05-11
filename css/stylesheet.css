@@ -978,12 +978,12 @@ html {
     height: 201px;
     width: 131px;
     border-radius: 100%;
-
+    transition-duration: 0.6s;
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a img:hover {
-    transform: scale(1.2);
-    transition: 0.6s;
+    transform: scale(.8);
+    transition-duration: 0.6s;
 }
 
 .FAmySwiper .swiper-wrapper .swiper-slide a {
@@ -5274,6 +5274,7 @@ td.colo:hover {
 
 .karimbody {
     background-color: var(--feprimary-color);
+    
 }
 
 mark {

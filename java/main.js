@@ -138,3 +138,68 @@ function changeMode() {
     element.classList.toggle("light-mode");
 }
 //end farida emad...................
+function openpage(){
+    var x=document.getElementById("search").value;
+
+    if (x==="sherlock")
+    {
+        window.open("sherlock.html")
+    }
+    if (x==="house")
+    {
+        window.open("housemd.html")
+    }
+    if (x==="spiderman")
+    {
+        window.open("spider.html")
+    }
+    if (x==="تراب الماس")
+    {
+        window.open("TorabAlmas.html")
+    }
+    if (x==="the vampire diaries")
+    {
+        window.open("TVD.html")
+    }
+    if (x==="little women")
+    {
+        window.open("littlewomen.html")
+    }
+    if (x==="stranger things")
+    {
+        window.open("Strangerthings.html")
+    }  
+    if (x==="friends")
+    {
+        window.open("Friends.html")
+    }
+    if (x==="the good doctor")
+    {
+        window.open("The good doctor.html")
+    }
+    if (x==="la casa de papel")
+    {
+        window.open("LACASA.html")
+    }
+    if (x==="you")
+    {
+        window.open("YOU.html")
+    }
+    if (x==="ملاكي اسكندرية")
+    {
+        window.open("IT_Mlaki.html")
+    }
+    if (x==="harry potter")
+    {
+        window.open("IT_HarryPotter.html")
+    }
+    if (x==="anne with an e")
+    {
+        window.open("anne.html")
+    }
+    if (x==="sense and sensibility")
+    {
+        window.open(" Sense and Sensibility.html")
+    } 
+
+}
