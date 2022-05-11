@@ -21,6 +21,12 @@
     --kasher-background-image: url("../media/shwp1.jpg");
     --kablack: rgb(255, 255, 255);
     --kahmd: url("../media/hmd.jpg");
+    --FAprimary-color: #000000;
+    --FAsecondary-color: #e3e4e6;
+    --FA-background-image: url("../media/FA_Darkbackground.jpg");
+    --kasher-background-image: url(../media/shwp1.jpg);
+    --kablack: rgb(255, 255, 255);
+    --kahmd: url(../media/hmd.jpg);
     --kaboxsh: rgb(8, 8, 121);
     --kaboxsh2: rgb(239, 234, 173);
     --kablack2: rgb(57, 57, 57);
@@ -1027,12 +1033,23 @@ html {
     color: red;
 }
 
+/*****************************************************************************************************
+********************************************************************************************************
+*********************************Torab ALmas Fatma Ashraf*******************************************************
+****************************************************************************************************************
+********************************************************************************************************************************/
 
 /*****************************************************************************************************
 ********************************************************************************************************
 *********************************TORAB ALMAS FATMA ASHRAF*******************************************************
 ****************************************************************************************************************
 ********************************************************************************************************************************/
+
+/* Small */
+@media (min-width: 768px) {
+    .FAcont {
+        width: 925px;
+    }
 
 /* Small */
 @media (min-width: 768px) {
@@ -1056,26 +1073,6 @@ html {
     }
 }
 
-/*******************************/
-:root {
-    --FAprimary-color: #000000;
-    --FAsecondary-color: #e3e4e6;
-    --fatmafont1: 'Readex Pro', sans-serif;
-    /*Table content and paragraphs*/
-    --fatmafont2: 'Noto Nastaliq Urdu', serif;
-    /*Torab Almas*/
-    --fatmafont3: 'Rakkas', cursive;
-    /*Titles*/
-    --FA-background: linear-gradient(to bottom, rgb(6 5 54 / 93%), rgb(28 106 160 / 90%));
-}
-
-
-.light-mode {
-    --FAprimary-color: white;
-    --FAsecondary-color: #000;
-    --FA-background: linear-gradient(to bottom, rgb(201 205 222), rgb(83 156 204));
-}
-
 .FAbody2 {
     padding: 0%;
     margin: 0%;
@@ -1089,6 +1086,7 @@ html {
 
 
 /**************  Header *****************/
+/*Header*/
 
 .navbar-contmain {
     width: 102%;
@@ -1289,6 +1287,7 @@ input:checked+.slider:before {
 
 
 /*************** End of Header ****************/
+/*******************************/
 :root {
     --FAprimary-color: #000000;
     --FAsecondary-color: #e3e4e6;
@@ -1310,6 +1309,8 @@ input:checked+.slider:before {
 
 /***************** BODY  ************************/
 
+/*****************************************/
+/*End of header*/
 .FAhead {
     background-color: var(--FAprimary-color);
     width: 100%;
@@ -1390,6 +1391,7 @@ input:checked+.slider:before {
 }
 
 /******************************* B0X 2************************************************/
+/*******************************************************************************/
 
 .FA_B2 .FA_storytitle,
 .FA_B3 .FA_casttitle,
@@ -4224,7 +4226,6 @@ html {
     color: #8ae9e9;
     margin-left: 200px;
     background-color: var(--feprimary-color);
-}
 
 .fesb {
     background-color: var(--feprimary-color);
@@ -4248,6 +4249,7 @@ html {
     margin-top: 0;
     margin-left: 0;
     background-color: transparent;
+    font-size: 48px;
 }
 
 .reviewtxt {
@@ -6287,7 +6289,10 @@ html {
     text-align:center;
     padding:2px;
     border-radius: 15px;
-    transition: 0.5s ease;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transition: 0.7s ease;
+    width: 65px;
 }
 
 .signin-container:hover {
