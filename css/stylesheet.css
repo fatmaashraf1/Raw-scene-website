@@ -9,10 +9,11 @@
     --kgfriendsmainpagebackgroundcolor: black;
     --kgfriendstablebackgroundcolor: black;
     --mainHeightfh: 5%;
-    --fH1primary-color: rgb(226 126 45);
-    --fH1secondary-color: rgb(37, 51, 35);
-    --fH2primary-color: rgb(250, 241, 112);
-    --fH2secondary-color: rgb(26 19 10);
+    --fH1primary-color: rgb(37, 51, 35);
+    --fH1secondary-color: rgb(226 126 45);
+    --fH2primary-color: rgb(26 19 10);
+    --fH2secondary-color: rgb(250, 241, 112);
+    --fh22secondary: rgba(250, 241, 112, 0.726);
     --feprimary-color: #000;
     --fesecondary-color: #fff;
     --fhcast: rgba(249, 244, 135, 0.377);
@@ -34,8 +35,9 @@
     --FA-background-image: url("../media/FABackground.jpg");
     --fH1primary-color: rgb(226 126 45);
     --fH1secondary-color: rgb(37, 51, 35);
-    /*--fH2primary-color: rgb(250, 241, 112);
-    --fH2secondary-color: rgb(26 19 10);*/
+    --fH2primary-color: rgb(250, 241, 112);
+    --fH2secondary-color: rgb(26 19 10);
+    --fh22secondary: rgba(102, 81, 64, 0.726);
     --feprimary-color: #fff;
     --fesecondary-color: #000;
     --mlaki-background-image: url("../media/mlakibg2.jpg");
@@ -149,7 +151,15 @@ input:checked+.slider:before {
 
 .flexfh div:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 8px 10px rgb(226 126 45), 0px 6px 20px 5px grey;
+    box-shadow: 0 4px 8px 10px var(--fH1secondary-color), 0px 6px 20px 5px grey;
+}
+
+.farrahtrailers4:link {
+    text-decoration: none;
+}
+
+.farrahtrailers4:hover {
+    color: #d7f2ff80;
 }
 
 .Tfh_main,
@@ -158,7 +168,9 @@ input:checked+.slider:before {
 .Tfh3 {
     width: inherit;
     height: inherit;
-    border-radius: 0%;
+    border-radius: 10px;
+    top: 1%;
+    left: 10%;
     position: absolute;
 }
 
@@ -182,15 +194,19 @@ input:checked+.slider:before {
 .Trailer1fh,
 .Trailer2fh,
 .Trailer3fh {
-    color: white;
+    color: rgba(255, 248, 189, 0.849);
     background-color: var(--fH1secondary-color);
-    border-radius: var(--mainRadiusfh)
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 1%;
+    border-color: var(--fH1primary-color);
 }
 
 .Trailer1fh:hover,
 .Trailer2fh:hover,
 .Trailer3fh:hover {
     cursor: pointer;
+    transform: scale(1.09);
 }
 
 .seasonsfh {
@@ -201,7 +217,7 @@ input:checked+.slider:before {
 }
 
 .bfh {
-    background-color: var(--fH1secondary-color);
+    background-color: var(--fH1primary-color);
     padding: 0%;
     margin: 0%;
 }
@@ -311,7 +327,7 @@ input:checked+.slider:before {
 .charachterfh:hover {
     transform: scale(1.08);
     cursor: pointer;
-    box-shadow: 0px 2px 8px 8px rgb(190 108 32);
+    box-shadow: 0px 2px 8px 8px var(--fH1secondary-color);
 }
 
 .cast-imgfh {
@@ -395,7 +411,7 @@ input:checked+.slider:before {
     display: inline-block;
     margin-top: 80px;
     margin-bottom: 80px;
-    border-bottom: solid var(--fH1primary-color) 3px;
+    border-bottom: solid var(--fH1secondary-color)3px;
 }
 
 .season-anne {
@@ -435,7 +451,7 @@ input:checked+.slider:before {
 ********************************************************************************************************************************/
 
 .farrahbody2 {
-    background-color: rgb(26 19 10);
+    background-color: var(--fH2primary-color);
     margin: 0%;
     padding: 0%
 }
@@ -460,13 +476,13 @@ input:checked+.slider:before {
 }
 
 .fhh1 {
-    color: rgb(250, 241, 112);
+    color: var(--fH2secondary-color);
     font-size: 350%;
     font-family: 'Cinzel', serif;
 }
 
 .fhh4 {
-    color: rgba(250, 241, 112, 0.726);
+    color: var(--fh22secondary);
     font-size: 80%;
     font-family: 'Cinzel', serif;
 }
@@ -518,9 +534,9 @@ input:checked+.slider:before {
     margin-top: 15%;
     margin-bottom: 80px;
     font-family: 'Cinzel', serif;
-    color: rgb(250, 241, 112);
+    color: var(--fH2secondary-color);
     font-size: 250%;
-    border-bottom: solid rgba(255, 246, 127, 0.377) 3px;
+    border-bottom: solid var(--fh22secondary) 3px;
 }
 
 .fhcontainer {
@@ -600,7 +616,7 @@ input:checked+.slider:before {
 .fhd {
     font-size: 200%;
     font-family: 'Cinzel', serif;
-    color: rgb(250, 241, 112);
+    color: var(--fH2secondary-color);
 }
 
 
