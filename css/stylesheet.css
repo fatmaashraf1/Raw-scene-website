@@ -3881,14 +3881,16 @@ lastedit //////////////////
 }
 
 .dark-mode {
-    --kgmainpagebackgroundcolor: #b9b9b9;
-    --kgslideshowbackgroundcolor: #a7a7a7;
+    --kgfriendsnavbarbackgroundcolor:rgb(71, 0, 71);
+    --kgfriendspagetextcolor:black;
+    --kgfriendsmainpagebackgroundcolor: #b9b9b9;
+    --kgfriendstablebackgroundcolor:#666666;
     --kgnavbarbackgroundcolor: rgb(80, 80, 80);
-    --kgbodytextcolor: rgb(0, 0, 0);
-    --kgcardcolor: #dadada;
-    --kgbackgroundcolorunderslideshow: #a7a7a7;
-    --kgrawscenecolor: black;
-    --kgdarkmodebuttoncolor: rgb(255, 145, 0);
+    --kgbodytextcolor:rgb(0, 0, 0);
+    --kgcardcolor:#dadada;
+    --kgbackgroundcolorunderslideshow:#666666;
+    --kgrawscenecolor:black;
+    --kgdarkmodebuttoncolor:rgb(255, 145, 0);
 }
 
 * ///////////////////////////////////////////////////////////////////////////////////last edit///////
