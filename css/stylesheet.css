@@ -61,18 +61,20 @@
 ************FARIDAKHALED******************
 **************************************
 ********************************************/
-.fk{
+.fk {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     padding: 0;
     background-color: #151515;
 }
+
 .fkcontainer {
     min-height: calc(100vh - 50px);
     color: white;
 }
+
 .fkfeatured-content {
-    padding:5px;
+    padding: 5px;
     height: 50vh;
 }
 
@@ -86,7 +88,7 @@
     color: lightgray;
     font-family: 'Cormorant Garamond', serif;
     width: 600px;
-    margin-left:4em;
+    margin-left: 4em;
     font-size: 30px;
 }
 
@@ -96,12 +98,14 @@
     font-size: 15px;
     margin-bottom: 20px;
 }
-#fktrailer{
-  width: 100%;
-  height: 70vh;
-  margin-top: 20em;
-  margin-left: 10em;
+
+#fktrailer {
+    width: 100%;
+    height: 70vh;
+    margin-top: 20em;
+    margin-left: 10em;
 }
+
 .fkvideo-container {
     position: absolute;
     top: 10%;
@@ -127,8 +131,9 @@
     margin-top: 20em;
     margin-left: 10em;
 }
+
 .fkfeatured-button {
-  margin-left: 7em;
+    margin-left: 7em;
     margin-bottom: 30px;
     letter-spacing: 1px;
     font-size: 15px;
@@ -233,17 +238,19 @@
     opacity: 0.5;
     cursor: pointer;
 }
-#fkthird{
+
+#fkthird {
     padding: 20px 20px;
 }
-.fkseas:hover{
-  cursor: pointer;
-  opacity: 0.5;
-  transform: scale(1.2);
-  text-shadow:white;
+
+.fkseas:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.2);
+    text-shadow: white;
 }
 
-.fkseas{
+.fkseas {
     object-fit: cover;
     width: 190px;
     height: 220px;
@@ -252,52 +259,60 @@
     position: relative;
     box-shadow: 0px 0px 20px white;
 }
-.fkseas-table-item{
-  background-color: #52527a;
-  padding: 0 10px;
-  font-size:30px;
-  font-weight:bold;
-  position: relative;
-  top: -170px;
-  margin:100px 0px;
-  margin-left:0px;
-  opacity: 0;
-  transition: 1s all ease-in-out;
+
+.fkseas-table-item {
+    background-color: #52527a;
+    padding: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -170px;
+    margin: 100px 0px;
+    margin-left: 0px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
 }
+
 .fksd:hover .fkseas-table-item,
 .fksd:hover .fkbtf {
-     opacity: 1;
+    opacity: 1;
 }
-.fksd .fkbtf{
-  position:relative;
-  top:-150px;
-  opacity: 0;
-  transition: 1s all ease-in-out
+
+.fksd .fkbtf {
+    position: relative;
+    top: -150px;
+    opacity: 0;
+    transition: 1s all ease-in-out
 }
+
 .fkseas-desc {
     margin-right: 10px;
 }
 
-#fkseasons tr:nth-child(even){
-  background-color: #14141f;
+#fkseasons tr:nth-child(even) {
+    background-color: #14141f;
 }
+
 #fkseasons {
-     text-align: center;
-     background-color:#1f1f2e;
-     align-items: center;
-     margin: 0px 60px;
-     border-radius: 7%;
-     padding: 10px;
+    text-align: center;
+    background-color: #1f1f2e;
+    align-items: center;
+    margin: 0px 60px;
+    border-radius: 7%;
+    padding: 10px;
 }
-#fkseasons th{
-  font-size: 1.6em;
-  font-family: 'Alike Angular',sans-serif;
-  color:#d1d1e0;
+
+#fkseasons th {
+    font-size: 1.6em;
+    font-family: 'Alike Angular', sans-serif;
+    color: #d1d1e0;
 }
-#fkseasons td{
-  font-size: 1.3em;
-  font-family:'Tillana';
+
+#fkseasons td {
+    font-size: 1.3em;
+    font-family: 'Tillana';
 }
+
 #fkseasons th,
 #fkseasons td {
     padding: 20px 50px;
@@ -317,126 +332,149 @@
 /****************************************
 *******************FARIDA KHALED SIGN IN & SIGN UP*************
 ******************************************/
-.fk3{
-  --color-primary:#b3b3b3;
-  --color-primary-dark:#4d4d4d;
-  --color-secondary:#2d2d86;
-  --color-secondary-dark:#19194d;
-  --color-error:#cc3333;
-  --color-success:#4bb544;
-  --border-radius: 20%;
+.fk3 {
+    --color-primary: #b3b3b3;
+    --color-primary-dark: #4d4d4d;
+    --color-secondary: #2d2d86;
+    --color-secondary-dark: #19194d;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 20%;
 
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  font-size: 18px;
-  background: url(../media/fk3back.png);
-  background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url(../media/fk3back.png);
+    background-size: cover;
 }
-.fk3container{
-  width: 400px;
-  max-width: 400px;
-  margin: 1rem;
-  padding: 2rem;
-  box-shadow: 0 0 40px rgba(0,0,0,0.2);
-  border-radius: var(--border-radius);
-  backdrop-filter: blur(15px);
+
+.fk3container {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(15px);
 }
-.fk3form{
-  margin-top: 100px;
+
+.fk3form {
+    margin-top: 100px;
 
 }
+
 .fk3container,
-.fk3form-button{
-  font: 500 1rem 'Halant' ,sans-serif;
-  color:white;
+.fk3form-button {
+    font: 500 1rem 'Halant', sans-serif;
+    color: white;
 }
-.fk3form-input{
-  font: 500 1rem 'Halant' ,sans-serif;
-  color:black;
+
+.fk3form-input {
+    font: 500 1rem 'Halant', sans-serif;
+    color: black;
 }
-.fk3form--hidden{
-  display: none;
+
+.fk3form--hidden {
+    display: none;
 }
-.form > *:first-child{
-  margin-top: 0;
+
+.form>*:first-child {
+    margin-top: 0;
 }
-.form > *:last-child{
-  margin-bottom: 0;
+
+.form>*:last-child {
+    margin-bottom: 0;
 }
-.fk3form-msg{
-  text-align: center;
-  margin-bottom: 1rem;
+
+.fk3form-msg {
+    text-align: center;
+    margin-bottom: 1rem;
 }
-.fk3form-title{
-  font-size: 2.5em;
-  margin-bottom: 2rem;
-  text-align: center;
+
+.fk3form-title {
+    font-size: 2.5em;
+    margin-bottom: 2rem;
+    text-align: center;
 }
-.fk3form-msg-success{
-  color: var(--color-success);
+
+.fk3form-msg-success {
+    color: var(--color-success);
 }
-.fk3form-msg-error{
-  color: var(--color-error);
+
+.fk3form-msg-error {
+    color: var(--color-error);
 }
-.fk3form-input-group{
-  margin-bottom: 1rem;
+
+.fk3form-input-group {
+    margin-bottom: 1rem;
 }
-.fk3form-input{
-  display: block;
-  width: 100%;
-  padding: 0.75rem;
-  box-sizing: border-box;
-  border-radius:4px;
-  border:1px solid white;
-  background-color: white;
-  transition: background 0.2s, border-color 0.2s;
+
+.fk3form-input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: white;
+    transition: background 0.2s, border-color 0.2s;
 }
-.fk3form-input:focus{
-  border-color: var(--color-secondary);
+
+.fk3form-input:focus {
+    border-color: var(--color-secondary);
 }
-.fk3form-input-error{
-  color:var(--color-error);
-  border-color: var(--color-error);
+
+.fk3form-input-error {
+    color: var(--color-error);
+    border-color: var(--color-error);
 }
-.fk3input-error-message{
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  color:var(--color-error);
+
+.fk3input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
 }
-.fk3form-button{
-  width: 100%;
-  padding: 1rem 2rem;
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  outline: none;
-  cursor: pointer;
-  background: var(--color-secondary);
+
+.fk3form-button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background: var(--color-secondary);
 }
-.fk3form-button:hover{
-  background: var(--color-secondary-dark);
+
+.fk3form-button:hover {
+    background: var(--color-secondary-dark);
 }
-.fk3form-button:active{
-  transform: scale(0.98);
+
+.fk3form-button:active {
+    transform: scale(0.98);
 }
-.fk3form-text{
-  text-align: center;
+
+.fk3form-text {
+    text-align: center;
 }
-.fk3formlink{
-  color: var(--color-secondary-dark);
-  text-decoration: none;
-  cursor: pointer;
+
+.fk3formlink {
+    color: var(--color-secondary-dark);
+    text-decoration: none;
+    cursor: pointer;
 }
-.fk3formlink:hover{
-  text-decoration: underline;
+
+.fk3formlink:hover {
+    text-decoration: underline;
 }
-.fk3form-input::placeholder{
-  color: black;
+
+.fk3form-input::placeholder {
+    color: black;
 }
 
 /***********************************************END FARIDA KHALED****************************************************/
@@ -3645,11 +3683,7 @@ html {
 
 
 /**********MAin Page Css Code - Kero Bel E****************/
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
-:root {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes:root {
     --kgdarkmodebuttoncolor: grey;
     --kgbackgroundcolorunderslideshow: #22222A;
     --kgmainpagebackgroundcolor: #252525;
@@ -3660,12 +3694,7 @@ html {
     --kgrawscenecolor: white;
 }
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
-html {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes html {
     scroll-behavior: smooth;
 }
 
@@ -3674,11 +3703,7 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-.kgbodycode h2 {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes .kgbodycode h2 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     display: inline;
@@ -3689,16 +3714,7 @@ html {
     text-decoration: none;
 }
 
-<<<<<<< Updated upstream
-
-
-
-
-
-
-=======
->>>>>>> Stashed changes
-.english-cont {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes .english-cont {
     padding-top: 10px;
     padding-bottom: 20px;
     display: block;
@@ -3720,11 +3736,9 @@ html {
 <<<<<<< Updated upstream
 /* to add new card create div for this class*/
 =======
-
 /* to add new card create div for this class*/
 
->>>>>>> Stashed changes
-.stuff-e {
+>>>>>>>Stashed changes .stuff-e {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     margin: 30px;
@@ -3755,10 +3769,7 @@ html {
     height: 85%;
     border: solid rgb(0, 0, 0) 1px;
     border-radius: 5%;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes
 }
 
 .stuff-name {
@@ -3772,11 +3783,9 @@ html {
 <<<<<<< Updated upstream
 /* when add photo add to this class*/
 =======
-
 /* when add photo add to this class*/
 
->>>>>>> Stashed changes
-.stuff-img-t {
+>>>>>>>Stashed changes .stuff-img-t {
     width: 100%;
     height: 100%;
     border-radius: 5%;
@@ -3803,11 +3812,9 @@ html {
 <<<<<<< Updated upstream
 /* to add new card create div for this class*/
 =======
-
 /* to add new card create div for this class*/
 
->>>>>>> Stashed changes
-.stuff-a {
+>>>>>>>Stashed changes .stuff-a {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     margin: 30px;
@@ -3847,15 +3854,7 @@ html {
     font-size: 12px;
 }
 
-<<<<<<< Updated upstream
-
-
-
-
-
-=======
->>>>>>> Stashed changes
-.ar {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes .ar {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     text-align: center;
@@ -3901,49 +3900,39 @@ html {
     height: 42px;
 }
 
-<<<<<<< Updated upstream
+<<<<<<< Updated upstream .MainpageDarkTheme {
+
+    =======.MainpageDarkTheme {
+        >>>>>>>Stashed changes --kgmainpagebackgroundcolor: #b9b9b9;
+        --kgslideshowbackgroundcolor: #666666;
+        --kgnavbarbackgroundcolor: rgb(80, 80, 80);
+        --kgbodytextcolor: rgb(0, 0, 0);
+        --kgcardcolor: #dadada;
+        --kgbackgroundcolorunderslideshow: #666666;
+        --kgrawscenecolor: black;
+        --kgdarkmodebuttoncolor: rgb(255, 145, 0);
+    }
+
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes
+    /**********MAin Page Css Code - Kero Bel E****************/
 
 
-.MainpageDarkTheme {
-
-=======
-.MainpageDarkTheme {
->>>>>>> Stashed changes
-    --kgmainpagebackgroundcolor: #b9b9b9;
-    --kgslideshowbackgroundcolor: #666666;
-    --kgnavbarbackgroundcolor: rgb(80, 80, 80);
-    --kgbodytextcolor: rgb(0, 0, 0);
-    --kgcardcolor: #dadada;
-    --kgbackgroundcolorunderslideshow: #666666;
-    --kgrawscenecolor: black;
-    --kgdarkmodebuttoncolor: rgb(255, 145, 0);
-}
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
-
-
-/**********MAin Page Css Code - Kero Bel E****************/
-
-
-/**********************************************************************************************
+    /**********************************************************************************************
 /**********************************************************************************************
 /************************************FARIDA EMAD****************************************
 /***********************************************************************************************/
 
 
-/**********************************************************************************************
+    /**********************************************************************************************
 /**********************************************************************************************
 /************************************LIGHT AND DARK MORD****************************************
 /***********************************************************************************************/
 
 
-/*slideshow*/
+    /*slideshow*/
 
 
-/*
+    /*
 .slideshow-top {
     background-color: var(--kgslideshowbackgroundcolor);
 }
@@ -3956,7 +3945,7 @@ html {
 */
 
 
-/*
+    /*
   html, body {
     width: 100%;
     height: 100vh;
@@ -3969,7 +3958,7 @@ html {
   }*/
 
 
-/*lastedit/////////////////////
+    /*lastedit/////////////////////
 .content-width {
     width: 86%;
     height: 100vh;
@@ -4136,17 +4125,14 @@ html {
 }
 
 */
-<<<<<<< Updated upstream
-lastedit //////////////////
-=======
+    <<<<<<< Updated upstream lastedit //////////////////
+    =======lastedit //////////////////
 
-lastedit //////////////////
-
->>>>>>> Stashed changes
-/* to add new card create div for this class*/
+    >>>>>>>Stashed changes
+    /* to add new card create div for this class*/
 
 
-/*lastedit///////////////////
+    /*lastedit///////////////////
 .stuff-e {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
@@ -4189,13 +4175,13 @@ lastedit //////////////////
 */
 
 
-/*lastedit*/
+    /*lastedit*/
 
 
-/* when add photo add to this class*/
+    /* when add photo add to this class*/
 
 
-/*lastedit//////
+    /*lastedit//////
 .stuff-img-t {
     width: 100%;
     height: 100%;
@@ -4220,16 +4206,12 @@ lastedit //////////////////
     border-left: solid green 5px;
 }
 */
-<<<<<<< Updated upstream
-=======
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes lastedit //////////////////
 
->>>>>>> Stashed changes
-lastedit //////////////////
-
-/* to add new card create div for this class*/
+    /* to add new card create div for this class*/
 
 
-/*last edit////////////////
+    /*last edit////////////////
 
 .stuff-a {
     transition-timing-function: ease-in-out;
@@ -4255,35 +4237,44 @@ lastedit //////////////////
 
 
 }
+
 .designed {
     text-align: center;
 }
+
 .design-word {
     position: relative;
     font-size: 10px;
 }
+
 .stuff-cont {
     display: flex;
     flex-wrap: wrap;
 }
+
 .desc {
     position: relative;
     left: 2px;
     font-size: 18px;
 }
+
 ::-webkit-scrollbar {
     width: 11px;
 }
+
 ::-webkit-scrollbar-track {
     background-color: rgb(20, 20, 20);
     border-left: solid rgb(39, 39, 39) 1px;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: rgb(179, 0, 0);
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(158, 0, 0);
 }
+
 .ar {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
@@ -4300,6 +4291,7 @@ lastedit //////////////////
     right: 1.4%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .en {
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
@@ -4316,33 +4308,33 @@ lastedit //////////////////
     right: 1.4%;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
+
 .en:hover {
     background-color: #555555;
     width: 42px;
     height: 42px;
 }
+
 .ar:hover {
     background-color: #555555;
     width: 42px;
     height: 42px;
 }
-.dark-mode {
-    --kgfriendsnavbarbackgroundcolor:rgb(71, 0, 71);
-    --kgfriendspagetextcolor:black;
-    --kgfriendsmainpagebackgroundcolor: #b9b9b9;
-    --kgfriendstablebackgroundcolor:#666666;
-    --kgnavbarbackgroundcolor: rgb(80, 80, 80);
-    --kgbodytextcolor:rgb(0, 0, 0);
-    --kgcardcolor:#dadada;
-    --kgbackgroundcolorunderslideshow:#666666;
-    --kgrawscenecolor:black;
-    --kgdarkmodebuttoncolor:rgb(255, 145, 0);
-}
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-* ///////////////////////////////////////////////////////////////////////////////////last edit///////
+.dark-mode {
+    --kgfriendsnavbarbackgroundcolor: rgb(71, 0, 71);
+    --kgfriendspagetextcolor: black;
+    --kgfriendsmainpagebackgroundcolor: #b9b9b9;
+    --kgfriendstablebackgroundcolor: #666666;
+    --kgnavbarbackgroundcolor: rgb(80, 80, 80);
+    --kgbodytextcolor: rgb(0, 0, 0);
+    --kgcardcolor: #dadada;
+    --kgbackgroundcolorunderslideshow: #666666;
+    --kgrawscenecolor: black;
+    --kgdarkmodebuttoncolor: rgb(255, 145, 0);
+}
+
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes * ///////////////////////////////////////////////////////////////////////////////////last edit///////
 
 /*.light {
     display: inline-block;
@@ -4428,14 +4420,17 @@ lastedit //////////////////
 html {
     scroll-behavior: smooth;
 }
+
 .harbo2 {
     background-color: var(--feprimary-color);
 }
+
 #harbo {
     color: var(--fesecondary-color);
     background-color: var(--feprimary-color);
     transition: background 0.2 linear;
 }
+
 .fefirst {
     background-image: url(../media/harbackgroundfe.jpg);
     width: 100%;
@@ -4444,38 +4439,46 @@ html {
     background-size: cover;
     background-color: var(--feprimary-color);
 }
+
 .fesecond {
     background-color: var(--feprimary-color);
 }
+
 .felogoimg {
     width: 400px;
     margin-left: 500px;
     margin-top: 120px;
 }
+
 .felogoname {
     color: var(--feprimary-color);
 }
+
 .fefont1 {
     font-family: 'Tapestry', cursive;
 }
+
 .festart {
     margin-left: 480px;
     font-size: 50px;
     margin-top: -80px;
     text-shadow: 5px 2px 4px var(--fesecondary-color);
 }
+
 .firstbn {
     margin-left: 160px;
     margin-top: -70px;
     border-radius: 40px;
     font-weight: 600;
 }
+
 .fetimg {
     border-radius: 50px;
     height: 186px;
     width: 139px;
     box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
 }
+
 .fetbar {
     display: block;
     overflow-x: auto;
@@ -4483,38 +4486,47 @@ html {
     align-items: center;
     margin-top: 70px;
 }
+
 .fetbar td {
     width: 200px;
     padding: 10px 10px 20px 50px;
 }
+
 .fontchange {
     font-family: 'Updock', cursive;
     font-size: x-large;
     font-weight: bold;
 }
+
 .fetbar tr {
     color: var(--fesecondary-color);
 }
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 6px;
 }
+
 ::-webkit-scrollbar-track {
     background-color: rgb(20, 20, 20);
     border-left: solid rgb(39, 39, 39) 1px;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #56b2f8;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: #56b2f8;
 }
+
 .fetitle {
     color: #8ae9e9;
     margin-top: -50px;
     font-size: 60px;
     margin-left: 130px;
 }
+
 .fecontainer {
     display: flex;
     max-width: 1100px;
@@ -4527,6 +4539,7 @@ html {
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
 }
+
 .fehcontainer {
     display: flex;
     max-width: 1100px;
@@ -4539,92 +4552,113 @@ html {
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
 }
+
 .feposter img {
     width: 250px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0px #393e75, 0 6px 20px 0px #393e75;
     margin: 10px;
 }
+
 .feposter img:hover {
     width: 260px;
     box-shadow: 0 4px 8px 0px #8ae9e9, 0 6px 20px 0px #8ae9e9;
 }
+
 .fefilmname {
     color: #8ae9e9;
 }
+
 .fewriting {
     width: 750px;
 }
+
 .fethirdb {
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
     padding-bottom: 20px;
 }
+
 .fethird:hover {
     box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
 }
+
 .fethird p {
     margin: 5px;
 }
+
 .material-symbols-outlined {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
 }
+
 .feyellow {
     color: yellow;
 }
+
 .febn {
     margin-left: 150px;
 }
+
 #fetrailer1 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 #fetrailer2 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 #fetrailer3 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 #fetrailer4 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 #fetrailer5 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 #fetrailer6 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 #fetrailer7 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 #fetrailer8 {
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 .fesearchf {
     width: 100%;
     height: 100px;
     margin-bottom: 175px;
     background-color: var(--feprimary-color);
 }
+
 .fefullsear {
     background-color: var(--feprimary-color);
     margin-top: 70px;
 }
+
 .fesear {
     font-size: 44px;
     font-weight: 650;
@@ -4632,6 +4666,7 @@ html {
     margin-left: 200px;
     background-color: var(--feprimary-color);
 }
+
 .fesb {
     background-color: var(--feprimary-color);
     height: 60px;
@@ -4642,23 +4677,28 @@ html {
     border-top-left-radius: 0;
     color: var(--fesecondary-color);
 }
+
 .felogor {
     font-size: 48px;
     color: var(--fesecondary-color);
     margin-top: -85px;
     margin-left: 2px;
 }
+
 .fologo {
     margin-top: 0;
     margin-left: 0;
     background-color: transparent;
 }
+
 .reviewtxt {
     color: black;
 }
+
 .footicon {
     font-size: larger;
 }
+
 .fefooter {
     background-color: var(--feprimary-color);
     color: var(--fesecondary-color);
@@ -4668,9 +4708,11 @@ html {
     align-items: center;
     padding: 0px 130px;
 }
+
 .felast {
     margin-bottom: 0px;
 }
+
 .mlkbo {
     background-image: var(--mlaki-background-image);
     background-size: cover;
@@ -4680,29 +4722,35 @@ html {
     color: var(--fesecondary-color);
     background-color: var(--feprimary-color);
 }
+
 #femalkst {
     margin-left: 200px;
     background-color: transparent;
     margin-top: 50px;
 }
+
 #fevideo_background {
     box-shadow: 0 4px 8px 0px #e01b14, 0 6px 20px 0px #e01b14;
     border-radius: 20px;
 }
+
 #feimage_background {
     height: 400px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0px var(--fesecondary-color), 0 6px 20px 0px var(--fesecondary-color);
     display: none;
 }
+
 #feimage_background:hover {
     /** height: 430px;**/
-    
+
     transform: scale(1.1);
 }
+
 .fefontar {
     font-family: 'Amiri', serif;
 }
+
 .mlkname {
     font-size: 60px;
     margin-right: 170px;
@@ -4710,29 +4758,35 @@ html {
     color: #e3371e;
     margin-top: -200px;
 }
+
 .mlkname:hover {
     color: #103778;
     font-size: 65px;
     text-shadow: #e3371e -1px -2px 0.5em;
 }
+
 .faridaemadiframe {
     height: 100px;
     border: 0;
 }
+
 .thimlk {
     margin-top: 200px;
     direction: rtl;
 }
+
 .thimlk h1 {
     color: #0593a2;
     font-weight: 800;
     margin-right: 70px;
 }
+
 .thimlk p {
     font-size: x-large;
     font-weight: 800;
     text-shadow: var(--fesecondary-color) -1px -2px 0.5em;
 }
+
 .mlkcast {
     direction: rtl;
     margin-right: 150px;
@@ -4740,18 +4794,22 @@ html {
     font-weight: 800;
     text-shadow: var(--fesecondary-color) -1px -2px 0.5em;
 }
+
 .mlkcast h1 {
     color: #0593a2;
 }
+
 .mlkcast img {
     border-radius: 10px;
     position: relative;
     display: inline-block;
 }
+
 .mlktim {
     width: 200px;
     padding: 10px 10px 20px 50px;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -4761,61 +4819,76 @@ html {
     text-decoration: none;
     border-radius: 20px;
 }
+
 .fa:hover {
     opacity: 0.7;
 }
+
 .fa-facebook {
     background: #345190;
     color: white;
     margin-left: 400px;
     margin-top: -30px;
 }
+
 .fa-twitter {
     background: #56b2f8;
     color: white;
 }
+
 .fa-instagram {
     background: linear-gradient(to bottom, rgb(254, 127, 0), rgb(190, 2, 2), rgb(107, 0, 133));
     color: white;
 }
+
 .mlkcast img:hover {
     box-shadow: 6px 3px 75px 0px #0593a2;
     border-bottom: solid #0593a2;
     transform: scale(1.1, 1.1);
     transition-duration: .3s;
 }
+
 .mlksira {
     width: 600px;
     font-size: x-large;
 }
+
 .feactorname {
     font-size: x-large;
 }
+
 .feactorcol {
     color: #0593a2;
 }
+
 #mlkfilm {
     direction: rtl;
     margin-right: 150px;
 }
+
 #mlkfilm h1 {
     color: #0593a2;
 }
+
 #mlkfilmw {
     margin-right: 250px;
     height: 315px;
     width: 560px;
 }
+
 .mlkdown {
     direction: rtl;
     margin-right: 150px;
 }
+
 .mlkdown h1 {
     color: #0593a2;
 }
+
 .fedownbt {
     margin-right: 400px;
 }
+
 .switch {
     position: relative;
     display: inline-block;
@@ -4826,9 +4899,11 @@ html {
     margin-top: 45px;
     color: #000;
 }
+
 .switch input {
     display: none;
 }
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -4841,15 +4916,18 @@ html {
     transition: .4s;
     font-size: 16px;
 }
+
 .fa-sun {
     margin-left: 2px;
     margin-top: -5px;
     margin-bottom: 5px;
 }
+
 .fa-moon {
     margin-top: -5px;
     margin-bottom: 5px;
 }
+
 .slider:before {
     content: "";
     position: absolute;
@@ -4863,65 +4941,53 @@ html {
     transition: .4s;
     margin-top: 100px;
 }
+
 input:checked+.slider {
     color: yellow;
 }
+
 input:checked+.slider:before {
     transform: translateX(20px);
 }
+
 .cmlklogo {
     color: var(--feprimary-color);
 }
+
 @media (max-width:400px) {
     .mlkname {
         margin-right: 100px;
         margin-top: -450px;
     }
-<<<<<<< Updated upstream
 
-    #femalkst {
+    <<<<<<< Updated upstream #femalkst {
         margin-left: 15px;
     }
 
-=======
-    
-    #femalkst {
+    =======#femalkst {
         margin-left: 15px;
     }
-    
->>>>>>> Stashed changes
-    #fevideo_background {
+
+    >>>>>>>Stashed changes #fevideo_background {
         width: 350px;
         margin-top: 200px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .thimlk {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .thimlk {
         max-width: 350px;
         margin-top: 400px;
         margin-right: 0;
         margin-left: 0;
         padding: 0%;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .thimlk h1 {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .thimlk h1 {
         margin: 0;
         padding: 0;
         margin: right -20px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .thimlk .fecontainer {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .thimlk .fecontainer {
         max-width: 400px;
         margin-right: -200px;
         margin-left: 0;
@@ -4929,35 +4995,26 @@ input:checked+.slider:before {
         padding-right: 165px;
         font-size: xx-small;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .mlkpri {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .mlkpri {
         max-width: 350px;
         width: 350px;
     }
-<<<<<<< Updated upstream
 
-    .thimlk p {
+    <<<<<<< Updated upstream .thimlk p {
         font-size: small;
     }
 
-=======
-    
-    .thimlk p {
+    =======.thimlk p {
         font-size: small;
     }
-    
->>>>>>> Stashed changes
-    .mlkcast {
+
+    >>>>>>>Stashed changes .mlkcast {
         max-width: 400px;
         margin: 0;
     }
-<<<<<<< Updated upstream
 
-    .mlkcast tr {
+    <<<<<<< Updated upstream .mlkcast tr {
         max-width: 350px;
     }
 
@@ -4973,61 +5030,45 @@ input:checked+.slider:before {
         font-size: xx-small;
     }
 
-=======
-    
-    .mlkcast tr {
+    =======.mlkcast tr {
         max-width: 350px;
     }
-    
+
     .mlkcast h1 {
         margin-right: 50px;
     }
-    
+
     .mlksira {
         font-size: smaller;
     }
-    
+
     footer {
         font-size: xx-small;
     }
-    
->>>>>>> Stashed changes
-    footer .fecontainer {
+
+    >>>>>>>Stashed changes footer .fecontainer {
         margin: 0;
         width: 100px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .f1 {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .f1 {
         margin: 5px;
         margin-bottom: -50px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .f2 {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .f2 {
         margin: 5px;
         margin-bottom: -50px;
         margin-left: 30px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .f3 {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .f3 {
         margin-bottom: -75px;
         margin-right: -50px;
         margin-left: 50px;
     }
-<<<<<<< Updated upstream
 
-    .f3 .btn {
+    <<<<<<< Updated upstream .f3 .btn {
         font-size: 0.5rem;
     }
 
@@ -5051,57 +5092,49 @@ input:checked+.slider:before {
         margin-right: 50px;
     }
 
-=======
-    
-    .f3 .btn {
+    =======.f3 .btn {
         font-size: 0.5rem;
     }
-    
+
     .f3 iframe {
         height: 30px;
     }
-    
+
     .mlkdown h1 {
         margin-right: -100px;
     }
-    
+
     .downbt {
         margin-right: -100px;
     }
-    
+
     #mlkfilm {
         margin-right: 0;
     }
-    
+
     #mlkfilm h1 {
         margin-right: 50px;
     }
-    
->>>>>>> Stashed changes
-    #mlkfilmw {
+
+    >>>>>>>Stashed changes #mlkfilmw {
         margin-right: 0;
         width: 390px;
     }
-<<<<<<< Updated upstream
 
-    .nav-b {
+    <<<<<<< Updated upstream .nav-b {
         width: 400px;
     }
 
-=======
-    
-    .nav-b {
+    =======.nav-b {
         width: 400px;
     }
-    
->>>>>>> Stashed changes
-    .cmlklogo {
+
+    >>>>>>>Stashed changes .cmlklogo {
         width: 100px;
         font-size: x-large;
     }
-<<<<<<< Updated upstream
 
-    .logo-raw {
+    <<<<<<< Updated upstream .logo-raw {
         font-size: small;
     }
 
@@ -5109,69 +5142,49 @@ input:checked+.slider:before {
         display: none;
     }
 
-=======
-    
-    .logo-raw {
+    =======.logo-raw {
         font-size: small;
     }
-    
+
     .nav-st ul {
         display: none;
     }
-    
->>>>>>> Stashed changes
-    .switch {
+
+    >>>>>>>Stashed changes .switch {
         margin-left: 80px;
         margin-top: 20px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    #feimage_background {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes #feimage_background {
         height: 300px;
         margin-top: 150px;
         margin-left: 80px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .actorcol {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .actorcol {
         margin-right: 0;
         margin-left: -10px;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .fehcontainer {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .fehcontainer {
         flex-direction: column;
         align-items: center;
     }
-<<<<<<< Updated upstream
 
-    .fewriting {
+    <<<<<<< Updated upstream .fewriting {
         width: 350px;
     }
 
-=======
-    
-    .fewriting {
+    =======.fewriting {
         width: 350px;
     }
-    
->>>>>>> Stashed changes
-    .bn {
+
+    >>>>>>>Stashed changes .bn {
         margin: 0;
         align-items: center;
     }
-<<<<<<< Updated upstream
 
-    .bn .btn {
+    <<<<<<< Updated upstream .bn .btn {
         margin: 2px;
     }
 
@@ -5179,81 +5192,62 @@ input:checked+.slider:before {
         width: 360px;
     }
 
-=======
-    
-    .bn .btn {
+    =======.bn .btn {
         margin: 2px;
     }
-    
+
     .third {
         width: 360px;
     }
-    
->>>>>>> Stashed changes
-    .fefirst {
+
+    >>>>>>>Stashed changes .fefirst {
         width: 400px;
         background-image: none;
     }
-<<<<<<< Updated upstream
 
-    .festart {
+    <<<<<<< Updated upstream .festart {
         width: 400px;
     }
 
-=======
-    
-    .festart {
+    =======.festart {
         width: 400px;
     }
-    
->>>>>>> Stashed changes
-    .felogoimg {
+
+    >>>>>>>Stashed changes .felogoimg {
         width: 400px;
         margin-left: 0;
         margin-top: 0;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .felogoname {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .felogoname {
         margin-left: -425px;
         color: #e3e4e6;
         width: 400px;
         font-size: xx-large;
     }
-<<<<<<< Updated upstream
 
-    .festart button {
+    <<<<<<< Updated upstream .festart button {
         margin-left: -340px;
     }
 
-=======
-    
-    .festart button {
+    =======.festart button {
         margin-left: -340px;
     }
-    
->>>>>>> Stashed changes
-    .felogor {
+
+    >>>>>>>Stashed changes .felogor {
         color: var(--feprimary-color);
         font-size: x-large;
     }
-<<<<<<< Updated upstream
 
-    .felogor img {
+    <<<<<<< Updated upstream .felogor img {
         display: none;
     }
 
-=======
-    
-    .felogor img {
+    =======.felogor img {
         display: none;
     }
-    
->>>>>>> Stashed changes
-    .fesearchbar {
+
+    >>>>>>>Stashed changes .fesearchbar {
         width: 200px;
         margin-left: -270px;
         margin-top: -105px;
@@ -5261,12 +5255,8 @@ input:checked+.slider:before {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    .fesb {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes .fesb {
         margin-bottom: 85px;
         margin-right: 265px;
         width: 200px;
@@ -5274,24 +5264,21 @@ input:checked+.slider:before {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
-<<<<<<< Updated upstream
 
-    .fesearchf {
+    <<<<<<< Updated upstream .fesearchf {
         width: 400px;
     }
 
-=======
-    
-    .fesearchf {
+    =======.fesearchf {
         width: 400px;
     }
-    
->>>>>>> Stashed changes
-    .fesearchf h2 {
+
+    >>>>>>>Stashed changes .fesearchf h2 {
         margin-left: -260px;
         margin-top: -165px;
     }
 }
+
 .fetop-img {
     width: 150px;
     height: 200px;
@@ -5303,12 +5290,15 @@ input:checked+.slider:before {
     opacity: 0;
     transition: all 1s ease;
 }
+
 .fetop-img:hover {
     opacity: 1;
 }
+
 .mlkcast tr {
     position: relative;
 }
+
 .fesearch-cont {
     background-color: var(--feprimary-color);
     height: 180px;
@@ -5317,6 +5307,7 @@ input:checked+.slider:before {
     justify-content: center;
     color: var(--fesecondary-color);
 }
+
 .fesearchele {
     background-color: var(--feprimary-color);
     display: flex;
@@ -5325,6 +5316,7 @@ input:checked+.slider:before {
     flex-direction: column;
     position: relative;
 }
+
 .fesearchele h3 {
     background-color: var(--feprimary-color);
     align-self: center;
@@ -5334,9 +5326,11 @@ input:checked+.slider:before {
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
+
 .fesearchele a {
     text-decoration: none;
 }
+
 .fesearchbar {
     background-color: #8ae9e9;
     padding: 1rem 2rem;
@@ -5349,6 +5343,7 @@ input:checked+.slider:before {
     width: 350px;
     margin-left: 500px;
 }
+
 .fesearchlist {
     background-color: var(--feprimary-color);
     position: absolute;
@@ -5358,6 +5353,7 @@ input:checked+.slider:before {
     overflow-y: scroll;
     z-index: 10;
 }
+
 .fesearchlist .fesearchlistitems {
     background-color: var(--feprimary-color);
     padding: 0.5rem;
@@ -5367,42 +5363,52 @@ input:checked+.slider:before {
     cursor: pointer;
     transition: background-color 200ms ease;
 }
+
 .fesearchlistitems:hover {
     background-color: #1f1f1f;
 }
+
 .fesearchlistitems {
     display: flex;
     align-items: center;
     background-color: var(--feprimary-color);
 }
+
 .fethumbnail img {
     width: 40px;
     margin-right: 1rem;
 }
+
 .fethumbnail {
     background-color: var(--feprimary-color);
 }
+
 .feinfo h3 {
     font-weight: 600;
     font-size: 1rem;
 }
+
 .feinfo p {
     font-size: 0.8rem;
     margin-top: 0.5rem;
     font-weight: 600;
     opacity: 0.6;
 }
+
 .fesearchlist::-webkit-scrollbar {
     width: 8px;
 }
+
 .fesearchlist::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
+
 .fesearchlist::-webkit-scrollbar-thumb {
     background-color: #8ae9e9;
     outline: none;
     border-radius: 10px;
 }
+
 .hidelist {
     display: none;
 }
@@ -5446,13 +5452,11 @@ input:checked+.slider:before {
         width: 1448px;
     }
 }
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-.SAMY2container {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes .SAMY2container {
     display: flex;
 }
+
 #sambody1 {
     background: var(--feprimary-color);
     background-repeat: no-repeat;
@@ -5460,9 +5464,11 @@ input:checked+.slider:before {
     color: var(--fesecondary-color);
     padding: 4%;
 }
+
 .ksimgs {
     margin-top: 20px;
 }
+
 #samgreybox {
     border: none;
     border-radius: 10px;
@@ -5473,25 +5479,26 @@ input:checked+.slider:before {
     margin: 0.2em;
     float: left;
 }
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-.kiroimg {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes .kiroimg {
     margin-bottom: 4px;
 }
+
 .kiroimg:hover {
     transform: scale(0.96);
     border-radius: 5%;
 }
+
 #samsimple {
     font-size: larger;
 }
+
 #samsimple2 {
     font-size: larger;
     padding-left: 30px;
     text-align: center;
 }
+
 #samtitle {
     font-size: xx-large;
     font-weight: bold;
@@ -5500,6 +5507,7 @@ input:checked+.slider:before {
     text-align: center;
     letter-spacing: 2px;
 }
+
 #samtitle11 {
     font-size: xx-large;
     font-weight: bold;
@@ -5510,6 +5518,7 @@ input:checked+.slider:before {
     margin-top: 50px;
     margin-left: 55px;
 }
+
 #samtable1 {
     color: var(--feprimary-color);
     background-color: darkgray;
@@ -5522,18 +5531,22 @@ input:checked+.slider:before {
     border-radius: 7%;
     font-size: larger;
 }
+
 #samtable2 {
     margin-top: 50px;
 }
+
 #sammyvid {
     top: 100px;
     border-radius: 20px;
 }
+
 .samytae {
     display: flex;
     width: 100%;
     margin-top: -180px;
 }
+
 .samyo {
     flex-direction: 1 1 1;
     margin: 50px;
@@ -5541,14 +5554,17 @@ input:checked+.slider:before {
     width: fit-content;
     justify-content: space-evenly;
 }
+
 .samyhaz {
     border-radius: 7%;
     margin: 8px;
 }
+
 .samyhaz:hover {
     border-radius: 15%;
     transform: scale(1.07);
 }
+
 .samyinfo {
     margin: 18%;
     top: 30px;
@@ -5563,12 +5579,14 @@ input:checked+.slider:before {
     overflow: hidden;
     margin-left: 4%;
 }
+
 .samyinfo .samyimg-series1 {
     height: 100%;
     width: 100%;
     border-radius: 9%;
     transition: 2s;
 }
+
 .samyinfo .samycaption {
     position: absolute;
     top: 130%;
@@ -5579,10 +5597,12 @@ input:checked+.slider:before {
     text-align: center;
     border-radius: 9%;
 }
+
 .samyinfo .samycaption .samycontent {
     color: var(--fesecondary-color);
     padding-top: 40px;
 }
+
 .samycaption .samycontent #playicon {
     font-family: 'Material Icons';
     font-size: 60px;
@@ -5592,6 +5612,7 @@ input:checked+.slider:before {
     white-space: nowrap;
     direction: ltr;
 }
+
 .samycaption .samycontent button {
     display: inline-flex;
     align-items: center;
@@ -5601,12 +5622,15 @@ input:checked+.slider:before {
     padding: 10px;
     background-size: 40px;
 }
+
 .samyinfo:hover .samycaption {
     top: 0;
 }
+
 .samyinfo:hover .samyimg-series1 {
     transform: scale(1.5);
 }
+
 .samyplay {
     color: var(--fesecondary-color);
     text-decoration: none;
@@ -5616,6 +5640,7 @@ input:checked+.slider:before {
 .kibody {
     background-color: var(--feprimary-color);
 }
+
 .kitop {
     display: block;
     width: 96%;
@@ -5627,12 +5652,14 @@ input:checked+.slider:before {
     background-position: 100%;
     background-size: 70%;
 }
+
 .kititle {
     width: 62%;
     height: 100%;
     background-color: var(--feprimary-color);
     background: linear-gradient(to left, rgba(0, 0, 0, 0), #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
 }
+
 .kititle-title {
     position: relative;
     display: inline-block;
@@ -5642,22 +5669,26 @@ input:checked+.slider:before {
     color: white;
     font-size: 45px;
 }
+
 .kititle-title p {
     margin: 0 15px;
 }
+
 .kititle-description {
     width: 80%;
     height: 70%;
     /* border: solid red 1px; */
-    
+
     margin-left: 2%;
     margin-top: 2%;
 }
+
 .kititle-description p {
     margin: 10px;
     color: white;
     font-size: 24px;
 }
+
 .kimiddle {
     margin-top: 20px;
     display: block;
@@ -5667,22 +5698,26 @@ input:checked+.slider:before {
     padding: 30px;
     background-color: var(--feprimary-color);
 }
+
 .kileftmiddle {
     display: inline-block;
     width: 20%;
     float: left;
 }
+
 .kirightmiddle {
     display: inline-block;
     width: 20%;
     float: right;
 }
+
 .kimiddlemiddle {
     display: inline-block;
     width: 50%;
     padding: 20px;
     padding-left: 55px;
 }
+
 #kititle {
     font-size: xx-large;
     font-weight: bold;
@@ -5691,11 +5726,13 @@ input:checked+.slider:before {
     text-align: center;
     letter-spacing: 2px;
 }
+
 .kiiframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .kicast-title {
     position: relative;
     display: inline-block;
@@ -5705,13 +5742,16 @@ input:checked+.slider:before {
     color: var(--fesecondary-color);
     font-size: 45px;
 }
+
 .kicast-title p {
     margin: 0 15px;
 }
+
 .kicast {
     width: 100%;
     margin-top: 40px;
 }
+
 #kiimagemap {
     margin-left: 360px;
 }
@@ -5722,6 +5762,7 @@ input:checked+.slider:before {
     height: 65%;
     margin-bottom: 50px;
 }
+
 .KImySwiper .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -5740,6 +5781,7 @@ input:checked+.slider:before {
     -webkit-align-items: center;
     align-items: center;
 }
+
 .KImySwiper.swiper-slide img {
     display: block;
     width: 100%;
@@ -5761,12 +5803,14 @@ input:checked+.slider:before {
     border-radius: 20px;
     overflow: hidden;
 }
+
 .kiinfo .kiimg-series2 {
     height: 100%;
     width: 100%;
     border-radius: 9%;
     transition: 2s;
 }
+
 .kiinfo .kicaption {
     position: absolute;
     top: 130%;
@@ -5777,10 +5821,12 @@ input:checked+.slider:before {
     text-align: center;
     border-radius: 9%;
 }
+
 .kiinfo .kicaption .kicontent {
     color: white;
     padding-top: 40px;
 }
+
 .kicaption .kicontent #playicon {
     font-family: 'Material Icons';
     font-size: 60px;
@@ -5790,6 +5836,7 @@ input:checked+.slider:before {
     white-space: nowrap;
     direction: ltr;
 }
+
 .kicaption .kicontent button {
     display: inline-flex;
     align-items: center;
@@ -5799,12 +5846,15 @@ input:checked+.slider:before {
     padding: 10px;
     background-size: 40px;
 }
+
 .kiinfo:hover .kicaption {
     top: 0;
 }
+
 .kiinfo:hover .kiimg-series2 {
     transform: scale(1.5);
 }
+
 .kiplay {
     color: white;
     text-decoration: none;
@@ -5822,6 +5872,7 @@ input:checked+.slider:before {
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+
 .fknavbar {
     margin: 0;
     padding: 0;
@@ -5833,6 +5884,7 @@ input:checked+.slider:before {
     height: 50px;
     overflow: hidden;
 }
+
 .fknavbar-container {
     display: flex;
     align-items: center;
@@ -5840,9 +5892,11 @@ input:checked+.slider:before {
     height: 100%;
     color: white;
 }
+
 .fklogo-container {
     padding-right: 7em;
 }
+
 #fklogo {
     font-family: 'Halant', sans-serif;
     font-style: oblique;
@@ -5852,9 +5906,11 @@ input:checked+.slider:before {
     top: -15px;
     display: inline;
 }
+
 .fkmenu-container {
     padding-right: 10em;
 }
+
 .fkmenu-list {
     align-items: center;
     margin-top: 15px;
@@ -5862,18 +5918,22 @@ input:checked+.slider:before {
     list-style: none;
     padding-bottom: 15px;
 }
+
 .fkmenu-list-item {
     margin-bottom: 20px;
     margin: 20px;
 }
+
 .fkmenu-list-item:hover {
     cursor: pointer;
     color: #b3b3e6;
 }
+
 .fkmenu-list-item.active {
     color: #b3b3e6;
     font-weight: bold;
 }
+
 .fksignin-container {
     color: #fff;
     border: 1px solid white;
@@ -5888,12 +5948,14 @@ input:checked+.slider:before {
     margin-bottom: 4px;
     transition: 0.7s ease;
 }
+
 .fksignin-container:hover {
     cursor: pointer;
     color: #887799;
     background-color: #fff;
     transform: scale(1.1);
 }
+
 .fktoggle {
     margin-left: 10px;
     width: 40px;
@@ -5905,6 +5967,7 @@ input:checked+.slider:before {
     justify-content: space-around;
     position: relative;
 }
+
 .fktoggle-ball {
     width: 18px;
     height: 18px;
@@ -5914,12 +5977,15 @@ input:checked+.slider:before {
     border-radius: 50%;
     cursor: pointer;
 }
+
 .fktoggle-icon1 {
     color: black;
 }
+
 .fktoggle-icon2 {
     color: gold;
 }
+
 .fksidebar {
     width: 50px;
     height: 100%;
@@ -5931,27 +5997,33 @@ input:checked+.slider:before {
     align-items: center;
     padding-top: 60px;
 }
+
 .fkleft-menu-icon {
     color: white;
     flex-direction: column;
     font-size: 20px;
     margin-bottom: 40px;
 }
+
 .fkcontainer {
     background-color: #151515;
     min-height: calc(100vh - 50px);
     color: white;
 }
+
 .content-fkcontainer {
     margin-left: 50px;
 }
+
 .fkfeatured-content {
     padding: 40px;
     height: 50vh;
 }
+
 .fkfeatured-title {
     width: 400px;
 }
+
 .fkfeatured-desc {
     color: lightgray;
     font-family: 'Halant', serif;
@@ -5959,10 +6031,12 @@ input:checked+.slider:before {
     margin: 30px 0;
     font-size: 20px;
 }
+
 .fkfeatured-desc2 {
     font-size: 14px;
     margin-bottom: 20px;
 }
+
 .fkfeatured-button {
     margin-bottom: 30px;
     letter-spacing: 1px;
@@ -5976,24 +6050,29 @@ input:checked+.slider:before {
     font-weight: bold;
     transition: 0.7s ease;
 }
+
 .fkfeatured-button:hover {
     color: #47476b;
     background-color: #b3b3cc;
     transform: scale(1.1);
 }
+
 .fkcast-list-title {
     margin-top: 70px;
     font-size: 30px;
     margin-left: 450px;
     font-family: 'Alike Angular', serif;
 }
+
 .fkcast-list-container {
     padding: 0 20px;
 }
+
 .fkcast-list-wrapper {
     position: relative;
     overflow: hidden;
 }
+
 .fkcast-list {
     display: flex;
     align-items: center;
@@ -6001,19 +6080,23 @@ input:checked+.slider:before {
     transform: translateX(0);
     transition: all 1s ease-in-out;
 }
+
 .fkcast-list-item {
     margin-right: 30px;
     position: relative;
 }
+
 .fkcast-list-item:hover .fkcast-list-item-img {
     transform: scale(1.2);
     margin: 0 30px;
     opacity: 0.5;
 }
+
 .fkcast-list-item:hover .fkcast-list-item-title,
 .fkcast-list-item:hover .fkcast-list-item-desc {
     opacity: 1;
 }
+
 .fkcast-list-item-img {
     transition: all 0.7s ease-in-out;
     width: 200px;
@@ -6021,6 +6104,7 @@ input:checked+.slider:before {
     object-fit: cover;
     border-radius: 50%;
 }
+
 .fkcast-list-item-title {
     font-family: 'Alike Angular', sans-serif;
     color: #9494b8;
@@ -6034,6 +6118,7 @@ input:checked+.slider:before {
     opacity: 0;
     transition: 1s all ease-in-out;
 }
+
 .fkcast-list-item-desc {
     font-family: 'Alike Angular', sans-serif;
     background-color: #333;
@@ -6046,6 +6131,7 @@ input:checked+.slider:before {
     opacity: 0;
     transition: 1s all ease-in-out;
 }
+
 .fkarrow {
     font-size: 120px;
     position: absolute;
@@ -6055,24 +6141,30 @@ input:checked+.slider:before {
     opacity: 0.5;
     cursor: pointer;
 }
+
 .T-seasons {
     padding: 20px 50px;
 }
+
 .titles {
     padding: 50px 10px;
 }
+
 .seas {
     width: 170px;
     height: 200px;
     border-radius: 25%;
 }
+
 .seas-desc {
     padding: 100px;
     margin-right: 50px;
 }
+
 .seas-desc:hover {
     color: white;
 }
+
 #fkseasons {
     align-items: center;
     margin: 0 60px;
@@ -6080,12 +6172,14 @@ input:checked+.slider:before {
     padding: 30px;
     border: 2px solid white;
 }
+
 #fkseasons th,
 #fkseasons td {
     border: 2px solid white;
     padding-top: 10px;
     border-radius: 30%
 }
+
 #fkseasons img {
     border: none;
 }
@@ -6103,6 +6197,7 @@ input:checked+.slider:before {
     font-size: 24px;
     box-sizing: border-box;
 }
+
 .fk2nav-b {
     position: relative;
     display: block;
@@ -6110,6 +6205,7 @@ input:checked+.slider:before {
     width: 100%;
     background-color: black;
 }
+
 .fk2nav-logo {
     position: relative;
     display: inline-block;
@@ -6117,10 +6213,12 @@ input:checked+.slider:before {
     left: 5%;
     height: 100%;
 }
+
 .fk2logo {
     margin: 8px;
     width: 150px;
 }
+
 .fk2nav-st {
     position: absolute;
     display: inline-block;
@@ -6128,6 +6226,7 @@ input:checked+.slider:before {
     height: 100%;
     left: 30%;
 }
+
 .fk2list li {
     position: relative;
     display: inline-block;
@@ -6136,11 +6235,13 @@ input:checked+.slider:before {
     border: solid transparent 2px;
     margin: 0 40px 0 40px;
 }
+
 .fk2list li:hover {
     transition: ease-in-out;
     transition-duration: .25s;
     border-bottom: solid rgb(255, 17, 0) 2px;
 }
+
 .fk2list li {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -6152,23 +6253,28 @@ input:checked+.slider:before {
     width: 100px;
     height: 40px;
 }
+
 .fk2list {
     height: 100%;
     text-align: center;
     width: 500px;
 }
+
 .fk2bx-bxs-movie {
     font-size: 40px;
     color: red;
 }
+
 .fk2a {
     text-decoration: none;
 }
+
 .fk2logo-raw {
     top: -10px;
     display: inline;
     position: relative;
 }
+
 .fk2login {
     font-size: 20px;
     color: rgb(255, 0, 0);
@@ -6185,15 +6291,17 @@ input:checked+.slider:before {
     transition: ease-in-out;
     transition-duration: .25s;
 }
+
 .fk2login:hover {
     border: solid red 1px;
     background-color: black;
     color: white;
 }
+
 .fk2signin-cont {
     /*width: 230px;
     height: 300px;*/
-    
+
     backdrop-filter: blur(15px);
     border: solid rgb(0, 0, 0) 1px;
     border-radius: 20px;
@@ -6204,6 +6312,7 @@ input:checked+.slider:before {
     height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .fk2user {
     border-radius: 10px;
     text-align: center;
@@ -6213,15 +6322,18 @@ input:checked+.slider:before {
     display: block;
     margin: 40px;
 }
+
 ::placeholder {
     color: white;
 }
+
 .fk2signtext {
     font-size: 20px;
     color: aliceblue;
     position: relative;
     top: 30px;
 }
+
 .fk2signbut {
     font-size: 18px;
     color: black;
@@ -6229,23 +6341,28 @@ input:checked+.slider:before {
     width: 130px;
     height: 30px;
 }
+
 .fk2pre {
     font-size: 14px;
     color: rgb(0, 0, 0);
     margin-top: 5px;
 }
+
 .fk2a {
     font-size: 14px;
     color: red;
     text-decoration: none;
 }
+
 .fk2signbut {
     margin-top: 50px;
 }
+
 .fk2signtext {
     display: block;
     margin-top: 30px;
 }
+
 .fk2logo {
     margin-top: 20px;
 }
@@ -6264,11 +6381,13 @@ input:checked+.slider:before {
     font-weight: bold;
     font-size: 30px;
 }
+
 #kabutton {
     position: fixed;
     bottom: -4px;
     right: 55px;
 }
+
 #cap {
     color: #ffffff;
     margin: 40px;
@@ -6277,28 +6396,34 @@ input:checked+.slider:before {
     left: 80px;
     font-size: 14px;
 }
+
 .lovesucks {
     display: inline-block;
     height: 400px;
     width: 320px;
 }
+
 #korederdlist {
     font-size: 25px;
     color: var(--kablack);
 }
+
 .imdb {
     text-align: center;
     display: block;
     font-size: 40px;
 }
+
 .kacenta {
     margin-left: 360px;
 }
+
 .kavidt {
     border: solid 5px #1616b6;
     box-shadow: 6px 3px 25px 10px rgb(73, 98, 212);
     margin-right: 30px;
 }
+
 #kah42 {
     text-shadow: 3px 0px 2px rgb(64, 0, 255), 0 0 25px rgb(0, 8, 255);
     text-align: center;
@@ -6306,14 +6431,17 @@ input:checked+.slider:before {
     color: var(--kablack);
     font-size: 40px;
 }
+
 #kacast {
     height: 625px;
     width: 1000px;
     text-align: center;
 }
+
 .karimboarder {
     border-radius: 10px;
 }
+
 .kaseasoncaption {
     position: relative;
     top: -175px;
@@ -6321,6 +6449,7 @@ input:checked+.slider:before {
     color: white;
     font-size: 30px;
 }
+
 .hanksha {
     background: linear-gradient(to bottom, rgb(11, 45, 72), rgb(26, 56, 100), rgb(60, 2, 20));
     border-radius: 10px;
@@ -6329,14 +6458,17 @@ input:checked+.slider:before {
     height: 200px;
     box-shadow: 6px 3px 25px 0px rgb(41, 76, 230);
 }
+
 .seasoncaption {
     margin: 20px;
     position: relative;
     top: -170px;
 }
+
 .linkcolor {
     color: white;
 }
+
 table.colo {
     width: 800px;
     margin: 20px;
@@ -6347,55 +6479,57 @@ table.colo {
     height: 300px;
     border: #c1bbbb;
 }
+
 td.colo {
     background-color: #e1e1e1;
     border-collapse: collapse;
     border: 3px solid #ddd;
     color: #000000;
 }
+
 td.kaboa {
     border-collapse: collapse;
     border: 3px solid #ddd;
 }
+
 td.colo:hover {
     background-color: #1b035d;
     color: #efe8e8;
 }
+
 #kaho:hover {
     background-color: rgb(61, 55, 77);
     color: #ffffff;
 }
+
 #kaho {
     background-color: #9c9999;
     color: #000000;
 }
+
 #kalight {
     color: #1616b6;
     font-size: 15px;
 }
-#exka1 {
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-    background-position: center;
+#exka1 {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes background-position: center;
     background-repeat: no-repeat;
     background-image: var(--kahmd);
     background-size: cover;
     background-attachment: fixed;
 }
+
 .karimbody {
     background-color: var(--feprimary-color);
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
+
 mark {
     background-color: var(--fesecondary-color);
     color: rgb(40, 56, 149);
     border-radius: 6px;
 }
+
 #txthmd {
     color: var(--kablack);
     font-size: 30px;
@@ -6403,6 +6537,7 @@ mark {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .kaup {
     background-color: #0080ff;
     color: rgb(0, 0, 0);
@@ -6412,11 +6547,13 @@ mark {
     font-weight: bold;
     font-size: 30px;
 }
+
 #kabutton {
     position: fixed;
     bottom: -4px;
     right: 55px;
 }
+
 .katable {
     color: black;
     background-color: rgb(195, 195, 195);
@@ -6429,9 +6566,11 @@ mark {
     border: solid black 5px;
     box-shadow: 6px 3px 25px 0px #ffffff;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .kartab2 {
     height: 190px;
     width: 190px;
@@ -6441,6 +6580,7 @@ html {
     animation-delay: 3.1s;
     margin: 30px;
 }
+
 .kartab {
     height: 190px;
     width: 190px;
@@ -6449,52 +6589,57 @@ html {
     backface-visibility: hidden;
     margin: 30px;
 }
+
 @keyframes kamove {
     40% {
         transform: rotatey(120deg);
     }
 }
+
 #katitle {
     color: var(--kablack);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     text-shadow: 3px 0px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 0, 0);
 }
+
 .kaposs {
     bottom: 30px;
 }
+
 .kanone {
     display: none;
 }
+
 .kaycont {
     display: flex;
     width: 150%;
     height: 80px;
     margin-bottom: 170px;
 }
+
 .kaseason {
     margin-left: 140px;
     transition-duration: .5s;
 }
+
 .kaseason:hover {
     box-shadow: 6px 3px 75px 0px rgb(41, 76, 230);
     border-bottom: solid rgb(128, 128, 255) 3px;
     transform: scale(1.1, 1.1);
     transition-duration: .3s;
 }
+
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px rgb(0, 17, 255), 0 0 20px rgb(34, 42, 96), 0 0 30px #0774da, 0 0 40px #00668b, 0 0 20px rgb(0, 34, 255), 0 0 20px rgb(75, 99, 255), 0 0 20px rgb(113, 200, 240);
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
-    to {
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes to {
         text-shadow: 0 0 20px rgb(247, 4, 255), 0 0 30px #61005a, 0 0 40px #961355, 0 0 50px #d20b0b, 0 0 60px #840462, 0 0 80px #490226, 0 0 20px rgb(255, 0, 251), 0 0 20px rgb(255, 0, 47);
     }
 }
+
 #karbg {
     overflow-x: hidden;
     background-color: var(--kablack);
@@ -6502,18 +6647,21 @@ html {
     background-attachment: fixed;
     background-image: var(--kasher-background-image);
 }
+
 #kash {
     color: var(--fesecondary-color);
     text-align: center;
     font-size: 60px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
 .kaseti {
     color: rgb(149, 0, 255);
     font-size: 30px;
     text-align: center;
     text-decoration: underline;
 }
+
 .kasea {
     width: 1450px;
     background-color: var(--kablack);
@@ -6523,6 +6671,7 @@ html {
     margin: 18px;
     height: 240px;
 }
+
 .simg {
     margin: 30px;
     display: inline-block;
@@ -6531,6 +6680,7 @@ html {
     border-radius: 10px;
     border: solid rgb(6, 6, 6) 4px;
 }
+
 .kcap {
     position: relative;
     display: inline-block;
@@ -6539,6 +6689,7 @@ html {
     left: -30px;
     color: var(--kablack2);
 }
+
 .kalink2 {
     color: var(--kablack2);
     position: relative;
@@ -6546,9 +6697,11 @@ html {
     text-decoration: underline;
     top: -200px;
 }
+
 #shertheme {
     text-align: center;
 }
+
 #ifrbutton {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -6562,11 +6715,13 @@ html {
     box-shadow: 6px 3px 25px 0px #ffffff;
     margin: 40px;
 }
+
 .navbar-contmain {
     width: 102%;
     margin-left: -2%;
     height: fit-content;
 }
+
 .navbar {
     background-color: var(--feprimary-color);
     display: flex;
@@ -6575,6 +6730,7 @@ html {
     overflow: hidden;
     border-radius: 10px;
 }
+
 .navbar-container {
     display: flex;
     align-items: center;
@@ -6582,9 +6738,11 @@ html {
     height: 100%;
     color: var(--feprimary-color);
 }
+
 .logo-container {
     padding-right: 7em;
 }
+
 #fklogo {
     font-family: 'Halant', sans-serif;
     font-style: oblique;
@@ -6598,29 +6756,35 @@ html {
     text-align: center;
     font-style: oblique;
 }
+
 .menu-container {
     padding-right: 10em;
 }
+
 .menu-list {
     align-items: center;
     margin-top: 15px;
     display: flex;
     list-style: none;
 }
+
 .menu-list-item {
     margin: 20px;
     margin-bottom: 20px;
     font-size: 20px;
     color: var(--fesecondary-color);
 }
+
 .menu-list-item:hover {
     cursor: pointer;
     color: #8b7efe;
     border-bottom: solid rgb(255, 13, 146) 2px;
 }
+
 .menu-list-item.active {
     color: #7d70f8;
 }
+
 .signin-container {
     position: relative;
     width: fit-content;
@@ -6630,17 +6794,19 @@ html {
     font-size: 15px;
     font-weight: 400;
     display: inline-block;
-    text-align:center;
-    padding:2px;
+    text-align: center;
+    padding: 2px;
     border-radius: 15px;
     transition: 0.5s ease;
 }
+
 .signin-container:hover {
     color: #0c0019;
     background-color: #fff;
     transform: scale(1.1);
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .toggle {
     position: relative;
     right: -6%;
@@ -6654,6 +6820,7 @@ html {
     justify-content: space-around;
     position: relative;
 }
+
 .toggle-ball {
     width: 18px;
     height: 18px;
@@ -6663,32 +6830,40 @@ html {
     border-radius: 50%;
     cursor: pointer;
 }
+
 .toggle-icon1 {
     color: black;
 }
+
 .toggle-icon2 {
     color: gold;
 }
+
 .manage {
     margin: -2px;
 }
+
 #kp1 {
     margin-top: -20px;
     font-size: 18px;
     color: var(--fesecondary-color);
 }
+
 .kaposs {
     bottom: 30px;
 }
+
 .switch {
     position: relative;
     display: inline-block;
     width: 90px;
     height: 34px;
 }
+
 .switch input {
     display: none;
 }
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -6704,10 +6879,12 @@ html {
     padding-left: 5px;
     margin-left: 20px;
 }
+
 .fa-solid {
     margin-top: 5px;
     margin-left: 7px;
 }
+
 .slider:before {
     content: "";
     position: absolute;
@@ -6719,9 +6896,11 @@ html {
     border-radius: 50%;
     transition: .4s;
 }
+
 input:checked+.slider {
     background: yellow;
 }
+
 input:checked+.slider:before {
     transform: translateX(40px);
 }
@@ -6739,10 +6918,11 @@ input:checked+.slider:before {
     font-size: 24px;
     box-sizing: border-box;
 }
+
 .signin-cont {
     /*width: 230px;
       height: 300px;*/
-    
+
     backdrop-filter: blur(15px);
     border: solid rgb(0, 0, 0) 1px;
     border-radius: 20px;
@@ -6752,6 +6932,7 @@ input:checked+.slider:before {
     height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .inputsin {
     border-radius: 10px;
     text-align: center;
@@ -6761,21 +6942,20 @@ input:checked+.slider:before {
     display: block;
     margin: 40px;
 }
+
 .contains ::placeholder {
     text-align: center;
     color: black;
     border-radius: 20px;
 }
+
 .signtext {
     font-size: 20px;
     color: aliceblue;
     position: relative;
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
+    <<<<<<< Updated upstream=======>>>>>>>Stashed changes
 }
+
 .signbut {
     font-size: 18px;
     color: black;
@@ -6783,16 +6963,14 @@ input:checked+.slider:before {
     width: 130px;
     height: 30px;
 }
+
 .contains pre {
     font-size: 16px;
     color: rgb(246 246 246);
     margin-top: 20px;
 }
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-.contains input {
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes .contains input {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 20px 0 rgb(0 0 0 / 10%);
     display: block;
     margin: 30px;
@@ -6808,6 +6986,7 @@ input:checked+.slider:before {
     font-weight: bold;
     text-decoration: none;
 }
+
 .signbut {
     border: solid transparent 1px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 20px 0 rgb(0 0 0 / 10%);
@@ -6820,10 +6999,12 @@ input:checked+.slider:before {
     background-color: #999999;
     cursor: pointer;
 }
+
 .contains p {
     display: block;
     margin-top: 30px;
 }
+
 .logo {
     margin-top: 20px;
 }
