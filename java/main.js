@@ -147,7 +147,7 @@ function openpage(){
     }
     if (x==="house")
     {
-        window.open("housemd.html")
+        window.open("house md.html")
     }
     if (x==="spiderman")
     {
