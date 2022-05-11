@@ -10,113 +10,157 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
-
+    <script src="../java/jquery.js"></script>
+    <script src="../java/GD.js"></script>
+    <script ssrc="../java/main.js"></script>
     <link rel="stylesheet" href="../css/stylesheet.css">
-    <!--<link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
-     <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/all.min.css">
-     <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/project.css">-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,700&display=swap" rel="stylesheet" ./>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Codystar">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tillana">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike+Angular">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Halant">
-    <!--<script src="https://maxcdn.bootstrap.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+    <script src="https://maxcdn.bootstrap.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-
+<!--body of f.KHALED's page-->
 <body class="fk">
-    <section class="fkmain">
-        <div class="fknavbar">
-            <div class="fknavbar-container">
-                <div class="fklogo-container">
-                    <h1 id="fklogo">RawScene</h1>
+  <!--navbar---->
+  <header id="top">
+        <section class="main">
+            <div class="navbar-contmain">
+                <div class="navbar">
+                    <div class="navbar-container">
+                        <div class="logo-container">
+                            <h1 id="fklogo">RawScene</h1>
+                        </div>
+                        <div class="menu-container">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">Home</li>
+                                <li class="menu-list-item active">Series</li>
+                                <li class="menu-list-item">Movies</li>
+                                <li class="menu-list-item">About</li>
+                            </ul>
+                        </div>
+                        <div class="signin-container">Sign In</div>
+                        <label class="switch">
+                    <input type="checkbox" onclick="changeMode()">
+                    <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
+                </label>
+                <input type="search" class="t" value="" id="search" onchange="openpage()" type="search" name="search" placeholder="write & chose" autofocus list="fruitlist" style="margin-left:30px;">
+                <datalist id="fruitlist">
+                        <option>sherlock</option>
+                        <option>house</option>
+                        <option>spiderman</option>
+                        <option>تراب الماس</option>
+                        <option>the vampire diaries</option>
+                        <option>little women</option>
+                        <option>stranger things</option>
+                        <option>friends</option>
+                        <option>the good doctor</option>
+                        <option>la casa de papel</option>
+                        <option>you</option>
+                        <option>ملاكي اسكندرية</option>
+                        <option>harry potter</option>
+                        <option>anne with an e</option>
+                        <option>sense and sensibility</option>
+                    </datalist>
+                    <input class="s"   type="submit" name="submit" value="Search">
                 </div>
-                <div class="fkmenu-container">
-                    <ul class="fkmenu-list">
-                        <li class="fkmenu-list-item">Home</li>
-                        <li class="fkmenu-list-item active">Series</li>
-                        <li class="fkmenu-list-item">Movies</li>
-                        <li class="fkmenu-list-item">Popular</li>
-                        <li class="fkmenu-list-item">Trends</li>
-                        <li class="fkmenu-list-item">About</li>
-                    </ul>
-                </div>
-                <div class="fksignin-container">Sign In</div>
-                <div class="fktoggle">
-                    <i class="fa-solid fa-moon fktoggle-icon1"></i>
-                    <i class="fa-solid fa-sun fktoggle-icon2"></i>
-                    <div class="fktoggle-ball"></div>
+            </form>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        </div>
-        <div class="fksidebar">
-            <i class="fkleft-menu-icon fa-solid fa-magnifying-glass"></i>
-            <i class="fkleft-menu-icon fa-solid fa-house-chimney"></i>
-            <i class="fkleft-menu-icon fa-solid fa-users"></i>
-            <i class="fkleft-menu-icon fa-solid fa-book-bookmark"></i>
-            <i class="fkleft-menu-icon fa-solid fa-tv"></i>
-            <i class="fkleft-menu-icon fa-solid fa-hourglass-start"></i>
-            <i class="fkleft-menu-icon fa-solid fa-cart-shopping"></i>
-        </div>
-        <div class="fkcontainer">
-            <div class="content-fkcontainer">
-                <div class="fkfeatured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0),#151515), url('media/finalwp.jpg')no-repeat;
-   background-size:1230px 300px;
-   background-position: center;
-   object-fit:cover;">
-                    <img class="fkfeatured-title" src="../media/flogo.png" alt="logo">
-                    <p class="fkfeatured-desc">A young surgeon with autism and savant syndrome uses his extraordinary gifts to save lives<br> and challenge skepticism.</p>
+            </div>
+    </header>
+      <!--end of header and navbar-->
+</div>
+<!--start of farida's kh background& page content-->
+    <div class="fkcontainer">
+      <div class="content-fkcontainer">
+          <div class="fkfeatured-content" style="
+          background: linear-gradient(to bottom, rgba(0,0,0,0),#151515),url('../media/fkfinalwp.jpg')no-repeat;
+                    background-size:1300px 300px;
+                    background-position: center;
+                     object-fit:cover;">
+                    <img class="fkfeatured-title" src="../media/fklogo.png" alt="logo">
+                    <p class="fkfeatured-desc">A young surgeon with autism and savant
+                      syndrome uses his extraordinary gifts to save lives and challenge skepticism.</p>
                     <p class="fkfeatured-desc2">2017 ‧ Medical drama ‧ 5 seasons</p>
+          </div>
+              <!-- the_good_doctor trailer----------->
+                    <div class="fktra">
                     <button class="fkfeatured-button">Trailer</button>
-                </div>
+                    </div>
+
+                    <div class="fkvideo-container">
+                        <div class="fkvd-box">
+                          <!--Close icon-->
+                          <i class="fa-solid fa-rectangle-xmark fkclosetra"></i>
+                            <video id="fktrailer" src="../media/fktrailer1.mp4" type="video/mp4" controls autoplay></video>
+                       </div>
+                    </div>
+                <!--the cast of the series-->
                 <div class="fkcast-list-container">
                     <h1 class="fkcast-list-title">MEET THE CAST</h1>
                     <div class="fkcast-list-wrapper">
                         <div class="fkcast-list">
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/freddie.jpg" alt="freddie">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/freddie-highmore" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkfreddie.jpg" alt="freddie"></a>
                                 <span class="fkcast-list-item-title">Freddie Highmore</span>
                                 <p class="fkcast-list-item-desc">as Dr.Shaun Murphy</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/hill.jpg" alt="image of hill character">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/hill-harper" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkhill.jpg" alt="image of hill character"></a>
                                 <span class="fkcast-list-item-title">Hill Harper</span>
                                 <p class="fkcast-list-item-desc">as Dr.Marcus Andrews</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/richardFA.jpg" alt="image of richard character">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/richard-schiff" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkrichard.jpg" alt="image of richard character"></a>
                                 <span class="fkcast-list-item-title">Richard Schiff</span>
                                 <p class="fkcast-list-item-desc">as Dr.Aaron Glassman</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/christina.jpg" alt="image of christina character">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/christina-chang" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkchristina.jpg" alt="image of christina character"></a>
                                 <span class="fkcast-list-item-title">Christina Chang</span>
                                 <p class="fkcast-list-item-desc">as Dr.Audrey Lim</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/fiona.jpg" alt="image of fiona character">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/fiona-gubelmann" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkfiona.jpg" alt="image of fiona character"></a>
                                 <span class="fkcast-list-item-title">Fiona Gubelmann</span>
                                 <p class="fkcast-list-item-desc">as Dr.Morgin Reznick</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/willFA.jpg" alt="image of will character">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/will-yun-lee" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkwill.jpg" alt="image of will character"></a>
                                 <span class="fkcast-list-item-title">Will YUN LEE</span>
                                 <p class="fkcast-list-item-desc">as Dr.Alex Park</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/paige.jpg" alt="image of paige character">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/paige-spara" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkpaige.jpg" alt="image of paige character"></a>
                                 <span class="fkcast-list-item-title">Paige Spara</span>
                                 <p class="fkcast-list-item-desc">as Lea</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/noah.jpg" alt="image of noah character">
+                              <a href="https://abc.com/shows/the-good-doctor/cast/noah-galvin" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fknoah.jpg" alt="image of noah character"></a>
                                 <span class="fkcast-list-item-title">Noah Galvin</span>
                                 <p class="fkcast-list-item-desc">as Dr.Asher Wolke</p>
                             </div>
                             <div class="fkcast-list-item">
-                                <img class="fkcast-list-item-img" src="../media/bria.jpg" alt="image of bria character">
+                                  <a href="https://abc.com/shows/the-good-doctor/cast/bria-samone-henderson" target="_blank">
+                                <img class="fkcast-list-item-img" src="../media/fkbria.jpg" alt="image of bria character"></a>
                                 <span class="fkcast-list-item-title">Bria Samone </span>
                                 <p class="fkcast-list-item-desc">as Dr.Jordan Allen</p>
                             </div>
@@ -124,50 +168,129 @@
                         <i class="fa-solid fa-chevron-right fkarrow"></i>
                     </div>
                 </div>
-                <div id="fkthird">
-                    <table id="fkseasons">
-                        <thead>
-                            <tr>
-                                <th>Seasons</th>
-                                <th>Description</th>
-                                <th>Release Date</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-white">
-                            <tr>
-                                <td><img class="seas" src="../media/FAFAs1.jpg" alt="s1"></td>
-                                <td class="seas-desc">A talented surgeon with autism and savant syndrome joins a prestigious hospital, where he faces skepticism from both the patients and staff.</td>
-                                <td> Sep 25, 2017</td>
-                            </tr>
-                            <tr>
-                                <td><img class="seas" src="../media/FAFAs2.jpg" alt="s2"></td>
-                                <td class="seas-desc">As his interpersonal relationships grow stronger, Shaun continues to use his extraordinary gifts to help his surgical patients.</td>
-                                <td> Nov 26, 2018</td>
-                            </tr>
-                            <tr>
-                                <td><img class="seas" src="../media/FAFAs3.jpg" alt="s3"></td>
-                                <td class="seas-desc">Shaun pushes for a radical operation in order to save a newlywed's life. In addition, he and Dr. Lever give dating a shot.</td>
-                                <td> Sep 23, 2019</td>
-                            </tr>
-                            <tr>
-                                <td><img class="seas" src="../media/FAs4.jpg" alt="s4"></td>
-                                <td class="seas-desc">Dr. Shaun Murphy must perform a risky surgery on a patient without electricity when the power suddenly goes out at the hospital in Guatemala.</td>
-                                <td> Jun 7, 2021</td>
-                            </tr>
-                            <tr>
-                                <td><img class="seas" src="../media/FAs5.jpg" alt="s5"></td>
-                                <td class="seas-desc">Shaun and Lea make a big life decision and are pleasantly surprised by the support they receive from their friends at the hospital</td>
-                                <td> May 16, 2022</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div>
+<div id="fkthird">
+  <table id="fkseasons">
+    <thead>
+       <tr>
+         <th>Seasons</th>
+         <th>Description</th>
+         <th width=400px>Release Date</th>
+       </tr>
+    </thead>
+    <tbody>
+       <tr>
+          <td>
+            <div class="fksd">
+              <img class="fkseas fkseas1" src="../media/fks1.jpg" alt="s1">
+                <span class="fkseas-table-item">Season 1 </span>
+                <a class="btn btn-secondary fkbtf" href="https://www.rottentomatoes.com/tv/the_good_doctor/s01"
+                target="_blank">WATCH NOW</a>
+             </div>
+          </td>
+          <td class="fkseas-desc">A talented surgeon with autism and savant syndrome joins a prestigious hospital,
+             where he faces skepticism from both the patients and staff.</td>
+          <td width=200px> Sep 25, 2017</td>
+      </tr>
+       <tr>
+       <td>
+             <div class="fksd">
+               <img class="fkseas fkseas2" src="../media/fks2.jpg" alt="s2">
+                 <span class="fkseas-table-item">Season 2 </span>
+                 <a class="btn btn-secondary fkbtf"href="https://www.rottentomatoes.com/tv/the_good_doctor/s02"
+                 target="_blank">WATCH NOW</a>
             </div>
-        </div>
+      </td>
+       <td class="fkseas-desc">As his interpersonal relationships grow stronger,
+         Shaun continues to use his extraordinary gifts to help his surgical patients.</td>
+       <td width=200px> Nov 26, 2018</td>
+       </tr>
+       <tr>
+       <td>
+              <div class="fksd">
+                <img class="fkseas fkseas3" src="../media/fks3.jpg" alt="s3">
+                  <span class="fkseas-table-item">Season 3 </span>
+                      <a class="btn btn-secondary fkbtf" href="https://www.rottentomatoes.com/tv/the_good_doctor/s03"
+                      target="_blank">WATCH NOW</a>
+              </div>
+      </td>
+      <td class="fkseas-desc">Shaun pushes for a radical operation in order to save a newlywed's life. In addition, he and Dr. Lever give dating a shot.</td>
+      <td width=200px> Sep 23, 2019</td>
+      </tr>
+       <tr>
+       <td>
+                <div class="fksd">
+                  <img class="fkseas fkseas4" src="../media/fks4.jpg" alt="s4">
+                     <span class="fkseas-table-item">Season 4</span>
+                          <a class="btn btn-secondary fkbtf" href="https://www.rottentomatoes.com/tv/the_good_doctor/s04"
+                           target="_blank">WATCH NOW</a>
+                </div>
+      </td>
+      <td class="fkseas-desc">Dr. Shaun Murphy must perform a risky surgery on a patient without electricity when
+         the power suddenly goes out at the hospital in Guatemala.</td>
+      <td width=200px> Jun 7, 2021</td>
+      </tr>
+      <tr>
+      <td>
+               <div class="fksd">
+                    <img class="fkseas fkseas5" src="../media/fks5.jpg" alt="s5">
+                        <span class="fkseas-table-item">Season 5 </span>
+                            <a class="btn btn-secondary fkbtf" href="https://www.rottentomatoes.com/tv/the_good_doctor/s05"
+                            target="_blank">WATCH NOW</a>
+              </div>
+     </td>
+     <td class="fkseas-desc">Shaun and Lea make a big life decision and are pleasantly surprised by the support they
+       receive from their friends at the hospital</td>
+     <td width=200px> May 16, 2022</td>
+     </tr>
+   </tbody>
+ </table>
+</div>
+</div>
+            <footer class="fefooter">
+                <div class="f1">
+                    <h1 class=" fologo fecontainer fefont1">RawScene</h1>
+                    <h4>contact</h4>
+                    <p>
+                        <h5>Email:</h5>fcaiStudents@fci.helwan.edu.eg</p>
+                    <h4>Follow Us</h4>
+                    <p class="footicon"><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-pinterest-p"></i> <i class="fa-brands fa-youtube"></i> </p>
+                </div>
+                <div class="f2">
+                    <h4>About</h4>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="f3">
+                    <h4>Install App</h4>
+                    <p>From App Store or Google Play</p>
+                    <button type="button" class="btn btn-dark"><i class="fa-brands fa-apple"></i> App Store </button>
+                    <button type="button" class="btn btn-dark"><i class="fa-brands fa-google-play"></i> Google Play </button>
+                    <p class="copy">&copy;FCAI-HStudents_IT_Project</p>
+                    <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=%D9%83%D9%84%D9%8A%D9%87%20%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%20%D9%88%20%D8%B0%D9%83%D8%A7%D8%A1%20%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%86+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                      <a href="https://www.gps.ie/wearable-gps/">wearable gps</a></iframe></div>
+                </div>
+            </footer>
         </div>
 
-        <script src="../main.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+         <script>
+        $(document).ready(function () {
+
+            $(".fkvideo-container").hide();
+
+            $(".fktra").click(function () {
+                $(".fkvideo-container").show();
+            });
+            $(".fkclosetra").click(function () {
+                $(".fkvideo-container").hide();
+            });
+          });
+         </script>
+
+
+
 </body>
 
 </html>
