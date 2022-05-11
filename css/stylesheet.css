@@ -631,6 +631,9 @@ input:checked+.slider:before {
         width: 925px;
     }
 
+    .FAbox1 {
+        height: 470px;
+    }
 }
 
 
@@ -649,6 +652,7 @@ input:checked+.slider:before {
     .FAcont {
         width: 1448px;
     }
+
 }
 
 html {
@@ -1035,9 +1039,6 @@ html {
         width: 925px;
     }
 
-    .FAbox1 {
-        height: 349px;
-    }
 }
 
 /* Medium */
