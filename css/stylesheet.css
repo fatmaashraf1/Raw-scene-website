@@ -5966,6 +5966,7 @@ html {
     margin-top: 4px;
     margin-bottom: 4px;
     transition: 0.7s ease;
+    width: 65px;
 }
 
 .signin-container:hover {
