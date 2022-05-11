@@ -862,7 +862,10 @@
 /************************************************************************************
 /************************************FARRAH THARWAT*****************************
 /*************************************************************************************/
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .switch {
     position: relative;
     display: inline-block;
@@ -1758,7 +1761,10 @@ html {
     height: inherit;
     width: inherit;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 /****************************************************************************/
 
@@ -3765,6 +3771,11 @@ html {
     width: 100px;
     height: 100px;
 }
+<<<<<<< Updated upstream
+=======
+
+.KGtitleandtrailercont {
+>>>>>>> Stashed changes
 
 .KGtitleandtrailercont {
     display: flex;
@@ -3904,6 +3915,11 @@ html {
     height: 100%;
     border-radius: 20px;
 }
+<<<<<<< Updated upstream
+=======
+
+.KGseasons-desc {
+>>>>>>> Stashed changes
 
 .KGseasons-desc {
     color: white;
@@ -4058,7 +4074,14 @@ html {
     background-color: #555555;
     border-radius: 10px;
     cursor: pointer;
+<<<<<<< Updated upstream
 }
+=======
+
+}
+
+
+>>>>>>> Stashed changes
 
 
 
@@ -4283,8 +4306,11 @@ html {
     height: 42px;
 }
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 .MainpageDarkTheme {
 
     --kgmainpagebackgroundcolor: #b9b9b9;
@@ -5697,7 +5723,10 @@ input:checked+.slider:before {
     display: none;
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 /******************************************end farida emad*********************************************************/
 
 
@@ -6161,6 +6190,15 @@ input:checked+.slider:before {
 *********************************FARIDAKHALED*******************************************************
 ****************************************************************************************************************
 ********************************************************************************************************************************/
+<<<<<<< Updated upstream
+=======
+.fk {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+}
+>>>>>>> Stashed changes
 
 .fk {
     font-family: 'Roboto', sans-serif;
@@ -6308,12 +6346,17 @@ input:checked+.slider:before {
     color: white;
 }
 
+<<<<<<< Updated upstream
 .content-fkcontainer {
     margin-left: 50px;
 }
 
 .fkfeatured-content {
     padding: 40px;
+=======
+.fkfeatured-content {
+    padding: 5px;
+>>>>>>> Stashed changes
     height: 50vh;
 }
 
@@ -6323,10 +6366,17 @@ input:checked+.slider:before {
 
 .fkfeatured-desc {
     color: lightgray;
+<<<<<<< Updated upstream
     font-family: 'Halant', serif;
     width: 500px;
     margin: 30px 0;
     font-size: 20px;
+=======
+    font-family: 'Cormorant Garamond', serif;
+    width: 600px;
+    margin-left: 4em;
+    font-size: 30px;
+>>>>>>> Stashed changes
 }
 
 .fkfeatured-desc2 {
@@ -6335,6 +6385,10 @@ input:checked+.slider:before {
 }
 
 .fkfeatured-button {
+<<<<<<< Updated upstream
+=======
+    margin-left: 7em;
+>>>>>>> Stashed changes
     margin-bottom: 30px;
     letter-spacing: 1px;
     font-size: 15px;
@@ -6443,6 +6497,7 @@ input:checked+.slider:before {
     padding: 20px 50px;
 }
 
+<<<<<<< Updated upstream
 .titles {
     padding: 50px 10px;
 }
@@ -6451,6 +6506,19 @@ input:checked+.slider:before {
     width: 170px;
     height: 200px;
     border-radius: 25%;
+=======
+.fkseas {
+    width: 190px;
+    height: 220px;
+    border-radius: 25%;
+    transition: all 1s ease-in-out;
+}
+
+.fkseas:hover {
+    cursor: pointer;
+
+    opacity: 0.5;
+>>>>>>> Stashed changes
 }
 
 .seas-desc {
@@ -6458,6 +6526,7 @@ input:checked+.slider:before {
     margin-right: 50px;
 }
 
+<<<<<<< Updated upstream
 .seas-desc:hover {
     color: white;
 }
@@ -6468,13 +6537,45 @@ input:checked+.slider:before {
     border-radius: 10%;
     padding: 30px;
     border: 2px solid white;
+=======
+#fkseasons tr:nth-child(even) {
+    background-color: #14141f;
+}
+
+#fkseasons {
+    text-align: center;
+    background-color: #1f1f2e;
+    align-items: center;
+    margin: 0 60px;
+    border-radius: 7%;
+    padding: 10px;
+}
+
+#fkseasons th {
+    font-size: 1.6em;
+    font-family: 'Alike Angular', sans-serif;
+    color: #d1d1e0;
+}
+
+#fkseasons td {
+    font-size: 1.3em;
+    font-family: 'Tillana';
+>>>>>>> Stashed changes
 }
 
 #fkseasons th,
 #fkseasons td {
+<<<<<<< Updated upstream
     border: 2px solid white;
     padding-top: 10px;
     border-radius: 30%
+=======
+    padding: 30px 50px;
+}
+
+#fkseasons:hover .fkseas1 {
+    transform: scale(1.2);
+>>>>>>> Stashed changes
 }
 
 #fkseasons img {
@@ -7088,16 +7189,23 @@ html {
 }
 
 .signin-container {
+<<<<<<< Updated upstream
     position: relative;
     width: fit-content;
+=======
+    left: -120px;
+    position: relative;
+    width: 10%;
+    height: 50;
+>>>>>>> Stashed changes
     color: var(--fesecondary-color);
     border: 1px solid var(--fesecondary-color);
     text-decoration: none;
     font-size: 15px;
     font-weight: 400;
     display: inline-block;
-    text-align:center;
-    padding:2px;
+    text-align: center;
+    padding: 2px;
     border-radius: 15px;
     transition: 0.5s ease;
 }
@@ -7106,7 +7214,7 @@ html {
     color: #0c0019;
     background-color: #fff;
     transform: scale(1.1);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .toggle {
