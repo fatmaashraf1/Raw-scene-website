@@ -21,11 +21,11 @@
     --FAsecondary-color: #e3e4e6;
     --FA-background-image: url("../media/FA_Darkbackground.jpg");
     --kasher-background-image: url(../media/shwp1.jpg);
-    --kablack:rgb(255, 255, 255);
-    --kahmd:url(../media/hmd.jpg);
-    --kaboxsh:rgb(8, 8, 121);
-    --kaboxsh2:rgb(239, 234, 173);
-    --kablack2:rgb(57, 57, 57);
+    --kablack: rgb(255, 255, 255);
+    --kahmd: url(../media/hmd.jpg);
+    --kaboxsh: rgb(8, 8, 121);
+    --kaboxsh2: rgb(239, 234, 173);
+    --kablack2: rgb(57, 57, 57);
 }
 
 .light-mode {
@@ -40,11 +40,11 @@
     --fesecondary-color: #000;
     --mlaki-background-image: url("../media/mlakibg2.jpg");
     --kasher-background-image: url(../media/shwp2.jpg);
-    --kablack:black;
-    --kahmd:url(../media/hmd2.jpg);
-    --kaboxsh:rgb(239, 234, 173);
-    --kaboxsh2:rgb(8, 8, 121);
-    --kablack2:rgb(255, 255, 255);
+    --kablack: black;
+    --kahmd: url(../media/hmd2.jpg);
+    --kaboxsh: rgb(239, 234, 173);
+    --kaboxsh2: rgb(8, 8, 121);
+    --kablack2: rgb(255, 255, 255);
 }
 
 /***********************************************************************************
@@ -1011,20 +1011,442 @@ html {
     color: red;
 }
 
+/*****************************************************************************************************
+********************************************************************************************************
+*********************************Torab ALmas Fatma Ashraf*******************************************************
+****************************************************************************************************************
+********************************************************************************************************************************/
 
 
 
-/**:root {
-    --feprimary-color: #000000;
-    --fesecondary-color: #e3e4e6;
-    --mlk-background-image: url("../media/FA_Darkbackground.jpg");
+/* Small */
+@media (min-width: 768px) {
+    .FAcont {
+        width: 925px;
+    }
+
 }
 
-.light-mode {
-    --feprimary-color: white;
-    --fesecondary-color: #000;
-    --mlk-background-image: url("../media/FABackground.jpg");
+/* Medium */
+@media (min-width: 992px) {
+    .FAcont {
+        width: 970px;
+    }
+}
 
+/* Large */
+@media (min-width: 1200px) {
+    .FAcont {
+        width: 1448px;
+    }
+}
+
+.FAbody2 {
+    padding: 0%;
+    margin: 0%;
+    background: var(--FA-background);
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Header*/
+
+.navbar-contmain {
+    width: 102%;
+    margin-left: -2%;
+    height: fit-content;
+
+}
+
+.navbar {
+    background-color: var(--FAprimary-color);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 5px 50px;
+    height: 100%;
+    color: var(--FAprimary-color);
+}
+
+.logo-container {
+    padding-right: 7em;
+}
+
+#fklogo {
+    font-family: 'Halant', sans-serif;
+    font-style: oblique;
+    font-size: 2.3em;
+    color: var(--FAsecondary-color);
+    animation: glow 1s ease-in-out infinite alternate;
+    top: -15px;
+    display: inline;
+}
+
+.menu-container {
+    padding-right: 10em;
+}
+
+.menu-list {
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item {
+    margin: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: var(--FAsecondary-color);
+}
+
+.menu-list-item:hover {
+    cursor: pointer;
+    color: #8b7efe;
+    border-bottom: solid rgb(255, 13, 146) 2px;
+
+
+}
+
+.menu-list-item.active {
+    color: #7d70f8;
+
+}
+
+.signin-container {
+    position: relative;
+    color: var(--FAsecondary-color);
+    border: 1px solid var(--FAsecondary-color);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    transition: 0.7s ease;
+
+}
+
+.signin-container:hover {
+    color: #0c0019;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.toggle {
+    position: relative;
+    right: -6%;
+    margin-left: 10px;
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toggle-icon1 {
+    color: black;
+}
+
+.toggle-icon2 {
+    color: gold;
+}
+
+.manage {
+    margin: -2px;
+}
+
+#kp1 {
+    margin-top: -20px;
+    font-size: 18px;
+    color: var(--fesecondary-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.kaposs {
+
+    bottom: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00008b;
+    border-radius: 34px;
+    transition: .4s;
+    font-size: 23px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    margin-left: 20px;
+
+}
+
+.fa-solid {
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background: yellow;
+}
+
+input:checked+.slider:before {
+    transform: translateX(40px);
+}
+
+
+/*******************************/
+:root {
+    --FAprimary-color: #000000;
+    --FAsecondary-color: #e3e4e6;
+    --fatmafont1: 'Readex Pro', sans-serif;
+    /*Table content and paragraphs*/
+    --fatmafont2: 'Noto Nastaliq Urdu', serif;
+    /*Torab Almas*/
+    --fatmafont3: 'Rakkas', cursive;
+    /*Titles*/
+    --FA-background: linear-gradient(to bottom, rgb(6 5 54 / 93%), rgb(28 106 160 / 90%));
+}
+
+
+.light-mode {
+    --FAprimary-color: white;
+    --FAsecondary-color: #000;
+    --FA-background: linear-gradient(to bottom, rgb(201 205 222), rgb(83 156 204));
+}
+
+/*****************************************/
+/*End of header*/
+.FAhead {
+    background-color: var(--FAprimary-color);
+    width: 100%;
+    height: 70px;
+
+}
+
+.FAcont {
+    z-index: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.FAcont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.FA_B1 {
+    height: 460px;
+    margin-top: 40px;
+    border: 10px solid var(--FAsecondary-color);
+}
+
+.FA_fulltable {
+    width: 317px;
+    text-align: center;
+    color: var(--FAsecondary-color);
+    height: 350px;
+    border-spacing: 10px;
+    margin: 50px;
+}
+
+.FA_fulltable td {
+    font-family: var(--fatmafont1);
+    font-size: 22px;
+    border: 5px solid var(--FAsecondary-color);
+    padding: 8px;
+    transition: 0.5s;
+
+}
+
+.FA_fulltable td:hover {
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.FA_fulltable .FAstar {
+    color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.FA_fulltable .FAtable_content td {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.FA_fulltable .FAtable_content td:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+.FA_B2img {
+    float: right;
+    margin-top: -20px;
+    transition-duration: 0.5s;
+}
+
+.FA_B2img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+/*******************************************************************************/
+
+.FA_B2 .FA_storytitle,
+.FA_B3 .FA_casttitle,
+.FA_B4 .FA_TorabAlmas {
+    background-color: var(--FAprimary-color);
+    height: 90px;
+}
+
+.FA_B2 .FA_storytitle p {
+    color: var(--FAsecondary-color);
+    font-weight: bold;
+    font-size: 56px;
+    direction: rtl;
+    padding: 10px;
+    font-family: var(--fatmafont3);
+}
+
+.FA_B2 .FA_story {
+    margin-top: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.FA_B2 .FA_story p {
+    direction: rtl;
+    padding: 10px;
+    font-size: 30px;
+    color: var(--FAsecondary-color);
+    font-family: var(--fatmafont1);
+}
+
+.FA_B3 .FA_casttitle p,
+.FA_B4 .FA_TorabAlmas p {
+    color: var(--FAsecondary-color);
+    font-weight: bold;
+    font-size: 50px;
+    direction: rtl;
+    padding: 17px;
+    text-align: center;
+    font-family: var(--fatmafont3);
+
+}
+
+.FA_B3 .FA_castmap,
+.FA_B4 .TorabAlmas_Trailer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+
+}
+
+.FA_B3 .FA_castt img {
+    padding: 20px;
+}
+
+.FA_B4 .TorabAlmas_Trailer video {
+    width: 80%;
+    padding: 20px;
+}
+
+.FA_B5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    background: var(--FA-background);
+    height: 165px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.FA_B5 a {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(0, 238, 255);
+    text-decoration: none;
+    font-family: var(--fatmafont1);
+    color: black;
+    -webkit-box-reflect: below 0px linear-gradient(#0002, #0002);
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: -46px;
+}
+
+.FA_B5 a:hover {
+    color: white;
+    background-color: rgb(0, 6, 78);
 }
 
 
@@ -3292,12 +3714,12 @@ html {
 .felogoimg {
     width: 400px;
     margin-left: 500px;
-    margin-top:-500px;
+    margin-top: -500px;
 }
 
 .felogoname {
     color: var(--feprimary-color);
-    margin-top:-200px;
+    margin-top: -200px;
 }
 
 .fefont1 {
@@ -3502,7 +3924,7 @@ html {
 
 .fefullsear {
     background-color: var(--feprimary-color);
-    margin-top:55px;
+    margin-top: 55px;
 }
 
 .fesear {
@@ -3534,13 +3956,14 @@ html {
 .fologo {
     margin-top: 0;
     margin-left: 0;
-    background-color:transparent;
-    font-size:48px;
+    background-color: transparent;
+    font-size: 48px;
 }
 
 .reviewtxt {
-    color:black;
+    color: black;
 }
+
 .footicon {
     font-size: larger;
 }
