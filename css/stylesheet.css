@@ -181,6 +181,7 @@
     margin-right: auto;
     box-shadow: 4px 0px 5px 3px var(--fzssecondry) ;
     outline: none;
+
   }
   .fzgellry-cont{
     display: flex;
@@ -807,7 +808,7 @@
   font-size: 2.5em;
   margin-bottom: 2rem;
   text-align: center;
-  color: var(--kablack2);
+  color: var(--FAsecondary-color);
 }
 .fk3form-msg-success{
   color: var(--color-success);
@@ -4816,7 +4817,7 @@ html {
 .felogoimg {
     width: 400px;
     margin-left: 500px;
-    margin-top: 120px;
+    margin-top: -720px;
 }
 
 .felogoname {
@@ -4828,10 +4829,11 @@ html {
 }
 
 .festart {
-    margin-left: 480px;
+    margin-left: 500px;
     font-size: 50px;
-    margin-top: -80px;
+    margin-top: -680px;
     text-shadow: 5px 2px 4px var(--fesecondary-color);
+    padding-bottom: 200px;
 }
 
 .firstbn {
@@ -5025,7 +5027,7 @@ html {
 
 .fefullsear {
     background-color: var(--feprimary-color);
-    margin-top: 70px;
+    margin-top: 370px;
 }
 
 .fesear {
@@ -5076,6 +5078,8 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 0px 130px;
+    box-shadow: 4px 0px 5px 3px var(--kgbackgroundcolorunderslideshow) ;
+
 }
 
 .felast {
@@ -5501,9 +5505,6 @@ input:checked+.slider:before {
         background-image: none;
     }
 
-    .festart {
-        width: 400px;
-    }
 
     .felogoimg {
         width: 400px;
@@ -5990,12 +5991,14 @@ input:checked+.slider:before {
     display: inline-block;
     width: 20%;
     float: left;
+    left: 150px;
 }
 
 .kirightmiddle {
     display: inline-block;
     width: 20%;
     float: right;
+    right: 150px;
 }
 
 .kimiddlemiddle {

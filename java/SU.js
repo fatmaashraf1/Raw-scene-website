@@ -16,3 +16,7 @@ document.addEventListener("DOMContentLoaded" , () => {
     createAccountForm.classList.add("fk3form--hidden");
   });
 });
+   function openmain()
+   {
+     $("karmain").click(window.open("index.html"));
+   };
