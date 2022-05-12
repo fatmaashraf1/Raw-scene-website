@@ -748,6 +748,7 @@
 /****************************************
 *******************FARIDA KHALED SIGN IN & SIGN UP*************
 ******************************************/
+
 .fk3{
   --color-primary:#b3b3b3;
   --color-primary-dark:#4d4d4d;
@@ -763,7 +764,7 @@
   align-items: center;
   justify-content:center;
   font-size: 18px;
-  background: url(../media/fk3back.png);
+
   background-size: cover;
 }
 .fk3container{
@@ -774,6 +775,7 @@
   box-shadow: 0 0 40px rgba(0,0,0,0.2);
   border-radius: var(--border-radius);
   backdrop-filter: blur(15px);
+  
 }
 .fk3form{
   margin-top: 100px;
@@ -805,6 +807,7 @@
   font-size: 2.5em;
   margin-bottom: 2rem;
   text-align: center;
+  color: var(--kablack2);
 }
 .fk3form-msg-success{
   color: var(--color-success);
@@ -6147,212 +6150,79 @@ input:checked+.slider:before {
     color: white;
     text-decoration: none;
 }
-
-
-/*****************************************************************************************************
-********************************************************************************************************
-*********************************FARIDAKHALED*******************************************************
-****************************************************************************************************************
-********************************************************************************************************************************/
-
-.fk {
+***********************************
+************************************
+************FARIDAKHALED******************
+**************************************
+********************************************/
+/*************
+************
+*****FARIDAKHALED*******
+**************
+****************/
+.fk{
     box-sizing: border-box;
-    margin: 0;
+    margin:0;
     padding: 0;
     background-color: #151515;
 }
-
-
-.fk {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-}
-
-.fknavbar {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    background-color: black;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    overflow: hidden;
-}
-
-.fknavbar-container {
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-    height: 100%;
-    color: white;
-}
-
-.fklogo-container {
-    padding-right: 7em;
-}
-
-#fklogo {
-    font-family: 'Halant', sans-serif;
-    font-style: oblique;
-    font-size: 2.3em;
-    color: #b3b3cc;
-    animation: glow 1s ease-in-out infinite alternate;
-    top: -15px;
-    display: inline;
-}
-
-.fkmenu-container {
-    padding-right: 10em;
-}
-
-.fkmenu-list {
-    align-items: center;
-    margin-top: 15px;
-    display: flex;
-    list-style: none;
-    padding-bottom: 15px;
-}
-
-.fkmenu-list-item {
-    margin-bottom: 20px;
-    margin: 20px;
-}
-
-.fkmenu-list-item:hover {
-    cursor: pointer;
-    color: #b3b3e6;
-}
-
-.fkmenu-list-item.active {
-    color: #b3b3e6;
-    font-weight: bold;
-}
-
-.fksignin-container {
-    color: #fff;
-    border: 1px solid white;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-flex;
-    padding: 5px 10px;
-    border-radius: 15px;
-    margin-top: 4px;
-    margin-right: 10px;
-    margin-bottom: 4px;
-    transition: 0.7s ease;
-}
-
-.fksignin-container:hover {
-    cursor: pointer;
-    color: #887799;
-    background-color: #fff;
-    transform: scale(1.1);
-}
-
-.fktoggle {
-    margin-left: 10px;
-    width: 40px;
-    height: 20px;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-}
-
-.fktoggle-ball {
-    width: 18px;
-    height: 18px;
-    background-color: black;
-    position: absolute;
-    right: 1px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.fktoggle-icon1 {
-    color: black;
-}
-
-.fktoggle-icon2 {
-    color: gold;
-}
-
-.fksidebar {
-    width: 50px;
-    height: 100%;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 60px;
-}
-
-.fkleft-menu-icon {
-    color: white;
-    flex-direction: column;
-    font-size: 20px;
-    margin-bottom: 40px;
-}
-
 .fkcontainer {
-    background-color: #151515;
     min-height: calc(100vh - 50px);
     color: white;
 }
-
-
 .fkfeatured-content {
-    padding: 5px;
-}
-.content-fkcontainer {
-    margin-left: 50px;
-}
-
-.fkfeatured-content {
-    padding: 40px;
-
+    padding:5px;
     height: 50vh;
 }
 
 .fkfeatured-title {
-    width: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 500px;
 }
 
 .fkfeatured-desc {
     color: lightgray;
-<<<<<<< HEAD
     font-family: 'Cormorant Garamond', serif;
     width: 600px;
-    margin-left: 4em;
-    font-size: 30px;
-=======
-    font-family: 'Halant', serif;
-    width: 500px;
-    margin: 30px 0;
-    font-size: 20px;
->>>>>>> parent of 7b62886 (Update stylesheet.css)
+    margin-top: 30px;
+    margin-left:4em;
+    font-size: 25px;
 }
 
 .fkfeatured-desc2 {
-    font-size: 14px;
-    margin-bottom: 20px;
+    margin-top: 3em;
+    margin-left: 8em;
+    font-size: 15px;
+}
+.fkcontainer2 .fkvideo-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100vh;
 }
 
+.fkvd-box{
+    position: relative;
+}
+#fktrailer{
+  border:1px solid #8585ad;
+  align-items: center;
+  justify-content: center;
+
+}
+.fkvd-box #fktrailer{
+    width: 100%;
+}
 .fkfeatured-button {
-<<<<<<< HEAD
-=======
-    margin-bottom: 30px;
->>>>>>> parent of 7b62886 (Update stylesheet.css)
+  margin-left: 7em;
+  margin-top: 60px;
     letter-spacing: 1px;
+    font-size: 15px;
     background-color: #151515;
     color: #9494b8;
     padding: 10px 20px;
@@ -6370,9 +6240,9 @@ input:checked+.slider:before {
 }
 
 .fkcast-list-title {
-    margin-top: 70px;
+    margin-top: 100px;
     font-size: 30px;
-    margin-left: 450px;
+    margin-left: 10px;
     font-family: 'Alike Angular', serif;
 }
 
@@ -6386,6 +6256,7 @@ input:checked+.slider:before {
 }
 
 .fkcast-list {
+    cursor: pointer;
     display: flex;
     align-items: center;
     height: 400px;
@@ -6444,282 +6315,203 @@ input:checked+.slider:before {
     transition: 1s all ease-in-out;
 }
 
-.fkarrow {
-    font-size: 120px;
-    position: absolute;
-    top: 138px;
-    right: 0;
-    color: white;
-    opacity: 0.5;
-    cursor: pointer;
+#fkthird{
+    padding: 20px 20px;
+}
+.fkseas:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+  text-shadow:white;
 }
 
-.T-seasons {
-    padding: 20px 50px;
-}
-
-<<<<<<< HEAD
-.fkseas {
+.fkseas{
+    object-fit: cover;
     width: 190px;
     height: 220px;
     border-radius: 25%;
     transition: all 1s ease-in-out;
+    position: relative;
+    box-shadow: 0px 0px 20px white;
+}
+.fkseas-table-item{
+  background-color: #52527a;
+  padding: 0 10px;
+  font-size:30px;
+  font-weight:bold;
+  position: relative;
+  top: -170px;
+  margin:100px 0px;
+  margin-left:0px;
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+.fksd:hover .fkseas-table-item,
+.fksd:hover .fkbtf {
+     opacity: 1;
+}
+.fksd .fkbtf{
+  position:relative;
+  top:-150px;
+  opacity: 0;
+  transition: 1s all ease-in-out
+}
+.fkseas-desc {
+    margin-right: 10px;
 }
 
-.fkseas:hover {
-    cursor: pointer;
-
-    opacity: 0.5;
-=======
-.titles {
-    padding: 50px 10px;
+#fkseasons tr:nth-child(even){
+  background-color: #14141f;
 }
-
-.seas {
-    width: 170px;
-    height: 200px;
-    border-radius: 25%;
->>>>>>> parent of 7b62886 (Update stylesheet.css)
-}
-
-.seas-desc {
-    padding: 100px;
-    margin-right: 50px;
-}
-
-<<<<<<< HEAD
-#fkseasons tr:nth-child(even) {
-    background-color: #14141f;
-}
-
 #fkseasons {
-    text-align: center;
-    background-color: #1f1f2e;
-    align-items: center;
-    margin: 0 60px;
-    border-radius: 7%;
-    padding: 10px;
+     text-align: center;
+     background-color:#1f1f2e;
+     align-items: center;
+     margin: 0px 60px;
+     border-radius: 7%;
+     padding: 10px;
 }
-
-#fkseasons th {
-    font-size: 1.6em;
-    font-family: 'Alike Angular', sans-serif;
-    color: #d1d1e0;
+#fkseasons th{
+  font-size: 1.6em;
+  font-family: 'Alike Angular',sans-serif;
+  color:#d1d1e0;
 }
-
-#fkseasons td {
-    font-size: 1.3em;
-    font-family: 'Tillana';
-=======
-.seas-desc:hover {
-    color: white;
+#fkseasons td{
+  font-size: 1.3em;
+  font-family:'Tillana';
 }
-
-#fkseasons {
-    align-items: center;
-    margin: 0 60px;
-    border-radius: 10%;
-    padding: 30px;
-    border: 2px solid white;
-}
-
 #fkseasons th,
 #fkseasons td {
-    border: 2px solid white;
-    padding-top: 10px;
-    border-radius: 30%
->>>>>>> parent of 7b62886 (Update stylesheet.css)
-}
-
-#fkseasons img {
-    border: none;
+    padding: 20px 50px;
 }
 
 
-/*sign in&up page farida khaled*/
+/**************
+******FARIDA KHALED SIGN IN & SIGN UP****
+**************/
+.fk3{
+  --color-primary:#b3b3b3;
+  --color-primary-dark:#4d4d4d;
+  --color-secondary:#2d2d86;
+  --color-secondary-dark:#19194d;
+  --color-error:#cc3333;
+  --color-success:#4bb544;
+  --border-radius: 20%;
 
-.fk2 {
-    background-color: #646464;
-    background-image: url("../imgs/webback-rawscene-1-ln-a3esh.png");
-    background-position: 0px 40px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0;
-    color: aliceblue;
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-size: 18px;
+  background: url(../media/fk3back.png);
+  background-size: cover;
+}
+.fk3container{
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0,0,0,0.2);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(15px);
+}
+.fk3form{
+  margin-top: 100px;
+
+}
+.fk3container,
+.fk3form-button{
+  font: 500 1rem 'Halant' ,sans-serif;
+  color:white;
+}
+.fk3form-input{
+  font: 500 1rem 'Halant' ,sans-serif;
+  color:black;
+}
+.fk3form--hidden{
+  display: none;
+}
+.form > *:first-child{
+  margin-top: 0;
+}
+.form > *:last-child{
+  margin-bottom: 0;
+}
+.fk3form-msg{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.fk3form-title{
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.fk3form-msg-success{
+  color: var(--color-success);
+}
+.fk3form-msg-error{
+  color: var(--color-error);
+}
+.fk3form-input-group{
+  margin-bottom: 1rem;
+}
+.fk3form-input{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius:4px;
+  border:1px solid white;
+  background-color: white;
+  transition: background 0.2s, border-color 0.2s;
+}
+.fk3form-input:focus{
+  border-color: var(--color-secondary);
+}
+.fk3form-input-error{
+  color:var(--color-error);
+  border-color: var(--color-error);
+}
+.fk3input-error-message{
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color:var(--color-error);
+}
+.fk3form-button{
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background: var(--color-secondary);
+}
+.fk3form-button:hover{
+  background: var(--color-secondary-dark);
+}
+.fk3form-button:active{
+  transform: scale(0.98);
+}
+.fk3form-text{
+  text-align: center;
+}
+.fk3formlink{
+  color: var(--color-secondary-dark);
+  text-decoration: none;
+  cursor: pointer;
+}
+.fk3formlink:hover{
+  text-decoration: underline;
+}
+.fk3form-input::placeholder{
+  color: black;
 }
 
-.fk2nav-b {
-    position: relative;
-    display: block;
-    height: 65px;
-    width: 100%;
-    background-color: black;
-}
-
-.fk2nav-logo {
-    position: relative;
-    display: inline-block;
-    top: 30%;
-    left: 5%;
-    height: 100%;
-}
-
-.fk2logo {
-    margin: 8px;
-    width: 150px;
-}
-
-.fk2nav-st {
-    position: absolute;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    left: 30%;
-}
-
-.fk2list li {
-    position: relative;
-    display: inline-block;
-    width: 100px;
-    height: 90%;
-    border: solid transparent 2px;
-    margin: 0 40px 0 40px;
-}
-
-.fk2list li:hover {
-    transition: ease-in-out;
-    transition-duration: .25s;
-    border-bottom: solid rgb(255, 17, 0) 2px;
-}
-
-.fk2list li {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    color: aliceblue;
-    position: relative;
-    top: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 100px;
-    height: 40px;
-}
-
-.fk2list {
-    height: 100%;
-    text-align: center;
-    width: 500px;
-}
-
-.fk2bx-bxs-movie {
-    font-size: 40px;
-    color: red;
-}
-
-.fk2a {
-    text-decoration: none;
-}
-
-.fk2logo-raw {
-    top: -10px;
-    display: inline;
-    position: relative;
-}
-
-.fk2login {
-    font-size: 20px;
-    color: rgb(255, 0, 0);
-    background-color: rgb(0, 0, 0);
-    border: solid rgba(201, 201, 201, 0.226) 1px;
-    border-radius: 25px;
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    right: -25%;
-    top: 36%;
-    width: 100px;
-    height: 30px;
-    transition: ease-in-out;
-    transition-duration: .25s;
-}
-
-.fk2login:hover {
-    border: solid red 1px;
-    background-color: black;
-    color: white;
-}
-
-.fk2signin-cont {
-    /*width: 230px;
-    height: 300px;*/
-    backdrop-filter: blur(15px);
-    border: solid rgb(0, 0, 0) 1px;
-    border-radius: 20px;
-    position: absolute;
-    border-radius: 50px;
-    margin-top: 7%;
-    width: 400px;
-    height: 500px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.fk2user {
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    background-color: rgb(77, 77, 77);
-    height: 30px;
-    display: block;
-    margin: 40px;
-}
-
-::placeholder {
-    color: white;
-}
-
-.fk2signtext {
-    font-size: 20px;
-    color: aliceblue;
-    position: relative;
-    top: 30px;
-}
-
-.fk2signbut {
-    font-size: 18px;
-    color: black;
-    border-radius: 30px;
-    width: 130px;
-    height: 30px;
-}
-
-.fk2pre {
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-    margin-top: 5px;
-}
-
-.fk2a {
-    font-size: 14px;
-    color: red;
-    text-decoration: none;
-}
-
-.fk2signbut {
-    margin-top: 50px;
-}
-
-.fk2signtext {
-    display: block;
-    margin-top: 30px;
-}
-
-.fk2logo {
-    margin-top: 20px;
-}
-
-
+/****************END FARIDA KHALED*****************/
 /*****************************************************************************************************
 ********************************************************************************************************
 *********************************KIROLOS SAMY*******************************************************
