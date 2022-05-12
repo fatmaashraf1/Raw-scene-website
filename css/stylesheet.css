@@ -4816,12 +4816,13 @@ html {
 
 .felogoimg {
     width: 400px;
-    margin-left: 500px;
-    margin-top: -720px;
+    margin-left: 550px;
+    margin-top: -500px;
 }
 
 .felogoname {
     color: var(--feprimary-color);
+    margin-top: -200px;
 }
 
 .fefont1 {
@@ -4831,9 +4832,7 @@ html {
 .festart {
     margin-left: 500px;
     font-size: 50px;
-    margin-top: -680px;
     text-shadow: 5px 2px 4px var(--fesecondary-color);
-    padding-bottom: 200px;
 }
 
 .firstbn {
