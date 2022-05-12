@@ -18,7 +18,6 @@
 
 
 <body class="FAbody" style="background-image: var(--FA-background-image);background-size: cover;">
-
     <div class="FAhead" style="background-color:var(--FAprimary-color); height:70px;width:100%;">
         <div class="FAcont">
             <header id="top">
@@ -39,34 +38,34 @@
                                 </div>
                                 <div class="signin-container" style="left:-90px; width:80px">Sign In</div>
                                 <label class="switch">
-                            <input type="checkbox" onclick="changeMode()">
-                            <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
-                        </label>
-                        <input type="search" class="t" value="" id="search" onchange="openpage()" type="search" name="search" placeholder="write & chose" autofocus list="fruitlist" style="margin-left:30px;">
-                        <datalist id="fruitlist">
-                                <option>sherlock</option>
-                                <option>house</option>
-                                <option>spiderman</option>
-                                <option>تراب الماس</option>
-                                <option>the vampire diaries</option>
-                                <option>little women</option>
-                                <option>stranger things</option>
-                                <option>friends</option>
-                                <option>the good doctor</option>
-                                <option>la casa de papel</option>
-                                <option>you</option>
-                                <option>ملاكي اسكندرية</option>
-                                <option>harry potter</option>
-                                <option>anne with an e</option>
-                                <option>sense and sensibility</option>
-                            </datalist>
-                            <input class="s"   type="submit" name="submit" value="Search">    
-                        </div>
-                    </form>
+                                    <input type="checkbox" onclick="changeMode()">
+                                    <span class="slider"><i class="fa-solid fa-sun"></i><i
+                                            class="fa-solid fa-moon"></i></span>
+                                </label>
+                                <input type="search" class="t" value="" id="search" onchange="openpage()" type="search"
+                                    name="search" placeholder="write & chose" autofocus list="fruitlist"
+                                    style="margin-left:30px;">
+                                <datalist id="fruitlist">
+                                    <option>sherlock</option>
+                                    <option>house</option>
+                                    <option>spiderman</option>
+                                    <option>تراب الماس</option>
+                                    <option>the vampire diaries</option>
+                                    <option>little women</option>
+                                    <option>stranger things</option>
+                                    <option>friends</option>
+                                    <option>the good doctor</option>
+                                    <option>la casa de papel</option>
+                                    <option>you</option>
+                                    <option>ملاكي اسكندرية</option>
+                                    <option>harry potter</option>
+                                    <option>anne with an e</option>
+                                    <option>sense and sensibility</option>
+                                </datalist>
+                                <input class="s" type="submit" name="submit" value="Search">
                             </div>
-                            
                         </div>
-                    </div>
+
                     </div>
             </header>
 
@@ -315,66 +314,6 @@
                 </div>
             </section>
 
-            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-            <script>
-                var swiper = new Swiper(".FAmySwiper", {
-                    slidesPerView: 5,
-                    spaceBetween: 15,
-                    slidesPerGroup: 5,
-                    loop: true,
-                    loopFillGroupWithBlank: true,
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                }); 
-            </script>
-            <script>
-                $(document).ready(function () {
-
-                    $(".FAvideo-container").hide();
-                    $(".FA_trailer2").hide();
-                    $(".FA_trailer1").hide();
-                    $(".FA_trailer3").hide();
-
-
-                    $(".FAwatch_trailer").click(function () {
-                        $(".FAvideo-container").show();
-                    });
-                    $(".FAcloseTrailer").click(function () {
-                        $(".FAvideo-container").hide();
-                    });
-                    $(".FA_Homecoming").click(function () {
-                        $(".FA_trailer2").hide();
-                        $(".FA_trailer3").hide();
-                        $(".FA_trailer1").show();
-
-                    });
-                    $(".FA_Farfromhome").click(function () {
-                        $(".FA_trailer1").hide();
-                        $(".FA_trailer3").hide();
-                        $(".FA_trailer2").show();
-
-                    });
-                    $(".FA_Nowayhome").click(function () {
-                        $(".FA_trailer2").hide();
-                        $(".FA_trailer1").hide();
-                        $(".FA_trailer3").show();
-
-                    });
-
-                });
-
-
-
-                function changeMode() {
-                    var element = document.body;
-                    element.classList.toggle("light-mode");
-
-
-                }
-
-            </script>
 
             <footer class="fefooter">
                 <div class="f1">
@@ -415,6 +354,72 @@
 
         </div>
     </div>
+
+
+
+
+    
+    <!--Java Script-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".FAmySwiper", {
+            slidesPerView: 5,
+            spaceBetween: 15,
+            slidesPerGroup: 5,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        }); 
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $(".FAvideo-container").hide();
+            $(".FA_trailer2").hide();
+            $(".FA_trailer1").hide();
+            $(".FA_trailer3").hide();
+
+
+            $(".FAwatch_trailer").click(function () {
+                $(".FAvideo-container").show();
+            });
+            $(".FAcloseTrailer").click(function () {
+                $(".FAvideo-container").hide();
+            });
+            $(".FA_Homecoming").click(function () {
+                $(".FA_trailer2").hide();
+                $(".FA_trailer3").hide();
+                $(".FA_trailer1").show();
+
+            });
+            $(".FA_Farfromhome").click(function () {
+                $(".FA_trailer1").hide();
+                $(".FA_trailer3").hide();
+                $(".FA_trailer2").show();
+
+            });
+            $(".FA_Nowayhome").click(function () {
+                $(".FA_trailer2").hide();
+                $(".FA_trailer1").hide();
+                $(".FA_trailer3").show();
+
+            });
+
+        });
+
+
+
+        function changeMode() {
+            var element = document.body;
+            element.classList.toggle("light-mode");
+
+
+        }
+
+    </script>
 
 
 </body>
