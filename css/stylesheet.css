@@ -876,6 +876,7 @@
 /************************************************************************************
 /************************************FARRAH THARWAT*****************************
 /*************************************************************************************/
+
 .switch {
     position: relative;
     display: inline-block;
@@ -3757,7 +3758,6 @@ html {
     height: 100px;
 }
 
-
 .KGtitleandtrailercont {
     display: flex;
     flex-wrap: wrap;
@@ -3896,7 +3896,6 @@ html {
     height: 100%;
     border-radius: 20px;
 }
-
 
 .KGseasons-desc {
     color: white;
@@ -6152,12 +6151,14 @@ input:checked+.slider:before {
 *********************************FARIDAKHALED*******************************************************
 ****************************************************************************************************************
 ********************************************************************************************************************************/
+
 .fk {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #151515;
 }
+
 
 .fk {
     font-family: 'Roboto', sans-serif;
@@ -6305,8 +6306,17 @@ input:checked+.slider:before {
     color: white;
 }
 
+
 .fkfeatured-content {
     padding: 5px;
+}
+.content-fkcontainer {
+    margin-left: 50px;
+}
+
+.fkfeatured-content {
+    padding: 40px;
+
     height: 50vh;
 }
 
@@ -6316,10 +6326,17 @@ input:checked+.slider:before {
 
 .fkfeatured-desc {
     color: lightgray;
+<<<<<<< HEAD
     font-family: 'Cormorant Garamond', serif;
     width: 600px;
     margin-left: 4em;
     font-size: 30px;
+=======
+    font-family: 'Halant', serif;
+    width: 500px;
+    margin: 30px 0;
+    font-size: 20px;
+>>>>>>> parent of 7b62886 (Update stylesheet.css)
 }
 
 .fkfeatured-desc2 {
@@ -6328,6 +6345,10 @@ input:checked+.slider:before {
 }
 
 .fkfeatured-button {
+<<<<<<< HEAD
+=======
+    margin-bottom: 30px;
+>>>>>>> parent of 7b62886 (Update stylesheet.css)
     letter-spacing: 1px;
     background-color: #151515;
     color: #9494b8;
@@ -6434,6 +6455,7 @@ input:checked+.slider:before {
     padding: 20px 50px;
 }
 
+<<<<<<< HEAD
 .fkseas {
     width: 190px;
     height: 220px;
@@ -6445,6 +6467,16 @@ input:checked+.slider:before {
     cursor: pointer;
 
     opacity: 0.5;
+=======
+.titles {
+    padding: 50px 10px;
+}
+
+.seas {
+    width: 170px;
+    height: 200px;
+    border-radius: 25%;
+>>>>>>> parent of 7b62886 (Update stylesheet.css)
 }
 
 .seas-desc {
@@ -6452,6 +6484,7 @@ input:checked+.slider:before {
     margin-right: 50px;
 }
 
+<<<<<<< HEAD
 #fkseasons tr:nth-child(even) {
     background-color: #14141f;
 }
@@ -6474,6 +6507,25 @@ input:checked+.slider:before {
 #fkseasons td {
     font-size: 1.3em;
     font-family: 'Tillana';
+=======
+.seas-desc:hover {
+    color: white;
+}
+
+#fkseasons {
+    align-items: center;
+    margin: 0 60px;
+    border-radius: 10%;
+    padding: 30px;
+    border: 2px solid white;
+}
+
+#fkseasons th,
+#fkseasons td {
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 30%
+>>>>>>> parent of 7b62886 (Update stylesheet.css)
 }
 
 #fkseasons img {
